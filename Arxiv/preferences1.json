@@ -1,0 +1,302 @@
+{
+    "pair_69": {
+        "Text 1": {
+            "abs": "We propose a new method for creating computationally efficient convolutional\nneural networks (CNNs) by using low-rank representations of convolutional\nfilters. Rather than approximating filters in previously-trained networks with\nmore efficient versions, we learn a set of small basis filters from scratch;\nduring training, the network learns to combine these basis filters into more\ncomplex filters that are discriminative for image classification. To train such\nnetworks, a novel weight initialization scheme is used. This allows effective\ninitialization of connection weights in convolutional layers composed of groups\nof differently-shaped filters. We validate our approach by applying it to\nseveral existing CNN architectures and training these networks from scratch\nusing the CIFAR, ILSVRC and MIT Places datasets. Our results show similar or\nhigher accuracy than conventional CNNs with much less compute. Applying our\nmethod to an improved version of VGG-11 network using global max-pooling, we\nachieve comparable validation accuracy using 41% less compute and only 24% of\nthe original VGG-11 model parameters; another variant of our method gives a 1\npercentage point increase in accuracy over our improved VGG-11 model, giving a\ntop-5 center-crop validation accuracy of 89.7% while reducing computation by\n16% relative to the original VGG-11 model. Applying our method to the GoogLeNet\narchitecture for ILSVRC, we achieved comparable accuracy with 26% less compute\nand 41% fewer model parameters. Applying our method to a near state-of-the-art\nnetwork for CIFAR, we achieved comparable accuracy with 46% less compute and\n55% fewer parameters.",
+            "title": "Training CNNs with Low-Rank Filters for Efficient Image Classification"
+        },
+        "Text 2": {
+            "abs": "We propose a new method for creating computationally efficient convolutional neural networks (CNNs) by using low-rank filters. This approach aims to improve image classification performance while reducing computational complexity. Our method introduces a novel way of training CNNs by leveraging the low-rank property of filters, thereby minimizing the number of parameters and operations required during the training and inference stages. Experimental results demonstrate that our approach achieves comparable classification accuracy to traditional CNNs while significantly reducing computational requirements. This approach holds promise for developing efficient image classification systems with reduced computational burden.",
+            "title": "Training CNNs with Low-Rank Filters for Efficient Image Classification"
+        },
+        "Preferred": "AI",
+        "chosentext": {
+            "abs": "We propose a new method for creating computationally efficient convolutional neural networks (CNNs) by using low-rank filters. This approach aims to improve image classification performance while reducing computational complexity. Our method introduces a novel way of training CNNs by leveraging the low-rank property of filters, thereby minimizing the number of parameters and operations required during the training and inference stages. Experimental results demonstrate that our approach achieves comparable classification accuracy to traditional CNNs while significantly reducing computational requirements. This approach holds promise for developing efficient image classification systems with reduced computational burden.",
+            "title": "Training CNNs with Low-Rank Filters for Efficient Image Classification"
+        }
+    },
+    "pair_341": {
+        "Text 1": {
+            "abs": "We consider the task of enforcing individual fairness in gradient boosting.\nGradient boosting is a popular method for machine learning from tabular data,\nwhich arise often in applications where algorithmic fairness is a concern. At a\nhigh level, our approach is a functional gradient descent on a\n(distributionally) robust loss function that encodes our intuition of\nalgorithmic fairness for the ML task at hand. Unlike prior approaches to\nindividual fairness that only work with smooth ML models, our approach also\nworks with non-smooth models such as decision trees. We show that our algorithm\nconverges globally and generalizes. We also demonstrate the efficacy of our\nalgorithm on three ML problems susceptible to algorithmic bias.",
+            "title": "Individually Fair Gradient Boosting"
+        },
+        "Text 2": {
+            "abs": "This article discusses the concept of individually fair gradient boosting, which aims to enforce fairness in machine learning algorithms. The focus is on gradient boosting, a powerful technique used in predictive modeling. The authors explore various approaches to achieve individual fairness and provide insights into mitigating bias in this specific context.",
+            "title": "Individually Fair Gradient Boosting"
+        },
+        "Preferred": "Human",
+        "chosentext": {
+            "abs": "We consider the task of enforcing individual fairness in gradient boosting.\nGradient boosting is a popular method for machine learning from tabular data,\nwhich arise often in applications where algorithmic fairness is a concern. At a\nhigh level, our approach is a functional gradient descent on a\n(distributionally) robust loss function that encodes our intuition of\nalgorithmic fairness for the ML task at hand. Unlike prior approaches to\nindividual fairness that only work with smooth ML models, our approach also\nworks with non-smooth models such as decision trees. We show that our algorithm\nconverges globally and generalizes. We also demonstrate the efficacy of our\nalgorithm on three ML problems susceptible to algorithmic bias.",
+            "title": "Individually Fair Gradient Boosting"
+        }
+    },
+    "pair_75": {
+        "Text 1": {
+            "abs": "The diversity of painting styles represents a rich visual vocabulary for the\nconstruction of an image. The degree to which one may learn and parsimoniously\ncapture this visual vocabulary measures our understanding of the higher level\nfeatures of paintings, if not images in general. In this work we investigate\nthe construction of a single, scalable deep network that can parsimoniously\ncapture the artistic style of a diversity of paintings. We demonstrate that\nsuch a network generalizes across a diversity of artistic styles by reducing a\npainting to a point in an embedding space. Importantly, this model permits a\nuser to explore new painting styles by arbitrarily combining the styles learned\nfrom individual paintings. We hope that this work provides a useful step\ntowards building rich models of paintings and offers a window on to the\nstructure of the learned representation of artistic style.",
+            "title": "A Learned Representation For Artistic Style"
+        },
+        "Text 2": {
+            "abs": "This paper presents a learned representation for artistic style, which leverages the diverse range of painting styles as a rich visual vocabulary. By analyzing and synthesizing various artistic styles, the proposed approach enables the construction of a comprehensive representation that captures the intricacies of different artistic expressions. The resulting model provides a powerful tool for understanding and replicating artistic style, offering potential applications in computer graphics, image editing, and virtual environments.",
+            "title": "A Learned Representation For Artistic Style"
+        },
+        "Preferred": "Human",
+        "chosentext": {
+            "abs": "The diversity of painting styles represents a rich visual vocabulary for the\nconstruction of an image. The degree to which one may learn and parsimoniously\ncapture this visual vocabulary measures our understanding of the higher level\nfeatures of paintings, if not images in general. In this work we investigate\nthe construction of a single, scalable deep network that can parsimoniously\ncapture the artistic style of a diversity of paintings. We demonstrate that\nsuch a network generalizes across a diversity of artistic styles by reducing a\npainting to a point in an embedding space. Importantly, this model permits a\nuser to explore new painting styles by arbitrarily combining the styles learned\nfrom individual paintings. We hope that this work provides a useful step\ntowards building rich models of paintings and offers a window on to the\nstructure of the learned representation of artistic style.",
+            "title": "A Learned Representation For Artistic Style"
+        }
+    },
+    "pair_313": {
+        "Text 1": {
+            "abs": "This study focuses on improving simulations using Symmetry Control Neural Networks (SCNN), as the dynamics of physical systems are often limited to lower-dimensional sub-spaces. By leveraging SCNN, this research proposes a novel approach to enhance simulation accuracy and efficiency. The application of SCNN enables the identification and utilization of underlying symmetries in physical systems, leading to significant improvements in simulation outcomes. Through extensive experimentation, this study demonstrates the effectiveness of SCNN in enhancing simulation fidelity, thereby providing a promising avenue for advancing simulation methodologies.",
+            "title": "Improving Simulations with Symmetry Control Neural Networks"
+        },
+        "Text 2": {
+            "abs": "The dynamics of physical systems is often constrained to lower dimensional\nsub-spaces due to the presence of conserved quantities. Here we propose a\nmethod to learn and exploit such symmetry constraints building upon Hamiltonian\nNeural Networks. By enforcing cyclic coordinates with appropriate loss\nfunctions, we find that we can achieve improved accuracy on simple classical\ndynamics tasks. By fitting analytic formulae to the latent variables in our\nnetwork we recover that our networks are utilizing conserved quantities such as\n(angular) momentum.",
+            "title": "Improving Simulations with Symmetry Control Neural Networks"
+        },
+        "Preferred": "AI",
+        "chosentext": {
+            "abs": "This study focuses on improving simulations using Symmetry Control Neural Networks (SCNN), as the dynamics of physical systems are often limited to lower-dimensional sub-spaces. By leveraging SCNN, this research proposes a novel approach to enhance simulation accuracy and efficiency. The application of SCNN enables the identification and utilization of underlying symmetries in physical systems, leading to significant improvements in simulation outcomes. Through extensive experimentation, this study demonstrates the effectiveness of SCNN in enhancing simulation fidelity, thereby providing a promising avenue for advancing simulation methodologies.",
+            "title": "Improving Simulations with Symmetry Control Neural Networks"
+        }
+    },
+    "pair_32": {
+        "Text 1": {
+            "abs": "Efficient Maximum Inner Product Search (MIPS) is a vital task with broad applicability. In this paper, we propose a clustering approach to enhance the efficiency of approximate MIPS. Our method demonstrates significant gains in search speed without compromising the accuracy of the results. By leveraging the power of clustering, we pave the way for more efficient MIPS techniques, facilitating its implementation in various domains and scenarios.",
+            "title": "Clustering is Efficient for Approximate Maximum Inner Product Search"
+        },
+        "Text 2": {
+            "abs": "Efficient Maximum Inner Product Search (MIPS) is an important task that has a\nwide applicability in recommendation systems and classification with a large\nnumber of classes. Solutions based on locality-sensitive hashing (LSH) as well\nas tree-based solutions have been investigated in the recent literature, to\nperform approximate MIPS in sublinear time. In this paper, we compare these to\nanother extremely simple approach for solving approximate MIPS, based on\nvariants of the k-means clustering algorithm. Specifically, we propose to train\na spherical k-means, after having reduced the MIPS problem to a Maximum Cosine\nSimilarity Search (MCSS). Experiments on two standard recommendation system\nbenchmarks as well as on large vocabulary word embeddings, show that this\nsimple approach yields much higher speedups, for the same retrieval precision,\nthan current state-of-the-art hashing-based and tree-based methods. This simple\nmethod also yields more robust retrievals when the query is corrupted by noise.",
+            "title": "Clustering is Efficient for Approximate Maximum Inner Product Search"
+        },
+        "Preferred": "Human",
+        "chosentext": {
+            "abs": "Efficient Maximum Inner Product Search (MIPS) is an important task that has a\nwide applicability in recommendation systems and classification with a large\nnumber of classes. Solutions based on locality-sensitive hashing (LSH) as well\nas tree-based solutions have been investigated in the recent literature, to\nperform approximate MIPS in sublinear time. In this paper, we compare these to\nanother extremely simple approach for solving approximate MIPS, based on\nvariants of the k-means clustering algorithm. Specifically, we propose to train\na spherical k-means, after having reduced the MIPS problem to a Maximum Cosine\nSimilarity Search (MCSS). Experiments on two standard recommendation system\nbenchmarks as well as on large vocabulary word embeddings, show that this\nsimple approach yields much higher speedups, for the same retrieval precision,\nthan current state-of-the-art hashing-based and tree-based methods. This simple\nmethod also yields more robust retrievals when the query is corrupted by noise.",
+            "title": "Clustering is Efficient for Approximate Maximum Inner Product Search"
+        }
+    },
+    "pair_217": {
+        "Text 1": {
+            "abs": "We propose a single neural probabilistic model based on variational\nautoencoder that can be conditioned on an arbitrary subset of observed features\nand then sample the remaining features in \"one shot\". The features may be both\nreal-valued and categorical. Training of the model is performed by stochastic\nvariational Bayes. The experimental evaluation on synthetic data, as well as\nfeature imputation and image inpainting problems, shows the effectiveness of\nthe proposed approach and diversity of the generated samples.",
+            "title": "Variational Autoencoder with Arbitrary Conditioning"
+        },
+        "Text 2": {
+            "abs": "We propose a single neural probabilistic model based on Variational Autoencoder (VAE) that can be conditioned on arbitrary inputs. This model enables flexible incorporation of external information into the latent space of VAEs, allowing for customized generation and manipulation of data. By conditioning the VAE on different inputs, such as class labels or fixed feature vectors, the proposed model enhances its capability to generate diverse and contextually relevant samples. Our experiments demonstrate the effectiveness of the model in various tasks, showcasing its potential applications in domains like image synthesis, text generation, and data augmentation.",
+            "title": "Variational Autoencoder with Arbitrary Conditioning"
+        },
+        "Preferred": "AI",
+        "chosentext": {
+            "abs": "We propose a single neural probabilistic model based on Variational Autoencoder (VAE) that can be conditioned on arbitrary inputs. This model enables flexible incorporation of external information into the latent space of VAEs, allowing for customized generation and manipulation of data. By conditioning the VAE on different inputs, such as class labels or fixed feature vectors, the proposed model enhances its capability to generate diverse and contextually relevant samples. Our experiments demonstrate the effectiveness of the model in various tasks, showcasing its potential applications in domains like image synthesis, text generation, and data augmentation.",
+            "title": "Variational Autoencoder with Arbitrary Conditioning"
+        }
+    },
+    "pair_36": {
+        "Text 1": {
+            "abs": "This abstract proposes that hypernymy, textual entailment, and image captioning can be viewed as special cases of a single concept called order-embeddings of images and language. It suggests that these tasks can be approached using a unified framework, potentially leading to more efficient and effective models for understanding the relationship between images and language.",
+            "title": "Order-Embeddings of Images and Language"
+        },
+        "Text 2": {
+            "abs": "Hypernymy, textual entailment, and image captioning can be seen as special\ncases of a single visual-semantic hierarchy over words, sentences, and images.\nIn this paper we advocate for explicitly modeling the partial order structure\nof this hierarchy. Towards this goal, we introduce a general method for\nlearning ordered representations, and show how it can be applied to a variety\nof tasks involving images and language. We show that the resulting\nrepresentations improve performance over current approaches for hypernym\nprediction and image-caption retrieval.",
+            "title": "Order-Embeddings of Images and Language"
+        },
+        "Preferred": "Human",
+        "chosentext": {
+            "abs": "Hypernymy, textual entailment, and image captioning can be seen as special\ncases of a single visual-semantic hierarchy over words, sentences, and images.\nIn this paper we advocate for explicitly modeling the partial order structure\nof this hierarchy. Towards this goal, we introduce a general method for\nlearning ordered representations, and show how it can be applied to a variety\nof tasks involving images and language. We show that the resulting\nrepresentations improve performance over current approaches for hypernym\nprediction and image-caption retrieval.",
+            "title": "Order-Embeddings of Images and Language"
+        }
+    },
+    "pair_182": {
+        "Text 1": {
+            "abs": "We propose a single neural probabilistic model based on variational\nautoencoder that can be conditioned on an arbitrary subset of observed features\nand then sample the remaining features in \"one shot\". The features may be both\nreal-valued and categorical. Training of the model is performed by stochastic\nvariational Bayes. The experimental evaluation on synthetic data, as well as\nfeature imputation and image inpainting problems, shows the effectiveness of\nthe proposed approach and diversity of the generated samples.",
+            "title": "Variational Autoencoder with Arbitrary Conditioning"
+        },
+        "Text 2": {
+            "abs": "In this study, we propose a novel approach for a neural probabilistic model called Variational Autoencoder with Arbitrary Conditioning. Our model utilizes a Variational Autoencoder framework and introduces the ability to condition the generated outputs on arbitrary input information. This enables the model to learn and generate data in a more controlled manner while still maintaining the benefits of unsupervised learning. Through extensive experimentation, we demonstrate the effectiveness of our approach in various application domains, showcasing its potential for improved generative modeling tasks.",
+            "title": "Variational Autoencoder with Arbitrary Conditioning"
+        },
+        "Preferred": "Human",
+        "chosentext": {
+            "abs": "We propose a single neural probabilistic model based on variational\nautoencoder that can be conditioned on an arbitrary subset of observed features\nand then sample the remaining features in \"one shot\". The features may be both\nreal-valued and categorical. Training of the model is performed by stochastic\nvariational Bayes. The experimental evaluation on synthetic data, as well as\nfeature imputation and image inpainting problems, shows the effectiveness of\nthe proposed approach and diversity of the generated samples.",
+            "title": "Variational Autoencoder with Arbitrary Conditioning"
+        }
+    },
+    "pair_101": {
+        "Text 1": {
+            "abs": "In this paper, we propose a new generalization bound for feedforward neural networks, which is formulated in terms of the product of the spectral normalization of weight matrices and margin bounds. We present a PAC-Bayesian approach to derive these margin bounds for neural networks, providing a theoretical guarantee for their generalization performance. Our approach offers a concise yet robust framework for understanding and analyzing the generalization properties of neural networks.",
+            "title": "A PAC-Bayesian Approach to Spectrally-Normalized Margin Bounds for Neural Networks"
+        },
+        "Text 2": {
+            "abs": "We present a generalization bound for feedforward neural networks in terms of\nthe product of the spectral norm of the layers and the Frobenius norm of the\nweights. The generalization bound is derived using a PAC-Bayes analysis.",
+            "title": "A PAC-Bayesian Approach to Spectrally-Normalized Margin Bounds for Neural Networks"
+        },
+        "Preferred": "AI",
+        "chosentext": {
+            "abs": "In this paper, we propose a new generalization bound for feedforward neural networks, which is formulated in terms of the product of the spectral normalization of weight matrices and margin bounds. We present a PAC-Bayesian approach to derive these margin bounds for neural networks, providing a theoretical guarantee for their generalization performance. Our approach offers a concise yet robust framework for understanding and analyzing the generalization properties of neural networks.",
+            "title": "A PAC-Bayesian Approach to Spectrally-Normalized Margin Bounds for Neural Networks"
+        }
+    },
+    "pair_88": {
+        "Text 1": {
+            "abs": "We introduce the \"Energy-based Generative Adversarial Network\" model (EBGAN)\nwhich views the discriminator as an energy function that attributes low\nenergies to the regions near the data manifold and higher energies to other\nregions. Similar to the probabilistic GANs, a generator is seen as being\ntrained to produce contrastive samples with minimal energies, while the\ndiscriminator is trained to assign high energies to these generated samples.\nViewing the discriminator as an energy function allows to use a wide variety of\narchitectures and loss functionals in addition to the usual binary classifier\nwith logistic output. Among them, we show one instantiation of EBGAN framework\nas using an auto-encoder architecture, with the energy being the reconstruction\nerror, in place of the discriminator. We show that this form of EBGAN exhibits\nmore stable behavior than regular GANs during training. We also show that a\nsingle-scale architecture can be trained to generate high-resolution images.",
+            "title": "Energy-based Generative Adversarial Network"
+        },
+        "Text 2": {
+            "abs": "We introduce the Energy-based Generative Adversarial Network (EBGAN) model, which interprets the discriminator as an energy function. This unique approach allows the model to learn the energy landscape of the data distribution, enabling better generation of realistic samples. The EBGAN model shows promise in improving the training stability and generating higher-quality samples compared to traditional GANs.",
+            "title": "Energy-based Generative Adversarial Network"
+        },
+        "Preferred": "Human",
+        "chosentext": {
+            "abs": "We introduce the \"Energy-based Generative Adversarial Network\" model (EBGAN)\nwhich views the discriminator as an energy function that attributes low\nenergies to the regions near the data manifold and higher energies to other\nregions. Similar to the probabilistic GANs, a generator is seen as being\ntrained to produce contrastive samples with minimal energies, while the\ndiscriminator is trained to assign high energies to these generated samples.\nViewing the discriminator as an energy function allows to use a wide variety of\narchitectures and loss functionals in addition to the usual binary classifier\nwith logistic output. Among them, we show one instantiation of EBGAN framework\nas using an auto-encoder architecture, with the energy being the reconstruction\nerror, in place of the discriminator. We show that this form of EBGAN exhibits\nmore stable behavior than regular GANs during training. We also show that a\nsingle-scale architecture can be trained to generate high-resolution images.",
+            "title": "Energy-based Generative Adversarial Network"
+        }
+    },
+    "pair_295": {
+        "Text 1": {
+            "abs": "In this work, we investigate the effects of locality and compositionality on learning representations for zero-shot learning. Our study focuses on understanding the impact of these factors in improving the performance and generalization capabilities of models in the context of zero-shot learning tasks. By analyzing the relationship between locality, which captures the spatial relationships between features, and compositionality, which explores the semantic interactions between different components, we aim to provide insights into developing more effective zero-shot learning approaches.",
+            "title": "Locality and compositionality in zero-shot learning"
+        },
+        "Text 2": {
+            "abs": "In this work we study locality and compositionality in the context of\nlearning representations for Zero Shot Learning (ZSL). In order to well-isolate\nthe importance of these properties in learned representations, we impose the\nadditional constraint that, differently from most recent work in ZSL, no\npre-training on different datasets (e.g. ImageNet) is performed. The results of\nour experiments show how locality, in terms of small parts of the input, and\ncompositionality, i.e. how well can the learned representations be expressed as\na function of a smaller vocabulary, are both deeply related to generalization\nand motivate the focus on more local-aware models in future research directions\nfor representation learning.",
+            "title": "Locality and compositionality in zero-shot learning"
+        },
+        "Preferred": "Human",
+        "chosentext": {
+            "abs": "In this work we study locality and compositionality in the context of\nlearning representations for Zero Shot Learning (ZSL). In order to well-isolate\nthe importance of these properties in learned representations, we impose the\nadditional constraint that, differently from most recent work in ZSL, no\npre-training on different datasets (e.g. ImageNet) is performed. The results of\nour experiments show how locality, in terms of small parts of the input, and\ncompositionality, i.e. how well can the learned representations be expressed as\na function of a smaller vocabulary, are both deeply related to generalization\nand motivate the focus on more local-aware models in future research directions\nfor representation learning.",
+            "title": "Locality and compositionality in zero-shot learning"
+        }
+    },
+    "pair_7": {
+        "Text 1": {
+            "abs": "The neural network training framework used in the Kaldi speech recognition toolkit is described. This framework involves parallel training of deep neural networks (DNNs) using a combination of natural gradient and parameter averaging. The abstract would focus on summarizing the key aspects of this framework, highlighting the benefits it offers in training DNNs for speech recognition tasks.",
+            "title": "Parallel training of DNNs with Natural Gradient and Parameter Averaging"
+        },
+        "Text 2": {
+            "abs": "We describe the neural-network training framework used in the Kaldi speech\nrecognition toolkit, which is geared towards training DNNs with large amounts\nof training data using multiple GPU-equipped or multi-core machines. In order\nto be as hardware-agnostic as possible, we needed a way to use multiple\nmachines without generating excessive network traffic. Our method is to average\nthe neural network parameters periodically (typically every minute or two), and\nredistribute the averaged parameters to the machines for further training. Each\nmachine sees different data. By itself, this method does not work very well.\nHowever, we have another method, an approximate and efficient implementation of\nNatural Gradient for Stochastic Gradient Descent (NG-SGD), which seems to allow\nour periodic-averaging method to work well, as well as substantially improving\nthe convergence of SGD on a single machine.",
+            "title": "Parallel training of DNNs with Natural Gradient and Parameter Averaging"
+        },
+        "Preferred": "Human",
+        "chosentext": {
+            "abs": "We describe the neural-network training framework used in the Kaldi speech\nrecognition toolkit, which is geared towards training DNNs with large amounts\nof training data using multiple GPU-equipped or multi-core machines. In order\nto be as hardware-agnostic as possible, we needed a way to use multiple\nmachines without generating excessive network traffic. Our method is to average\nthe neural network parameters periodically (typically every minute or two), and\nredistribute the averaged parameters to the machines for further training. Each\nmachine sees different data. By itself, this method does not work very well.\nHowever, we have another method, an approximate and efficient implementation of\nNatural Gradient for Stochastic Gradient Descent (NG-SGD), which seems to allow\nour periodic-averaging method to work well, as well as substantially improving\nthe convergence of SGD on a single machine.",
+            "title": "Parallel training of DNNs with Natural Gradient and Parameter Averaging"
+        }
+    },
+    "pair_204": {
+        "Text 1": {
+            "abs": "In this study, we propose a neural network framework for unsupervised anomaly detection, incorporating a novel robust subspace recovery layer. Our approach aims to effectively identify anomalies in complex datasets by leveraging the inherent structure of the data. The proposed robust subspace recovery layer enhances the network's ability to separate normal and abnormal data points, leading to improved anomaly detection performance. Experimental results demonstrate the efficacy of our approach in various real-world scenarios, highlighting its potential for practical applications in anomaly detection tasks.",
+            "title": "Robust Subspace Recovery Layer for Unsupervised Anomaly Detection"
+        },
+        "Text 2": {
+            "abs": "We propose a neural network for unsupervised anomaly detection with a novel\nrobust subspace recovery layer (RSR layer). This layer seeks to extract the\nunderlying subspace from a latent representation of the given data and removes\noutliers that lie away from this subspace. It is used within an autoencoder.\nThe encoder maps the data into a latent space, from which the RSR layer\nextracts the subspace. The decoder then smoothly maps back the underlying\nsubspace to a \"manifold\" close to the original inliers. Inliers and outliers\nare distinguished according to the distances between the original and mapped\npositions (small for inliers and large for outliers). Extensive numerical\nexperiments with both image and document datasets demonstrate state-of-the-art\nprecision and recall.",
+            "title": "Robust Subspace Recovery Layer for Unsupervised Anomaly Detection"
+        },
+        "Preferred": "Human",
+        "chosentext": {
+            "abs": "We propose a neural network for unsupervised anomaly detection with a novel\nrobust subspace recovery layer (RSR layer). This layer seeks to extract the\nunderlying subspace from a latent representation of the given data and removes\noutliers that lie away from this subspace. It is used within an autoencoder.\nThe encoder maps the data into a latent space, from which the RSR layer\nextracts the subspace. The decoder then smoothly maps back the underlying\nsubspace to a \"manifold\" close to the original inliers. Inliers and outliers\nare distinguished according to the distances between the original and mapped\npositions (small for inliers and large for outliers). Extensive numerical\nexperiments with both image and document datasets demonstrate state-of-the-art\nprecision and recall.",
+            "title": "Robust Subspace Recovery Layer for Unsupervised Anomaly Detection"
+        }
+    },
+    "pair_321": {
+        "Text 1": {
+            "abs": "We propose a simple method by which to choose sample weights for problems\nwith highly imbalanced or skewed traits. Rather than naively discretizing\nregression labels to find binned weights, we take a more principled approach --\nwe derive sample weights from the transfer function between an estimated source\nand specified target distributions. Our method outperforms both unweighted and\ndiscretely-weighted models on both regression and classification tasks. We also\nopen-source our implementation of this method\n(https://github.com/Daniel-Wu/Continuous-Weight-Balancing) to the scientific\ncommunity.",
+            "title": "Continuous Weight Balancing"
+        },
+        "Text 2": {
+            "abs": "Abstract: \nThis study presents an innovative approach for selecting sample weights in problems that involve continuous weight balancing. The proposed method aims to address the challenges posed by highly complex problems, providing a user-friendly and efficient solution. Through rigorous analysis and experimentation, we demonstrate the effectiveness and reliability of our approach in achieving optimal weight balancing outcomes. This research contributes to the field of continuous weight balancing and offers valuable insights for practitioners and researchers seeking to enhance the performance of weight distribution in various applications.",
+            "title": "Continuous Weight Balancing"
+        },
+        "Preferred": "Human",
+        "chosentext": {
+            "abs": "We propose a simple method by which to choose sample weights for problems\nwith highly imbalanced or skewed traits. Rather than naively discretizing\nregression labels to find binned weights, we take a more principled approach --\nwe derive sample weights from the transfer function between an estimated source\nand specified target distributions. Our method outperforms both unweighted and\ndiscretely-weighted models on both regression and classification tasks. We also\nopen-source our implementation of this method\n(https://github.com/Daniel-Wu/Continuous-Weight-Balancing) to the scientific\ncommunity.",
+            "title": "Continuous Weight Balancing"
+        }
+    },
+    "pair_172": {
+        "Text 1": {
+            "abs": "Neural network pruning techniques can reduce the parameter counts of trained\nnetworks by over 90%, decreasing storage requirements and improving\ncomputational performance of inference without compromising accuracy. However,\ncontemporary experience is that the sparse architectures produced by pruning\nare difficult to train from the start, which would similarly improve training\nperformance.\n  We find that a standard pruning technique naturally uncovers subnetworks\nwhose initializations made them capable of training effectively. Based on these\nresults, we articulate the \"lottery ticket hypothesis:\" dense,\nrandomly-initialized, feed-forward networks contain subnetworks (\"winning\ntickets\") that - when trained in isolation - reach test accuracy comparable to\nthe original network in a similar number of iterations. The winning tickets we\nfind have won the initialization lottery: their connections have initial\nweights that make training particularly effective.\n  We present an algorithm to identify winning tickets and a series of\nexperiments that support the lottery ticket hypothesis and the importance of\nthese fortuitous initializations. We consistently find winning tickets that are\nless than 10-20% of the size of several fully-connected and convolutional\nfeed-forward architectures for MNIST and CIFAR10. Above this size, the winning\ntickets that we find learn faster than the original network and reach higher\ntest accuracy.",
+            "title": "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks"
+        },
+        "Text 2": {
+            "abs": "Neural network pruning techniques have the potential to significantly reduce the parameter count of trained networks by more than 90%. This paper explores the Lottery Ticket Hypothesis, which focuses on finding sparse, trainable neural networks. By identifying and training these \"winning tickets\" in the initial network, we demonstrate that it is possible to achieve high performance while significantly reducing the computational burden. Our findings contribute to the growing body of research on network optimization and offer promising insights for efficient neural network design.",
+            "title": "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks"
+        },
+        "Preferred": "Human",
+        "chosentext": {
+            "abs": "Neural network pruning techniques can reduce the parameter counts of trained\nnetworks by over 90%, decreasing storage requirements and improving\ncomputational performance of inference without compromising accuracy. However,\ncontemporary experience is that the sparse architectures produced by pruning\nare difficult to train from the start, which would similarly improve training\nperformance.\n  We find that a standard pruning technique naturally uncovers subnetworks\nwhose initializations made them capable of training effectively. Based on these\nresults, we articulate the \"lottery ticket hypothesis:\" dense,\nrandomly-initialized, feed-forward networks contain subnetworks (\"winning\ntickets\") that - when trained in isolation - reach test accuracy comparable to\nthe original network in a similar number of iterations. The winning tickets we\nfind have won the initialization lottery: their connections have initial\nweights that make training particularly effective.\n  We present an algorithm to identify winning tickets and a series of\nexperiments that support the lottery ticket hypothesis and the importance of\nthese fortuitous initializations. We consistently find winning tickets that are\nless than 10-20% of the size of several fully-connected and convolutional\nfeed-forward architectures for MNIST and CIFAR10. Above this size, the winning\ntickets that we find learn faster than the original network and reach higher\ntest accuracy.",
+            "title": "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks"
+        }
+    },
+    "pair_338": {
+        "Text 1": {
+            "abs": "This paper explores the challenges posed by action and observation delays in reinforcement learning applications, specifically in the context of remote control scenarios. The authors discuss the common occurrence of delays and its impact on learning efficiency. They propose using random delays as a means to improve and optimize reinforcement learning algorithms. Through empirical evaluations, they demonstrate the effectiveness and potential benefits of incorporating random delays in the learning process. Overall, this research highlights the importance of addressing delays in reinforcement learning and presents a promising approach to enhance performance in real-world applications.",
+            "title": "Reinforcement Learning with Random Delays"
+        },
+        "Text 2": {
+            "abs": "Action and observation delays commonly occur in many Reinforcement Learning\napplications, such as remote control scenarios. We study the anatomy of\nrandomly delayed environments, and show that partially resampling trajectory\nfragments in hindsight allows for off-policy multi-step value estimation. We\napply this principle to derive Delay-Correcting Actor-Critic (DCAC), an\nalgorithm based on Soft Actor-Critic with significantly better performance in\nenvironments with delays. This is shown theoretically and also demonstrated\npractically on a delay-augmented version of the MuJoCo continuous control\nbenchmark.",
+            "title": "Reinforcement Learning with Random Delays"
+        },
+        "Preferred": "Human",
+        "chosentext": {
+            "abs": "Action and observation delays commonly occur in many Reinforcement Learning\napplications, such as remote control scenarios. We study the anatomy of\nrandomly delayed environments, and show that partially resampling trajectory\nfragments in hindsight allows for off-policy multi-step value estimation. We\napply this principle to derive Delay-Correcting Actor-Critic (DCAC), an\nalgorithm based on Soft Actor-Critic with significantly better performance in\nenvironments with delays. This is shown theoretically and also demonstrated\npractically on a delay-augmented version of the MuJoCo continuous control\nbenchmark.",
+            "title": "Reinforcement Learning with Random Delays"
+        }
+    },
+    "pair_72": {
+        "Text 1": {
+            "abs": "Accurate representational learning of both the explicit and implicit relationships within data is critical to the development of Dynamic Adaptive Network Intelligence. This abstract emphasizes the significance of precise representation learning in order to enhance the understanding of explicit and implicit correlations within data for the advancement of dynamic adaptive network intelligence.",
+            "title": "Dynamic Adaptive Network Intelligence"
+        },
+        "Text 2": {
+            "abs": "Accurate representational learning of both the explicit and implicit\nrelationships within data is critical to the ability of machines to perform\nmore complex and abstract reasoning tasks. We describe the efficient weakly\nsupervised learning of such inferences by our Dynamic Adaptive Network\nIntelligence (DANI) model. We report state-of-the-art results for DANI over\nquestion answering tasks in the bAbI dataset that have proved difficult for\ncontemporary approaches to learning representation (Weston et al., 2015).",
+            "title": "Dynamic Adaptive Network Intelligence"
+        },
+        "Preferred": "Human",
+        "chosentext": {
+            "abs": "Accurate representational learning of both the explicit and implicit\nrelationships within data is critical to the ability of machines to perform\nmore complex and abstract reasoning tasks. We describe the efficient weakly\nsupervised learning of such inferences by our Dynamic Adaptive Network\nIntelligence (DANI) model. We report state-of-the-art results for DANI over\nquestion answering tasks in the bAbI dataset that have proved difficult for\ncontemporary approaches to learning representation (Weston et al., 2015).",
+            "title": "Dynamic Adaptive Network Intelligence"
+        }
+    },
+    "pair_232": {
+        "Text 1": {
+            "abs": "We identify a class of over-parameterized deep neural networks with standard\nactivation functions and cross-entropy loss which provably have no bad local\nvalley, in the sense that from any point in parameter space there exists a\ncontinuous path on which the cross-entropy loss is non-increasing and gets\narbitrarily close to zero. This implies that these networks have no sub-optimal\nstrict local minima.",
+            "title": "On the loss landscape of a class of deep neural networks with no bad local valleys"
+        },
+        "Text 2": {
+            "abs": "In this study, we investigate a class of over-parameterized deep neural networks with standard activation functions and cross-entropy loss. We analyze the loss landscape of these networks and demonstrate the absence of bad local valleys. This finding suggests that gradient-based optimization methods can effectively escape poor local optima and converge to a good solution. Our results provide insights into the optimization behavior of deep neural networks and have implications for improving training algorithms in this field.",
+            "title": "On the loss landscape of a class of deep neural networks with no bad local valleys"
+        },
+        "Preferred": "Human",
+        "chosentext": {
+            "abs": "We identify a class of over-parameterized deep neural networks with standard\nactivation functions and cross-entropy loss which provably have no bad local\nvalley, in the sense that from any point in parameter space there exists a\ncontinuous path on which the cross-entropy loss is non-increasing and gets\narbitrarily close to zero. This implies that these networks have no sub-optimal\nstrict local minima.",
+            "title": "On the loss landscape of a class of deep neural networks with no bad local valleys"
+        }
+    },
+    "pair_325": {
+        "Text 1": {
+            "abs": "Most graph neural network architectures work by message-passing node vector\nembeddings over the adjacency matrix, and it is assumed that they capture graph\ntopology by doing that. We design two synthetic tasks, focusing purely on\ntopological problems -- triangle detection and clique distance -- on which\ngraph neural networks perform surprisingly badly, failing to detect those\n\"bermuda\" triangles. Datasets and their generation scripts are publicly\navailable on github.com/FujitsuLaboratories/bermudatriangles and\ndataset.labs.fujitsu.com.",
+            "title": "Bermuda Triangles: GNNs Fail to Detect Simple Topological Structures"
+        },
+        "Text 2": {
+            "abs": "This study investigates the limitations of graph neural network (GNN) architectures in detecting simple topological structures within the Bermuda Triangle region. Most GNNs rely on message-passing node vector embeddings over the adjacency matrix to capture graph information. However, our findings demonstrate that these architectures fail to effectively recognize and characterize basic topological structures associated with this mysterious area. The results shed light on the challenges of utilizing GNNs for anomaly detection in complex environments and highlight the need for more sophisticated approaches in analyzing intricate graph structures.",
+            "title": "Bermuda Triangles: GNNs Fail to Detect Simple Topological Structures"
+        },
+        "Preferred": "Human",
+        "chosentext": {
+            "abs": "Most graph neural network architectures work by message-passing node vector\nembeddings over the adjacency matrix, and it is assumed that they capture graph\ntopology by doing that. We design two synthetic tasks, focusing purely on\ntopological problems -- triangle detection and clique distance -- on which\ngraph neural networks perform surprisingly badly, failing to detect those\n\"bermuda\" triangles. Datasets and their generation scripts are publicly\navailable on github.com/FujitsuLaboratories/bermudatriangles and\ndataset.labs.fujitsu.com.",
+            "title": "Bermuda Triangles: GNNs Fail to Detect Simple Topological Structures"
+        }
+    },
+    "pair_79": {
+        "Text 1": {
+            "abs": "We propose a language-agnostic way of automatically generating sets of\nsemantically similar clusters of entities along with sets of \"outlier\"\nelements, which may then be used to perform an intrinsic evaluation of word\nembeddings in the outlier detection task. We used our methodology to create a\ngold-standard dataset, which we call WikiSem500, and evaluated multiple\nstate-of-the-art embeddings. The results show a correlation between performance\non this dataset and performance on sentiment analysis.",
+            "title": "Automated Generation of Multilingual Clusters for the Evaluation of Distributed Representations"
+        },
+        "Text 2": {
+            "abs": "We propose a language-agnostic approach to automatically generate sets of semantically similar clusters of entities. This approach enables the evaluation of distributed representations in a multilingual setting. Our method provides a systematic way to assess the quality and coherence of these representations across different languages. By automatically generating clusters, we eliminate the need for human intervention, making the evaluation process more efficient and scalable. The results of our study demonstrate the effectiveness of this approach in capturing semantic relationships accurately in multiple languages.",
+            "title": "Automated Generation of Multilingual Clusters for the Evaluation of Distributed Representations"
+        },
+        "Preferred": "AI",
+        "chosentext": {
+            "abs": "We propose a language-agnostic approach to automatically generate sets of semantically similar clusters of entities. This approach enables the evaluation of distributed representations in a multilingual setting. Our method provides a systematic way to assess the quality and coherence of these representations across different languages. By automatically generating clusters, we eliminate the need for human intervention, making the evaluation process more efficient and scalable. The results of our study demonstrate the effectiveness of this approach in capturing semantic relationships accurately in multiple languages.",
+            "title": "Automated Generation of Multilingual Clusters for the Evaluation of Distributed Representations"
+        }
+    }
+}

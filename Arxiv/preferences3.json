@@ -1,0 +1,302 @@
+{
+    "pair_289": {
+        "Text 1": {
+            "abs": "Graph embedding techniques have been increasingly deployed in a multitude of\ndifferent applications that involve learning on non-Euclidean data. However,\nexisting graph embedding models either fail to incorporate node attribute\ninformation during training or suffer from node attribute noise, which\ncompromises the accuracy. Moreover, very few of them scale to large graphs due\nto their high computational complexity and memory usage. In this paper we\npropose GraphZoom, a multi-level framework for improving both accuracy and\nscalability of unsupervised graph embedding algorithms. GraphZoom first\nperforms graph fusion to generate a new graph that effectively encodes the\ntopology of the original graph and the node attribute information. This fused\ngraph is then repeatedly coarsened into much smaller graphs by merging nodes\nwith high spectral similarities. GraphZoom allows any existing embedding\nmethods to be applied to the coarsened graph, before it progressively refine\nthe embeddings obtained at the coarsest level to increasingly finer graphs. We\nhave evaluated our approach on a number of popular graph datasets for both\ntransductive and inductive tasks. Our experiments show that GraphZoom can\nsubstantially increase the classification accuracy and significantly accelerate\nthe entire graph embedding process by up to 40.8x, when compared to the\nstate-of-the-art unsupervised embedding methods.",
+            "title": "GraphZoom: A multi-level spectral approach for accurate and scalable graph embedding"
+        },
+        "Text 2": {
+            "abs": "Graph embedding techniques have been widely utilized in various applications that involve complex data structures such as social networks, citation networks, and recommendation systems. However, existing embedding methods often struggle with accuracy and scalability, especially when dealing with large-scale graphs. In this paper, we propose GraphZoom, a novel multi-level spectral approach for graph embedding. By leveraging the power of multi-level decomposition and spectral clustering, GraphZoom achieves both high embedding accuracy and scalability. Experimental results demonstrate the effectiveness and efficiency of our proposed method compared to state-of-the-art approaches.",
+            "title": "GraphZoom: A multi-level spectral approach for accurate and scalable graph embedding"
+        },
+        "Preferred": "Human",
+        "chosentext": {
+            "abs": "Graph embedding techniques have been increasingly deployed in a multitude of\ndifferent applications that involve learning on non-Euclidean data. However,\nexisting graph embedding models either fail to incorporate node attribute\ninformation during training or suffer from node attribute noise, which\ncompromises the accuracy. Moreover, very few of them scale to large graphs due\nto their high computational complexity and memory usage. In this paper we\npropose GraphZoom, a multi-level framework for improving both accuracy and\nscalability of unsupervised graph embedding algorithms. GraphZoom first\nperforms graph fusion to generate a new graph that effectively encodes the\ntopology of the original graph and the node attribute information. This fused\ngraph is then repeatedly coarsened into much smaller graphs by merging nodes\nwith high spectral similarities. GraphZoom allows any existing embedding\nmethods to be applied to the coarsened graph, before it progressively refine\nthe embeddings obtained at the coarsest level to increasingly finer graphs. We\nhave evaluated our approach on a number of popular graph datasets for both\ntransductive and inductive tasks. Our experiments show that GraphZoom can\nsubstantially increase the classification accuracy and significantly accelerate\nthe entire graph embedding process by up to 40.8x, when compared to the\nstate-of-the-art unsupervised embedding methods.",
+            "title": "GraphZoom: A multi-level spectral approach for accurate and scalable graph embedding"
+        }
+    },
+    "pair_154": {
+        "Text 1": {
+            "abs": "This paper presents a novel PAC-Bayesian approach to establish spectrally-normalized margin bounds for feedforward neural networks. The generalization bound proposed in this study is formulated based on the product of certain terms, outlining an efficient strategy for assessing the performance and reliability of neural networks in terms of their spectral properties. This work contributes to the broader understanding and advancement of theoretical foundations for neural network generalization.",
+            "title": "A PAC-Bayesian Approach to Spectrally-Normalized Margin Bounds for Neural Networks"
+        },
+        "Text 2": {
+            "abs": "We present a generalization bound for feedforward neural networks in terms of\nthe product of the spectral norm of the layers and the Frobenius norm of the\nweights. The generalization bound is derived using a PAC-Bayes analysis.",
+            "title": "A PAC-Bayesian Approach to Spectrally-Normalized Margin Bounds for Neural Networks"
+        },
+        "Preferred": "AI",
+        "chosentext": {
+            "abs": "This paper presents a novel PAC-Bayesian approach to establish spectrally-normalized margin bounds for feedforward neural networks. The generalization bound proposed in this study is formulated based on the product of certain terms, outlining an efficient strategy for assessing the performance and reliability of neural networks in terms of their spectral properties. This work contributes to the broader understanding and advancement of theoretical foundations for neural network generalization.",
+            "title": "A PAC-Bayesian Approach to Spectrally-Normalized Margin Bounds for Neural Networks"
+        }
+    },
+    "pair_49": {
+        "Text 1": {
+            "abs": "This study demonstrates that suitable lateral connections between encoder and decoder enable higher layers of a denoising autoencoder to learn invariant representations of natural images.",
+            "title": "Denoising autoencoder with modulated lateral connections learns invariant representations of natural images"
+        },
+        "Text 2": {
+            "abs": "Suitable lateral connections between encoder and decoder are shown to allow\nhigher layers of a denoising autoencoder (dAE) to focus on invariant\nrepresentations. In regular autoencoders, detailed information needs to be\ncarried through the highest layers but lateral connections from encoder to\ndecoder relieve this pressure. It is shown that abstract invariant features can\nbe translated to detailed reconstructions when invariant features are allowed\nto modulate the strength of the lateral connection. Three dAE structures with\nmodulated and additive lateral connections, and without lateral connections\nwere compared in experiments using real-world images. The experiments verify\nthat adding modulated lateral connections to the model 1) improves the accuracy\nof the probability model for inputs, as measured by denoising performance; 2)\nresults in representations whose degree of invariance grows faster towards the\nhigher layers; and 3) supports the formation of diverse invariant poolings.",
+            "title": "Denoising autoencoder with modulated lateral connections learns invariant representations of natural images"
+        },
+        "Preferred": "Human",
+        "chosentext": {
+            "abs": "Suitable lateral connections between encoder and decoder are shown to allow\nhigher layers of a denoising autoencoder (dAE) to focus on invariant\nrepresentations. In regular autoencoders, detailed information needs to be\ncarried through the highest layers but lateral connections from encoder to\ndecoder relieve this pressure. It is shown that abstract invariant features can\nbe translated to detailed reconstructions when invariant features are allowed\nto modulate the strength of the lateral connection. Three dAE structures with\nmodulated and additive lateral connections, and without lateral connections\nwere compared in experiments using real-world images. The experiments verify\nthat adding modulated lateral connections to the model 1) improves the accuracy\nof the probability model for inputs, as measured by denoising performance; 2)\nresults in representations whose degree of invariance grows faster towards the\nhigher layers; and 3) supports the formation of diverse invariant poolings.",
+            "title": "Denoising autoencoder with modulated lateral connections learns invariant representations of natural images"
+        }
+    },
+    "pair_239": {
+        "Text 1": {
+            "abs": "This abstract discusses the Lottery Ticket Hypothesis, which proposes that neural network pruning techniques can significantly reduce the parameter count of trained networks by over 90%. Pruning involves removing unnecessary connections or neurons from the network, resulting in a sparser and more efficient model. This hypothesis sheds light on the potential for finding trainable neural networks with fewer parameters, thus enabling faster training and improved performance.",
+            "title": "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks"
+        },
+        "Text 2": {
+            "abs": "Neural network pruning techniques can reduce the parameter counts of trained\nnetworks by over 90%, decreasing storage requirements and improving\ncomputational performance of inference without compromising accuracy. However,\ncontemporary experience is that the sparse architectures produced by pruning\nare difficult to train from the start, which would similarly improve training\nperformance.\n  We find that a standard pruning technique naturally uncovers subnetworks\nwhose initializations made them capable of training effectively. Based on these\nresults, we articulate the \"lottery ticket hypothesis:\" dense,\nrandomly-initialized, feed-forward networks contain subnetworks (\"winning\ntickets\") that - when trained in isolation - reach test accuracy comparable to\nthe original network in a similar number of iterations. The winning tickets we\nfind have won the initialization lottery: their connections have initial\nweights that make training particularly effective.\n  We present an algorithm to identify winning tickets and a series of\nexperiments that support the lottery ticket hypothesis and the importance of\nthese fortuitous initializations. We consistently find winning tickets that are\nless than 10-20% of the size of several fully-connected and convolutional\nfeed-forward architectures for MNIST and CIFAR10. Above this size, the winning\ntickets that we find learn faster than the original network and reach higher\ntest accuracy.",
+            "title": "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks"
+        },
+        "Preferred": "Human",
+        "chosentext": {
+            "abs": "Neural network pruning techniques can reduce the parameter counts of trained\nnetworks by over 90%, decreasing storage requirements and improving\ncomputational performance of inference without compromising accuracy. However,\ncontemporary experience is that the sparse architectures produced by pruning\nare difficult to train from the start, which would similarly improve training\nperformance.\n  We find that a standard pruning technique naturally uncovers subnetworks\nwhose initializations made them capable of training effectively. Based on these\nresults, we articulate the \"lottery ticket hypothesis:\" dense,\nrandomly-initialized, feed-forward networks contain subnetworks (\"winning\ntickets\") that - when trained in isolation - reach test accuracy comparable to\nthe original network in a similar number of iterations. The winning tickets we\nfind have won the initialization lottery: their connections have initial\nweights that make training particularly effective.\n  We present an algorithm to identify winning tickets and a series of\nexperiments that support the lottery ticket hypothesis and the importance of\nthese fortuitous initializations. We consistently find winning tickets that are\nless than 10-20% of the size of several fully-connected and convolutional\nfeed-forward architectures for MNIST and CIFAR10. Above this size, the winning\ntickets that we find learn faster than the original network and reach higher\ntest accuracy.",
+            "title": "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks"
+        }
+    },
+    "pair_224": {
+        "Text 1": {
+            "abs": "In this study, we investigate and characterize the singular values of a linear transformation associated with a standard 2D multi-channel convolutional layer. By analyzing the properties of the singular values, we aim to gain insights into the information flow and representational capacity of convolutional layers in deep learning models. Our findings provide valuable understanding on the behavior and limitations of these layers, which can contribute to improving and designing more efficient convolutional neural networks.",
+            "title": "The Singular Values of Convolutional Layers"
+        },
+        "Text 2": {
+            "abs": "We characterize the singular values of the linear transformation associated\nwith a standard 2D multi-channel convolutional layer, enabling their efficient\ncomputation. This characterization also leads to an algorithm for projecting a\nconvolutional layer onto an operator-norm ball. We show that this is an\neffective regularizer; for example, it improves the test error of a deep\nresidual network using batch normalization on CIFAR-10 from 6.2\\% to 5.3\\%.",
+            "title": "The Singular Values of Convolutional Layers"
+        },
+        "Preferred": "Human",
+        "chosentext": {
+            "abs": "We characterize the singular values of the linear transformation associated\nwith a standard 2D multi-channel convolutional layer, enabling their efficient\ncomputation. This characterization also leads to an algorithm for projecting a\nconvolutional layer onto an operator-norm ball. We show that this is an\neffective regularizer; for example, it improves the test error of a deep\nresidual network using batch normalization on CIFAR-10 from 6.2\\% to 5.3\\%.",
+            "title": "The Singular Values of Convolutional Layers"
+        }
+    },
+    "pair_96": {
+        "Text 1": {
+            "abs": "Adversarial training provides a means of regularizing supervised learning\nalgorithms while virtual adversarial training is able to extend supervised\nlearning algorithms to the semi-supervised setting. However, both methods\nrequire making small perturbations to numerous entries of the input vector,\nwhich is inappropriate for sparse high-dimensional inputs such as one-hot word\nrepresentations. We extend adversarial and virtual adversarial training to the\ntext domain by applying perturbations to the word embeddings in a recurrent\nneural network rather than to the original input itself. The proposed method\nachieves state of the art results on multiple benchmark semi-supervised and\npurely supervised tasks. We provide visualizations and analysis showing that\nthe learned word embeddings have improved in quality and that while training,\nthe model is less prone to overfitting. Code is available at\nhttps://github.com/tensorflow/models/tree/master/research/adversarial_text.",
+            "title": "Adversarial Training Methods for Semi-Supervised Text Classification"
+        },
+        "Text 2": {
+            "abs": "Adversarial training offers a regularization technique for improving supervised learning algorithms by creating virtual adversaries. Specifically, virtual adversarial training focuses on the regularization of semi-supervised text classification models.",
+            "title": "Adversarial Training Methods for Semi-Supervised Text Classification"
+        },
+        "Preferred": "Human",
+        "chosentext": {
+            "abs": "Adversarial training provides a means of regularizing supervised learning\nalgorithms while virtual adversarial training is able to extend supervised\nlearning algorithms to the semi-supervised setting. However, both methods\nrequire making small perturbations to numerous entries of the input vector,\nwhich is inappropriate for sparse high-dimensional inputs such as one-hot word\nrepresentations. We extend adversarial and virtual adversarial training to the\ntext domain by applying perturbations to the word embeddings in a recurrent\nneural network rather than to the original input itself. The proposed method\nachieves state of the art results on multiple benchmark semi-supervised and\npurely supervised tasks. We provide visualizations and analysis showing that\nthe learned word embeddings have improved in quality and that while training,\nthe model is less prone to overfitting. Code is available at\nhttps://github.com/tensorflow/models/tree/master/research/adversarial_text.",
+            "title": "Adversarial Training Methods for Semi-Supervised Text Classification"
+        }
+    },
+    "pair_190": {
+        "Text 1": {
+            "abs": "This paper discusses how natural language processing (NLP) methods can be directly applied to classification. It explores the application of NLP techniques in the field of classification and highlights the importance of understanding the underlying principles of NLP for effective classification. The paper aims to provide insights and guidance for researchers and practitioners interested in utilizing NLP for classification tasks.",
+            "title": "Learning to SMILE(S)"
+        },
+        "Text 2": {
+            "abs": "This paper shows how one can directly apply natural language processing (NLP)\nmethods to classification problems in cheminformatics. Connection between these\nseemingly separate fields is shown by considering standard textual\nrepresentation of compound, SMILES. The problem of activity prediction against\na target protein is considered, which is a crucial part of computer aided drug\ndesign process. Conducted experiments show that this way one can not only\noutrank state of the art results of hand crafted representations but also gets\ndirect structural insights into the way decisions are made.",
+            "title": "Learning to SMILE(S)"
+        },
+        "Preferred": "AI",
+        "chosentext": {
+            "abs": "This paper discusses how natural language processing (NLP) methods can be directly applied to classification. It explores the application of NLP techniques in the field of classification and highlights the importance of understanding the underlying principles of NLP for effective classification. The paper aims to provide insights and guidance for researchers and practitioners interested in utilizing NLP for classification tasks.",
+            "title": "Learning to SMILE(S)"
+        }
+    },
+    "pair_150": {
+        "Text 1": {
+            "abs": "We have attempted to reproduce the results of the paper \"Natural Language Inference over Interaction Space\" for the ICLR 2018 Reproducibility Report.",
+            "title": "Natural Language Inference over Interaction Space: ICLR 2018 Reproducibility Report"
+        },
+        "Text 2": {
+            "abs": "We have tried to reproduce the results of the paper \"Natural Language\nInference over Interaction Space\" submitted to ICLR 2018 conference as part of\nthe ICLR 2018 Reproducibility Challenge. Initially, we were not aware that the\ncode was available, so we started to implement the network from scratch. We\nhave evaluated our version of the model on Stanford NLI dataset and reached\n86.38% accuracy on the test set, while the paper claims 88.0% accuracy. The\nmain difference, as we understand it, comes from the optimizers and the way\nmodel selection is performed.",
+            "title": "Natural Language Inference over Interaction Space: ICLR 2018 Reproducibility Report"
+        },
+        "Preferred": "Human",
+        "chosentext": {
+            "abs": "We have tried to reproduce the results of the paper \"Natural Language\nInference over Interaction Space\" submitted to ICLR 2018 conference as part of\nthe ICLR 2018 Reproducibility Challenge. Initially, we were not aware that the\ncode was available, so we started to implement the network from scratch. We\nhave evaluated our version of the model on Stanford NLI dataset and reached\n86.38% accuracy on the test set, while the paper claims 88.0% accuracy. The\nmain difference, as we understand it, comes from the optimizers and the way\nmodel selection is performed.",
+            "title": "Natural Language Inference over Interaction Space: ICLR 2018 Reproducibility Report"
+        }
+    },
+    "pair_47": {
+        "Text 1": {
+            "abs": "Artificial neural networks typically have a fixed, non-linear activation\nfunction at each neuron. We have designed a novel form of piecewise linear\nactivation function that is learned independently for each neuron using\ngradient descent. With this adaptive activation function, we are able to\nimprove upon deep neural network architectures composed of static rectified\nlinear units, achieving state-of-the-art performance on CIFAR-10 (7.51%),\nCIFAR-100 (30.83%), and a benchmark from high-energy physics involving Higgs\nboson decay modes.",
+            "title": "Learning Activation Functions to Improve Deep Neural Networks"
+        },
+        "Text 2": {
+            "abs": "Artificial neural networks typically have a fixed, non-linear activation function at each neuron. However, these activation functions can greatly impact the performance and efficiency of deep neural networks. This paper aims to explore the concept of learning activation functions to improve the performance of deep neural networks. By allowing the activation functions to adapt and optimize themselves, we can potentially enhance the network's ability to learn complex patterns and make more accurate predictions. The research in this paper presents a novel approach to optimizing activation functions and demonstrates its effectiveness in improving the overall performance of deep neural networks.",
+            "title": "Learning Activation Functions to Improve Deep Neural Networks"
+        },
+        "Preferred": "AI",
+        "chosentext": {
+            "abs": "Artificial neural networks typically have a fixed, non-linear activation function at each neuron. However, these activation functions can greatly impact the performance and efficiency of deep neural networks. This paper aims to explore the concept of learning activation functions to improve the performance of deep neural networks. By allowing the activation functions to adapt and optimize themselves, we can potentially enhance the network's ability to learn complex patterns and make more accurate predictions. The research in this paper presents a novel approach to optimizing activation functions and demonstrates its effectiveness in improving the overall performance of deep neural networks.",
+            "title": "Learning Activation Functions to Improve Deep Neural Networks"
+        }
+    },
+    "pair_41": {
+        "Text 1": {
+            "abs": "In this work, we propose a new method to integrate two recent lines of work:\nunsupervised induction of shallow semantics (e.g., semantic roles) and\nfactorization of relations in text and knowledge bases. Our model consists of\ntwo components: (1) an encoding component: a semantic role labeling model which\npredicts roles given a rich set of syntactic and lexical features; (2) a\nreconstruction component: a tensor factorization model which relies on roles to\npredict argument fillers. When the components are estimated jointly to minimize\nerrors in argument reconstruction, the induced roles largely correspond to\nroles defined in annotated resources. Our method performs on par with most\naccurate role induction methods on English, even though, unlike these previous\napproaches, we do not incorporate any prior linguistic knowledge about the\nlanguage.",
+            "title": "Inducing Semantic Representation from Text by Jointly Predicting and Factorizing Relations"
+        },
+        "Text 2": {
+            "abs": "In this work, we propose a new method to integrate two recent lines of work: predicting relations and factorizing relations, in order to induce semantic representation from text. Our approach enables jointly predicting and factorizing relations, resulting in an enhanced understanding of the underlying semantic structure in textual data. We demonstrate the effectiveness of our method through experiments and highlight its potential implications for various natural language processing tasks.",
+            "title": "Inducing Semantic Representation from Text by Jointly Predicting and Factorizing Relations"
+        },
+        "Preferred": "Human",
+        "chosentext": {
+            "abs": "In this work, we propose a new method to integrate two recent lines of work:\nunsupervised induction of shallow semantics (e.g., semantic roles) and\nfactorization of relations in text and knowledge bases. Our model consists of\ntwo components: (1) an encoding component: a semantic role labeling model which\npredicts roles given a rich set of syntactic and lexical features; (2) a\nreconstruction component: a tensor factorization model which relies on roles to\npredict argument fillers. When the components are estimated jointly to minimize\nerrors in argument reconstruction, the induced roles largely correspond to\nroles defined in annotated resources. Our method performs on par with most\naccurate role induction methods on English, even though, unlike these previous\napproaches, we do not incorporate any prior linguistic knowledge about the\nlanguage.",
+            "title": "Inducing Semantic Representation from Text by Jointly Predicting and Factorizing Relations"
+        }
+    },
+    "pair_43": {
+        "Text 1": {
+            "abs": "In this paper, we present the multiplicative recurrent neural network as a versatile model for capturing compositional meaning in language. By leveraging the multiplication operation, our proposed model effectively encodes the interaction among multiple input elements, allowing for flexible representation of complex syntactic and semantic structures. Through experimental evaluations on various language tasks, we demonstrate the effectiveness and superior performance of our multiplicative recurrent neural network in capturing compositionality. Our findings suggest that this model holds promising potential for advancing natural language understanding and generation systems.",
+            "title": "Modeling Compositionality with Multiplicative Recurrent Neural Networks"
+        },
+        "Text 2": {
+            "abs": "We present the multiplicative recurrent neural network as a general model for\ncompositional meaning in language, and evaluate it on the task of fine-grained\nsentiment analysis. We establish a connection to the previously investigated\nmatrix-space models for compositionality, and show they are special cases of\nthe multiplicative recurrent net. Our experiments show that these models\nperform comparably or better than Elman-type additive recurrent neural networks\nand outperform matrix-space models on a standard fine-grained sentiment\nanalysis corpus. Furthermore, they yield comparable results to structural deep\nmodels on the recently published Stanford Sentiment Treebank without the need\nfor generating parse trees.",
+            "title": "Modeling Compositionality with Multiplicative Recurrent Neural Networks"
+        },
+        "Preferred": "AI",
+        "chosentext": {
+            "abs": "In this paper, we present the multiplicative recurrent neural network as a versatile model for capturing compositional meaning in language. By leveraging the multiplication operation, our proposed model effectively encodes the interaction among multiple input elements, allowing for flexible representation of complex syntactic and semantic structures. Through experimental evaluations on various language tasks, we demonstrate the effectiveness and superior performance of our multiplicative recurrent neural network in capturing compositionality. Our findings suggest that this model holds promising potential for advancing natural language understanding and generation systems.",
+            "title": "Modeling Compositionality with Multiplicative Recurrent Neural Networks"
+        }
+    },
+    "pair_298": {
+        "Text 1": {
+            "abs": "In time series classification, the receptive field (RF) size has long been a critical factor in determining the performance of convolutional neural networks (CNNs). This paper introduces Omni-Scale CNNs, a novel approach that achieves simple and effective configuration of kernel sizes for time series classification tasks. By incorporating multiple kernel sizes within a single network, Omni-Scale CNNs are capable of capturing features at different scales and achieve improved classification accuracy. Experimental results on various benchmark datasets demonstrate the effectiveness and efficiency of Omni-Scale CNNs compared to traditional approaches. Overall, this work presents a valuable contribution to the field of time series classification by addressing the important aspect of RF size in CNNs.",
+            "title": "Omni-Scale CNNs: a simple and effective kernel size configuration for time series classification"
+        },
+        "Text 2": {
+            "abs": "The Receptive Field (RF) size has been one of the most important factors for\nOne Dimensional Convolutional Neural Networks (1D-CNNs) on time series\nclassification tasks. Large efforts have been taken to choose the appropriate\nsize because it has a huge influence on the performance and differs\nsignificantly for each dataset. In this paper, we propose an Omni-Scale block\n(OS-block) for 1D-CNNs, where the kernel sizes are decided by a simple and\nuniversal rule. Particularly, it is a set of kernel sizes that can efficiently\ncover the best RF size across different datasets via consisting of multiple\nprime numbers according to the length of the time series. The experiment result\nshows that models with the OS-block can achieve a similar performance as models\nwith the searched optimal RF size and due to the strong optimal RF size capture\nability, simple 1D-CNN models with OS-block achieves the state-of-the-art\nperformance on four time series benchmarks, including both univariate and\nmultivariate data from multiple domains. Comprehensive analysis and discussions\nshed light on why the OS-block can capture optimal RF sizes across different\ndatasets. Code available [https://github.com/Wensi-Tang/OS-CNN]",
+            "title": "Omni-Scale CNNs: a simple and effective kernel size configuration for time series classification"
+        },
+        "Preferred": "AI",
+        "chosentext": {
+            "abs": "In time series classification, the receptive field (RF) size has long been a critical factor in determining the performance of convolutional neural networks (CNNs). This paper introduces Omni-Scale CNNs, a novel approach that achieves simple and effective configuration of kernel sizes for time series classification tasks. By incorporating multiple kernel sizes within a single network, Omni-Scale CNNs are capable of capturing features at different scales and achieve improved classification accuracy. Experimental results on various benchmark datasets demonstrate the effectiveness and efficiency of Omni-Scale CNNs compared to traditional approaches. Overall, this work presents a valuable contribution to the field of time series classification by addressing the important aspect of RF size in CNNs.",
+            "title": "Omni-Scale CNNs: a simple and effective kernel size configuration for time series classification"
+        }
+    },
+    "pair_212": {
+        "Text 1": {
+            "abs": "In this paper, we propose a Wasserstein Barycenter Model Ensembling technique for multiclass or multilabel classification. Our method aims to enhance the performance of ensemble learning by utilizing the Wasserstein barycenter concept. We demonstrate the effectiveness of our approach through extensive experiments and showcase its potential in improving classification accuracy and robustness in various real-world scenarios.",
+            "title": "Wasserstein Barycenter Model Ensembling"
+        },
+        "Text 2": {
+            "abs": "In this paper we propose to perform model ensembling in a multiclass or a\nmultilabel learning setting using Wasserstein (W.) barycenters. Optimal\ntransport metrics, such as the Wasserstein distance, allow incorporating\nsemantic side information such as word embeddings. Using W. barycenters to find\nthe consensus between models allows us to balance confidence and semantics in\nfinding the agreement between the models. We show applications of Wasserstein\nensembling in attribute-based classification, multilabel learning and image\ncaptioning generation. These results show that the W. ensembling is a viable\nalternative to the basic geometric or arithmetic mean ensembling.",
+            "title": "Wasserstein Barycenter Model Ensembling"
+        },
+        "Preferred": "Human",
+        "chosentext": {
+            "abs": "In this paper we propose to perform model ensembling in a multiclass or a\nmultilabel learning setting using Wasserstein (W.) barycenters. Optimal\ntransport metrics, such as the Wasserstein distance, allow incorporating\nsemantic side information such as word embeddings. Using W. barycenters to find\nthe consensus between models allows us to balance confidence and semantics in\nfinding the agreement between the models. We show applications of Wasserstein\nensembling in attribute-based classification, multilabel learning and image\ncaptioning generation. These results show that the W. ensembling is a viable\nalternative to the basic geometric or arithmetic mean ensembling.",
+            "title": "Wasserstein Barycenter Model Ensembling"
+        }
+    },
+    "pair_172": {
+        "Text 1": {
+            "abs": "Neural network pruning techniques can reduce the parameter counts of trained\nnetworks by over 90%, decreasing storage requirements and improving\ncomputational performance of inference without compromising accuracy. However,\ncontemporary experience is that the sparse architectures produced by pruning\nare difficult to train from the start, which would similarly improve training\nperformance.\n  We find that a standard pruning technique naturally uncovers subnetworks\nwhose initializations made them capable of training effectively. Based on these\nresults, we articulate the \"lottery ticket hypothesis:\" dense,\nrandomly-initialized, feed-forward networks contain subnetworks (\"winning\ntickets\") that - when trained in isolation - reach test accuracy comparable to\nthe original network in a similar number of iterations. The winning tickets we\nfind have won the initialization lottery: their connections have initial\nweights that make training particularly effective.\n  We present an algorithm to identify winning tickets and a series of\nexperiments that support the lottery ticket hypothesis and the importance of\nthese fortuitous initializations. We consistently find winning tickets that are\nless than 10-20% of the size of several fully-connected and convolutional\nfeed-forward architectures for MNIST and CIFAR10. Above this size, the winning\ntickets that we find learn faster than the original network and reach higher\ntest accuracy.",
+            "title": "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks"
+        },
+        "Text 2": {
+            "abs": "Neural network pruning techniques have the potential to significantly reduce the parameter count of trained networks by more than 90%. This paper explores the Lottery Ticket Hypothesis, which focuses on finding sparse, trainable neural networks. By identifying and training these \"winning tickets\" in the initial network, we demonstrate that it is possible to achieve high performance while significantly reducing the computational burden. Our findings contribute to the growing body of research on network optimization and offer promising insights for efficient neural network design.",
+            "title": "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks"
+        },
+        "Preferred": "Human",
+        "chosentext": {
+            "abs": "Neural network pruning techniques can reduce the parameter counts of trained\nnetworks by over 90%, decreasing storage requirements and improving\ncomputational performance of inference without compromising accuracy. However,\ncontemporary experience is that the sparse architectures produced by pruning\nare difficult to train from the start, which would similarly improve training\nperformance.\n  We find that a standard pruning technique naturally uncovers subnetworks\nwhose initializations made them capable of training effectively. Based on these\nresults, we articulate the \"lottery ticket hypothesis:\" dense,\nrandomly-initialized, feed-forward networks contain subnetworks (\"winning\ntickets\") that - when trained in isolation - reach test accuracy comparable to\nthe original network in a similar number of iterations. The winning tickets we\nfind have won the initialization lottery: their connections have initial\nweights that make training particularly effective.\n  We present an algorithm to identify winning tickets and a series of\nexperiments that support the lottery ticket hypothesis and the importance of\nthese fortuitous initializations. We consistently find winning tickets that are\nless than 10-20% of the size of several fully-connected and convolutional\nfeed-forward architectures for MNIST and CIFAR10. Above this size, the winning\ntickets that we find learn faster than the original network and reach higher\ntest accuracy.",
+            "title": "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks"
+        }
+    },
+    "pair_105": {
+        "Text 1": {
+            "abs": "This article presents new observations and discussions on unexplored phenomena encountered during the training of residual networks. The focus is on exploring loss function topology with the use of cyclical learning rates.",
+            "title": "Exploring loss function topology with cyclical learning rates"
+        },
+        "Text 2": {
+            "abs": "We present observations and discussion of previously unreported phenomena\ndiscovered while training residual networks. The goal of this work is to better\nunderstand the nature of neural networks through the examination of these new\nempirical results. These behaviors were identified through the application of\nCyclical Learning Rates (CLR) and linear network interpolation. Among these\nbehaviors are counterintuitive increases and decreases in training loss and\ninstances of rapid training. For example, we demonstrate how CLR can produce\ngreater testing accuracy than traditional training despite using large learning\nrates. Files to replicate these results are available at\nhttps://github.com/lnsmith54/exploring-loss",
+            "title": "Exploring loss function topology with cyclical learning rates"
+        },
+        "Preferred": "Human",
+        "chosentext": {
+            "abs": "We present observations and discussion of previously unreported phenomena\ndiscovered while training residual networks. The goal of this work is to better\nunderstand the nature of neural networks through the examination of these new\nempirical results. These behaviors were identified through the application of\nCyclical Learning Rates (CLR) and linear network interpolation. Among these\nbehaviors are counterintuitive increases and decreases in training loss and\ninstances of rapid training. For example, we demonstrate how CLR can produce\ngreater testing accuracy than traditional training despite using large learning\nrates. Files to replicate these results are available at\nhttps://github.com/lnsmith54/exploring-loss",
+            "title": "Exploring loss function topology with cyclical learning rates"
+        }
+    },
+    "pair_77": {
+        "Text 1": {
+            "abs": "This study presents SqueezeNet, a deep neural network model that achieves comparable accuracy to AlexNet while significantly reducing the number of parameters and model size. Recent research in deep neural networks has primarily focused on improving accuracy. SqueezeNet addresses this challenge by proposing a novel architecture that achieves AlexNet-level accuracy using 50 times fewer parameters and a model size of less than 0.5MB.",
+            "title": "SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and <0.5MB model size"
+        },
+        "Text 2": {
+            "abs": "Recent research on deep neural networks has focused primarily on improving\naccuracy. For a given accuracy level, it is typically possible to identify\nmultiple DNN architectures that achieve that accuracy level. With equivalent\naccuracy, smaller DNN architectures offer at least three advantages: (1)\nSmaller DNNs require less communication across servers during distributed\ntraining. (2) Smaller DNNs require less bandwidth to export a new model from\nthe cloud to an autonomous car. (3) Smaller DNNs are more feasible to deploy on\nFPGAs and other hardware with limited memory. To provide all of these\nadvantages, we propose a small DNN architecture called SqueezeNet. SqueezeNet\nachieves AlexNet-level accuracy on ImageNet with 50x fewer parameters.\nAdditionally, with model compression techniques we are able to compress\nSqueezeNet to less than 0.5MB (510x smaller than AlexNet).\n  The SqueezeNet architecture is available for download here:\nhttps://github.com/DeepScale/SqueezeNet",
+            "title": "SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and <0.5MB model size"
+        },
+        "Preferred": "Human",
+        "chosentext": {
+            "abs": "Recent research on deep neural networks has focused primarily on improving\naccuracy. For a given accuracy level, it is typically possible to identify\nmultiple DNN architectures that achieve that accuracy level. With equivalent\naccuracy, smaller DNN architectures offer at least three advantages: (1)\nSmaller DNNs require less communication across servers during distributed\ntraining. (2) Smaller DNNs require less bandwidth to export a new model from\nthe cloud to an autonomous car. (3) Smaller DNNs are more feasible to deploy on\nFPGAs and other hardware with limited memory. To provide all of these\nadvantages, we propose a small DNN architecture called SqueezeNet. SqueezeNet\nachieves AlexNet-level accuracy on ImageNet with 50x fewer parameters.\nAdditionally, with model compression techniques we are able to compress\nSqueezeNet to less than 0.5MB (510x smaller than AlexNet).\n  The SqueezeNet architecture is available for download here:\nhttps://github.com/DeepScale/SqueezeNet",
+            "title": "SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and <0.5MB model size"
+        }
+    },
+    "pair_68": {
+        "Text 1": {
+            "abs": "Many machine learning classifiers are vulnerable to adversarial\nperturbations. An adversarial perturbation modifies an input to change a\nclassifier's prediction without causing the input to seem substantially\ndifferent to human perception. We deploy three methods to detect adversarial\nimages. Adversaries trying to bypass our detectors must make the adversarial\nimage less pathological or they will fail trying. Our best detection method\nreveals that adversarial images place abnormal emphasis on the lower-ranked\nprincipal components from PCA. Other detectors and a colorful saliency map are\nin an appendix.",
+            "title": "Early Methods for Detecting Adversarial Images"
+        },
+        "Text 2": {
+            "abs": "Manymachine learning classifiers are vulnerable to adversarial perturbations, which modify inputs to mislead the classifiers' predictions. This paper focuses on early methods for detecting adversarial images. The abstract provides an overview of the vulnerability of machine learning classifiers to such perturbations and highlights the importance of developing techniques to identify and prevent adversarial attacks.",
+            "title": "Early Methods for Detecting Adversarial Images"
+        },
+        "Preferred": "Human",
+        "chosentext": {
+            "abs": "Many machine learning classifiers are vulnerable to adversarial\nperturbations. An adversarial perturbation modifies an input to change a\nclassifier's prediction without causing the input to seem substantially\ndifferent to human perception. We deploy three methods to detect adversarial\nimages. Adversaries trying to bypass our detectors must make the adversarial\nimage less pathological or they will fail trying. Our best detection method\nreveals that adversarial images place abnormal emphasis on the lower-ranked\nprincipal components from PCA. Other detectors and a colorful saliency map are\nin an appendix.",
+            "title": "Early Methods for Detecting Adversarial Images"
+        }
+    },
+    "pair_74": {
+        "Text 1": {
+            "abs": "High computational complexity hinders the widespread usage of Convolutional\nNeural Networks (CNNs), especially in mobile devices. Hardware accelerators are\narguably the most promising approach for reducing both execution time and power\nconsumption. One of the most important steps in accelerator development is\nhardware-oriented model approximation. In this paper we present Ristretto, a\nmodel approximation framework that analyzes a given CNN with respect to\nnumerical resolution used in representing weights and outputs of convolutional\nand fully connected layers. Ristretto can condense models by using fixed point\narithmetic and representation instead of floating point. Moreover, Ristretto\nfine-tunes the resulting fixed point network. Given a maximum error tolerance\nof 1%, Ristretto can successfully condense CaffeNet and SqueezeNet to 8-bit.\nThe code for Ristretto is available.",
+            "title": "Hardware-oriented Approximation of Convolutional Neural Networks"
+        },
+        "Text 2": {
+            "abs": "Convolutional Neural Networks (CNNs) have revolutionized the field of computer vision but their high computational complexity limits their widespread usage, particularly on mobile devices. This paper proposes a hardware-oriented approximation approach for implementing CNNs, aiming to reduce their computational requirements while maintaining acceptable accuracy levels. By leveraging hardware optimizations, this approach could enable the efficient deployment of CNNs on mobile devices and pave the way for their broader utilization in real-world applications.",
+            "title": "Hardware-oriented Approximation of Convolutional Neural Networks"
+        },
+        "Preferred": "AI",
+        "chosentext": {
+            "abs": "Convolutional Neural Networks (CNNs) have revolutionized the field of computer vision but their high computational complexity limits their widespread usage, particularly on mobile devices. This paper proposes a hardware-oriented approximation approach for implementing CNNs, aiming to reduce their computational requirements while maintaining acceptable accuracy levels. By leveraging hardware optimizations, this approach could enable the efficient deployment of CNNs on mobile devices and pave the way for their broader utilization in real-world applications.",
+            "title": "Hardware-oriented Approximation of Convolutional Neural Networks"
+        }
+    },
+    "pair_196": {
+        "Text 1": {
+            "abs": "In this paper, we present Neural Phrase-based Machine Translation (NPMT). Our\nmethod explicitly models the phrase structures in output sequences using\nSleep-WAke Networks (SWAN), a recently proposed segmentation-based sequence\nmodeling method. To mitigate the monotonic alignment requirement of SWAN, we\nintroduce a new layer to perform (soft) local reordering of input sequences.\nDifferent from existing neural machine translation (NMT) approaches, NPMT does\nnot use attention-based decoding mechanisms. Instead, it directly outputs\nphrases in a sequential order and can decode in linear time. Our experiments\nshow that NPMT achieves superior performances on IWSLT 2014\nGerman-English/English-German and IWSLT 2015 English-Vietnamese machine\ntranslation tasks compared with strong NMT baselines. We also observe that our\nmethod produces meaningful phrases in output languages.",
+            "title": "Towards Neural Phrase-based Machine Translation"
+        },
+        "Text 2": {
+            "abs": "In this paper, we introduce Neural Phrase-based Machine Translation (NPMT). Our approach effectively represents and translates phrases by explicitly modeling them within the machine translation system. We demonstrate the effectiveness and potential of NPMT in improving translation quality.",
+            "title": "Towards Neural Phrase-based Machine Translation"
+        },
+        "Preferred": "Human",
+        "chosentext": {
+            "abs": "In this paper, we present Neural Phrase-based Machine Translation (NPMT). Our\nmethod explicitly models the phrase structures in output sequences using\nSleep-WAke Networks (SWAN), a recently proposed segmentation-based sequence\nmodeling method. To mitigate the monotonic alignment requirement of SWAN, we\nintroduce a new layer to perform (soft) local reordering of input sequences.\nDifferent from existing neural machine translation (NMT) approaches, NPMT does\nnot use attention-based decoding mechanisms. Instead, it directly outputs\nphrases in a sequential order and can decode in linear time. Our experiments\nshow that NPMT achieves superior performances on IWSLT 2014\nGerman-English/English-German and IWSLT 2015 English-Vietnamese machine\ntranslation tasks compared with strong NMT baselines. We also observe that our\nmethod produces meaningful phrases in output languages.",
+            "title": "Towards Neural Phrase-based Machine Translation"
+        }
+    },
+    "pair_286": {
+        "Text 1": {
+            "abs": "We provide a general self-attention formulation to impose group equivariance\nto arbitrary symmetry groups. This is achieved by defining positional encodings\nthat are invariant to the action of the group considered. Since the group acts\non the positional encoding directly, group equivariant self-attention networks\n(GSA-Nets) are steerable by nature. Our experiments on vision benchmarks\ndemonstrate consistent improvements of GSA-Nets over non-equivariant\nself-attention networks.",
+            "title": "Group Equivariant Stand-Alone Self-Attention For Vision"
+        },
+        "Text 2": {
+            "abs": "In this paper, we propose a general self-attention formulation to enforce group equivariance for arbitrary symmetry groups in the context of vision tasks. We demonstrate the effectiveness of our approach through experimental evaluations on various visual recognition benchmarks. Our formulation allows for improved performance in capturing global contextual dependencies while preserving local details, resulting in state-of-the-art results in several vision tasks. These findings highlight the importance of incorporating group equivariance in self-attention mechanisms for enhanced vision models.",
+            "title": "Group Equivariant Stand-Alone Self-Attention For Vision"
+        },
+        "Preferred": "AI",
+        "chosentext": {
+            "abs": "In this paper, we propose a general self-attention formulation to enforce group equivariance for arbitrary symmetry groups in the context of vision tasks. We demonstrate the effectiveness of our approach through experimental evaluations on various visual recognition benchmarks. Our formulation allows for improved performance in capturing global contextual dependencies while preserving local details, resulting in state-of-the-art results in several vision tasks. These findings highlight the importance of incorporating group equivariance in self-attention mechanisms for enhanced vision models.",
+            "title": "Group Equivariant Stand-Alone Self-Attention For Vision"
+        }
+    }
+}

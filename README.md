@@ -25,6 +25,8 @@ Original data is: `yelp_huma.json`.
 
 1. Generate Yelp GPT data: `main_fakeyelp_creator.py`, will obtain data `yelp_GPT_concise.json`.
 
+Dataset: `yelp_huma.json`, `yelp_GPT_concise.json`
+
 2. Our Detection algorithm: 
 
 Step 1: Run LLM rewrite. `main_yelp_gpt_rewrite.py`, which will obtain `rewrite_yelp_human_inv.json` and `rewrite_yelp_GPT_inv.json`. 
@@ -44,8 +46,9 @@ For evade detection, see `evade`
 
 ## Code
 
+Dataset: `code_GPT-v2.json`, `code_human-v2.json`
 
 ## Arxiv
 
 
-
+Dataset: `arxiv_GPT_concise.json`, `arXiv_human.json`

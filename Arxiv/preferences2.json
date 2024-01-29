@@ -1,0 +1,302 @@
+{
+    "pair_273": {
+        "Text 1": {
+            "abs": "Automatic change detection and disaster damage assessment are currently\nprocedures requiring a huge amount of labor and manual work by satellite\nimagery analysts. In the occurrences of natural disasters, timely change\ndetection can save lives. In this work, we report findings on problem framing,\ndata processing and training procedures which are specifically helpful for the\ntask of building damage assessment using the newly released xBD dataset. Our\ninsights lead to substantial improvement over the xBD baseline models, and we\nscore among top results on the xView2 challenge leaderboard. We release our\ncode used for the competition.",
+            "title": "Building Disaster Damage Assessment in Satellite Imagery with Multi-Temporal Fusion"
+        },
+        "Text 2": {
+            "abs": "Automatic change detection and disaster damage assessment are procedures requiring a huge amount of time and resources. In this paper, we propose a novel approach to building disaster damage assessment in satellite imagery using multi-temporal fusion. Our method utilizes advanced machine learning techniques to automatically detect changes in satellite imagery over time and assess the extent of damage caused by disasters. Experimental results demonstrate the efficacy of our approach in accurately identifying and quantifying building damage, significantly reducing the time and resources required for manual assessment. This research has the potential to revolutionize the field of disaster response and recovery, providing timely and accurate information to aid decision-making processes.",
+            "title": "Building Disaster Damage Assessment in Satellite Imagery with Multi-Temporal Fusion"
+        },
+        "Preferred": "AI",
+        "chosentext": {
+            "abs": "Automatic change detection and disaster damage assessment are procedures requiring a huge amount of time and resources. In this paper, we propose a novel approach to building disaster damage assessment in satellite imagery using multi-temporal fusion. Our method utilizes advanced machine learning techniques to automatically detect changes in satellite imagery over time and assess the extent of damage caused by disasters. Experimental results demonstrate the efficacy of our approach in accurately identifying and quantifying building damage, significantly reducing the time and resources required for manual assessment. This research has the potential to revolutionize the field of disaster response and recovery, providing timely and accurate information to aid decision-making processes.",
+            "title": "Building Disaster Damage Assessment in Satellite Imagery with Multi-Temporal Fusion"
+        }
+    },
+    "pair_179": {
+        "Text 1": {
+            "abs": "This paper introduces Variational Continual Learning (VCL), a straightforward yet versatile framework for achieving continual learning. VCL addresses the challenge of learning multiple tasks sequentially without forgetting previous knowledge. By utilizing variational inference techniques, VCL effectively maintains a balance between exploiting new information and retaining old knowledge. The proposed approach demonstrates promising results in various scenarios, showcasing its potential in addressing the continual learning problem.",
+            "title": "Variational Continual Learning"
+        },
+        "Text 2": {
+            "abs": "This paper develops variational continual learning (VCL), a simple but\ngeneral framework for continual learning that fuses online variational\ninference (VI) and recent advances in Monte Carlo VI for neural networks. The\nframework can successfully train both deep discriminative models and deep\ngenerative models in complex continual learning settings where existing tasks\nevolve over time and entirely new tasks emerge. Experimental results show that\nVCL outperforms state-of-the-art continual learning methods on a variety of\ntasks, avoiding catastrophic forgetting in a fully automatic way.",
+            "title": "Variational Continual Learning"
+        },
+        "Preferred": "Human",
+        "chosentext": {
+            "abs": "This paper develops variational continual learning (VCL), a simple but\ngeneral framework for continual learning that fuses online variational\ninference (VI) and recent advances in Monte Carlo VI for neural networks. The\nframework can successfully train both deep discriminative models and deep\ngenerative models in complex continual learning settings where existing tasks\nevolve over time and entirely new tasks emerge. Experimental results show that\nVCL outperforms state-of-the-art continual learning methods on a variety of\ntasks, avoiding catastrophic forgetting in a fully automatic way.",
+            "title": "Variational Continual Learning"
+        }
+    },
+    "pair_233": {
+        "Text 1": {
+            "abs": "Understanding theoretical properties of deep and locally connected nonlinear\nnetwork, such as deep convolutional neural network (DCNN), is still a hard\nproblem despite its empirical success. In this paper, we propose a novel\ntheoretical framework for such networks with ReLU nonlinearity. The framework\nexplicitly formulates data distribution, favors disentangled representations\nand is compatible with common regularization techniques such as Batch Norm. The\nframework is built upon teacher-student setting, by expanding the student\nforward/backward propagation onto the teacher's computational graph. The\nresulting model does not impose unrealistic assumptions (e.g., Gaussian inputs,\nindependence of activation, etc). Our framework could help facilitate\ntheoretical analysis of many practical issues, e.g. overfitting,\ngeneralization, disentangled representations in deep networks.",
+            "title": "A theoretical framework for deep locally connected ReLU network"
+        },
+        "Text 2": {
+            "abs": "This paper proposes a theoretical framework for analyzing the properties of deep and locally connected non-linear networks, specifically focusing on ReLU networks. The study aims to better understand the theoretical aspects of these networks, particularly deep convolutional neural networks. By establishing a comprehensive theoretical framework, researchers can gain insights into the behavior and capabilities of these networks, ultimately facilitating their optimal design and application in various domains.",
+            "title": "A theoretical framework for deep locally connected ReLU network"
+        },
+        "Preferred": "Human",
+        "chosentext": {
+            "abs": "Understanding theoretical properties of deep and locally connected nonlinear\nnetwork, such as deep convolutional neural network (DCNN), is still a hard\nproblem despite its empirical success. In this paper, we propose a novel\ntheoretical framework for such networks with ReLU nonlinearity. The framework\nexplicitly formulates data distribution, favors disentangled representations\nand is compatible with common regularization techniques such as Batch Norm. The\nframework is built upon teacher-student setting, by expanding the student\nforward/backward propagation onto the teacher's computational graph. The\nresulting model does not impose unrealistic assumptions (e.g., Gaussian inputs,\nindependence of activation, etc). Our framework could help facilitate\ntheoretical analysis of many practical issues, e.g. overfitting,\ngeneralization, disentangled representations in deep networks.",
+            "title": "A theoretical framework for deep locally connected ReLU network"
+        }
+    },
+    "pair_90": {
+        "Text 1": {
+            "abs": "Machine comprehension (MC) refers to the task of answering a query about a given context paragraph. This task is challenging as it requires modeling complex interactions. In this study, we propose a Bidirectional Attention Flow model that successfully addresses this issue by incorporating bidirectional attention mechanisms. The model achieves state-of-the-art results on various MC datasets, demonstrating its effectiveness in understanding and processing complex textual information.",
+            "title": "Bidirectional Attention Flow for Machine Comprehension"
+        },
+        "Text 2": {
+            "abs": "Machine comprehension (MC), answering a query about a given context\nparagraph, requires modeling complex interactions between the context and the\nquery. Recently, attention mechanisms have been successfully extended to MC.\nTypically these methods use attention to focus on a small portion of the\ncontext and summarize it with a fixed-size vector, couple attentions\ntemporally, and/or often form a uni-directional attention. In this paper we\nintroduce the Bi-Directional Attention Flow (BIDAF) network, a multi-stage\nhierarchical process that represents the context at different levels of\ngranularity and uses bi-directional attention flow mechanism to obtain a\nquery-aware context representation without early summarization. Our\nexperimental evaluations show that our model achieves the state-of-the-art\nresults in Stanford Question Answering Dataset (SQuAD) and CNN/DailyMail cloze\ntest.",
+            "title": "Bidirectional Attention Flow for Machine Comprehension"
+        },
+        "Preferred": "Human",
+        "chosentext": {
+            "abs": "Machine comprehension (MC), answering a query about a given context\nparagraph, requires modeling complex interactions between the context and the\nquery. Recently, attention mechanisms have been successfully extended to MC.\nTypically these methods use attention to focus on a small portion of the\ncontext and summarize it with a fixed-size vector, couple attentions\ntemporally, and/or often form a uni-directional attention. In this paper we\nintroduce the Bi-Directional Attention Flow (BIDAF) network, a multi-stage\nhierarchical process that represents the context at different levels of\ngranularity and uses bi-directional attention flow mechanism to obtain a\nquery-aware context representation without early summarization. Our\nexperimental evaluations show that our model achieves the state-of-the-art\nresults in Stanford Question Answering Dataset (SQuAD) and CNN/DailyMail cloze\ntest.",
+            "title": "Bidirectional Attention Flow for Machine Comprehension"
+        }
+    },
+    "pair_349": {
+        "Text 1": {
+            "abs": "This abstract summarizes recent advancements in interpreting uncertainty estimates from differentiable probabilistic models. Specifically, there has been a proposal to generate Counterfactual Latent Uncertainty Explanations (CLUE) to provide diverse sets of explanations for uncertainty estimates. The CLUE approach offers a novel perspective for understanding and interpreting uncertainty in probabilistic models, contributing to improved decision-making and transparency in various domains.",
+            "title": "\u03b4-CLUE: Diverse Sets of Explanations for Uncertainty Estimates"
+        },
+        "Text 2": {
+            "abs": "To interpret uncertainty estimates from differentiable probabilistic models,\nrecent work has proposed generating Counterfactual Latent Uncertainty\nExplanations (CLUEs). However, for a single input, such approaches could output\na variety of explanations due to the lack of constraints placed on the\nexplanation. Here we augment the original CLUE approach, to provide what we\ncall $\\delta$-CLUE. CLUE indicates $\\it{one}$ way to change an input, while\nremaining on the data manifold, such that the model becomes more confident\nabout its prediction. We instead return a $\\it{set}$ of plausible CLUEs:\nmultiple, diverse inputs that are within a $\\delta$ ball of the original input\nin latent space, all yielding confident predictions.",
+            "title": "\u03b4-CLUE: Diverse Sets of Explanations for Uncertainty Estimates"
+        },
+        "Preferred": "Human",
+        "chosentext": {
+            "abs": "To interpret uncertainty estimates from differentiable probabilistic models,\nrecent work has proposed generating Counterfactual Latent Uncertainty\nExplanations (CLUEs). However, for a single input, such approaches could output\na variety of explanations due to the lack of constraints placed on the\nexplanation. Here we augment the original CLUE approach, to provide what we\ncall $\\delta$-CLUE. CLUE indicates $\\it{one}$ way to change an input, while\nremaining on the data manifold, such that the model becomes more confident\nabout its prediction. We instead return a $\\it{set}$ of plausible CLUEs:\nmultiple, diverse inputs that are within a $\\delta$ ball of the original input\nin latent space, all yielding confident predictions.",
+            "title": "\u03b4-CLUE: Diverse Sets of Explanations for Uncertainty Estimates"
+        }
+    },
+    "pair_91": {
+        "Text 1": {
+            "abs": "Though with progress, model learning and performing posterior inference still\nremains a common challenge for using deep generative models, especially for\nhandling discrete hidden variables. This paper is mainly concerned with\nalgorithms for learning Helmholz machines, which is characterized by pairing\nthe generative model with an auxiliary inference model. A common drawback of\nprevious learning algorithms is that they indirectly optimize some bounds of\nthe targeted marginal log-likelihood. In contrast, we successfully develop a\nnew class of algorithms, based on stochastic approximation (SA) theory of the\nRobbins-Monro type, to directly optimize the marginal log-likelihood and\nsimultaneously minimize the inclusive KL-divergence. The resulting learning\nalgorithm is thus called joint SA (JSA). Moreover, we construct an effective\nMCMC operator for JSA. Our results on the MNIST datasets demonstrate that the\nJSA's performance is consistently superior to that of competing algorithms like\nRWS, for learning a range of difficult models.",
+            "title": "Joint Stochastic Approximation learning of Helmholtz Machines"
+        },
+        "Text 2": {
+            "abs": "Despite progress in model learning and performing posterior inference, it remains a common challenge for Helmholtz Machines. This paper introduces Joint Stochastic Approximation learning technique for Helmholtz Machines. This technique combines the advantages of stochastic approximation and joint optimization to improve learning efficiency and convergence. Experimental results demonstrate the effectiveness and superiority of the proposed method in achieving accurate modeling and efficient posterior inference in Helmholtz Machines.",
+            "title": "Joint Stochastic Approximation learning of Helmholtz Machines"
+        },
+        "Preferred": "Human",
+        "chosentext": {
+            "abs": "Though with progress, model learning and performing posterior inference still\nremains a common challenge for using deep generative models, especially for\nhandling discrete hidden variables. This paper is mainly concerned with\nalgorithms for learning Helmholz machines, which is characterized by pairing\nthe generative model with an auxiliary inference model. A common drawback of\nprevious learning algorithms is that they indirectly optimize some bounds of\nthe targeted marginal log-likelihood. In contrast, we successfully develop a\nnew class of algorithms, based on stochastic approximation (SA) theory of the\nRobbins-Monro type, to directly optimize the marginal log-likelihood and\nsimultaneously minimize the inclusive KL-divergence. The resulting learning\nalgorithm is thus called joint SA (JSA). Moreover, we construct an effective\nMCMC operator for JSA. Our results on the MNIST datasets demonstrate that the\nJSA's performance is consistently superior to that of competing algorithms like\nRWS, for learning a range of difficult models.",
+            "title": "Joint Stochastic Approximation learning of Helmholtz Machines"
+        }
+    },
+    "pair_269": {
+        "Text 1": {
+            "abs": "As the share of renewable energy sources in the present electric energy mix rises, there is a growing need to optimize and enhance renewable electricity consumption. This study proposes a novel approach utilizing reinforcement learning to advance the integration of renewable energy sources into the current grid infrastructure. Through the utilization of intelligent algorithms, this research aims to develop effective strategies to maximize renewable electricity consumption, ultimately contributing to a sustainable and reliable future energy system.",
+            "title": "Advancing Renewable Electricity Consumption With Reinforcement Learning"
+        },
+        "Text 2": {
+            "abs": "As the share of renewable energy sources in the present electric energy mix\nrises, their intermittence proves to be the biggest challenge to carbon free\nelectricity generation. To address this challenge, we propose an electricity\npricing agent, which sends price signals to the customers and contributes to\nshifting the customer demand to periods of high renewable energy generation. We\npropose an implementation of a pricing agent with a reinforcement learning\napproach where the environment is represented by the customers, the electricity\ngeneration utilities and the weather conditions.",
+            "title": "Advancing Renewable Electricity Consumption With Reinforcement Learning"
+        },
+        "Preferred": "Human",
+        "chosentext": {
+            "abs": "As the share of renewable energy sources in the present electric energy mix\nrises, their intermittence proves to be the biggest challenge to carbon free\nelectricity generation. To address this challenge, we propose an electricity\npricing agent, which sends price signals to the customers and contributes to\nshifting the customer demand to periods of high renewable energy generation. We\npropose an implementation of a pricing agent with a reinforcement learning\napproach where the environment is represented by the customers, the electricity\ngeneration utilities and the weather conditions.",
+            "title": "Advancing Renewable Electricity Consumption With Reinforcement Learning"
+        }
+    },
+    "pair_29": {
+        "Text 1": {
+            "abs": "Recently, nested dropout has been proposed as a method for ordering representation units in autoencoders. This paper explores the application of nested dropout to learning compact convolutional neural networks (CNNs). The results demonstrate that incorporating nested dropout into the training process of CNNs leads to improved performance in terms of both model compactness and classification accuracy. The findings suggest that nested dropout can effectively enhance the learning process of CNNs, contributing to the development of more efficient deep learning models.",
+            "title": "Learning Compact Convolutional Neural Networks with Nested Dropout"
+        },
+        "Text 2": {
+            "abs": "Recently, nested dropout was proposed as a method for ordering representation\nunits in autoencoders by their information content, without diminishing\nreconstruction cost. However, it has only been applied to training\nfully-connected autoencoders in an unsupervised setting. We explore the impact\nof nested dropout on the convolutional layers in a CNN trained by\nbackpropagation, investigating whether nested dropout can provide a simple and\nsystematic way to determine the optimal representation size with respect to the\ndesired accuracy and desired task and data complexity.",
+            "title": "Learning Compact Convolutional Neural Networks with Nested Dropout"
+        },
+        "Preferred": "AI",
+        "chosentext": {
+            "abs": "Recently, nested dropout has been proposed as a method for ordering representation units in autoencoders. This paper explores the application of nested dropout to learning compact convolutional neural networks (CNNs). The results demonstrate that incorporating nested dropout into the training process of CNNs leads to improved performance in terms of both model compactness and classification accuracy. The findings suggest that nested dropout can effectively enhance the learning process of CNNs, contributing to the development of more efficient deep learning models.",
+            "title": "Learning Compact Convolutional Neural Networks with Nested Dropout"
+        }
+    },
+    "pair_42": {
+        "Text 1": {
+            "abs": "This paper explores the significance of a metric in machine learning problems like classification. It introduces the idea of algorithmic robustness through $(\u03b5, \u03b3, \u03c4)$-good similarity functions, which aim to enhance the quality and efficiency of learning algorithms. By utilizing these functions, the paper aims to demonstrate improved performance and accuracy in various machine learning tasks.",
+            "title": "Algorithmic Robustness for Learning via $(\u03b5, \u03b3, \u03c4)$-Good Similarity Functions"
+        },
+        "Text 2": {
+            "abs": "The notion of metric plays a key role in machine learning problems such as\nclassification, clustering or ranking. However, it is worth noting that there\nis a severe lack of theoretical guarantees that can be expected on the\ngeneralization capacity of the classifier associated to a given metric. The\ntheoretical framework of $(\\epsilon, \\gamma, \\tau)$-good similarity functions\n(Balcan et al., 2008) has been one of the first attempts to draw a link between\nthe properties of a similarity function and those of a linear classifier making\nuse of it. In this paper, we extend and complete this theory by providing a new\ngeneralization bound for the associated classifier based on the algorithmic\nrobustness framework.",
+            "title": "Algorithmic Robustness for Learning via $(\u03b5, \u03b3, \u03c4)$-Good Similarity Functions"
+        },
+        "Preferred": "Human",
+        "chosentext": {
+            "abs": "The notion of metric plays a key role in machine learning problems such as\nclassification, clustering or ranking. However, it is worth noting that there\nis a severe lack of theoretical guarantees that can be expected on the\ngeneralization capacity of the classifier associated to a given metric. The\ntheoretical framework of $(\\epsilon, \\gamma, \\tau)$-good similarity functions\n(Balcan et al., 2008) has been one of the first attempts to draw a link between\nthe properties of a similarity function and those of a linear classifier making\nuse of it. In this paper, we extend and complete this theory by providing a new\ngeneralization bound for the associated classifier based on the algorithmic\nrobustness framework.",
+            "title": "Algorithmic Robustness for Learning via $(\u03b5, \u03b3, \u03c4)$-Good Similarity Functions"
+        }
+    },
+    "pair_121": {
+        "Text 1": {
+            "abs": "This paper investigates the potential of self-ensembling in addressing visual domain adaptation challenges. Our approach focuses on leveraging self-ensembling to improve the adaptation process. By utilizing this technique, we aim to enhance the performance of visual domain adaptation methods.",
+            "title": "Self-ensembling for visual domain adaptation"
+        },
+        "Text 2": {
+            "abs": "This paper explores the use of self-ensembling for visual domain adaptation\nproblems. Our technique is derived from the mean teacher variant (Tarvainen et\nal., 2017) of temporal ensembling (Laine et al;, 2017), a technique that\nachieved state of the art results in the area of semi-supervised learning. We\nintroduce a number of modifications to their approach for challenging domain\nadaptation scenarios and evaluate its effectiveness. Our approach achieves\nstate of the art results in a variety of benchmarks, including our winning\nentry in the VISDA-2017 visual domain adaptation challenge. In small image\nbenchmarks, our algorithm not only outperforms prior art, but can also achieve\naccuracy that is close to that of a classifier trained in a supervised fashion.",
+            "title": "Self-ensembling for visual domain adaptation"
+        },
+        "Preferred": "Human",
+        "chosentext": {
+            "abs": "This paper explores the use of self-ensembling for visual domain adaptation\nproblems. Our technique is derived from the mean teacher variant (Tarvainen et\nal., 2017) of temporal ensembling (Laine et al;, 2017), a technique that\nachieved state of the art results in the area of semi-supervised learning. We\nintroduce a number of modifications to their approach for challenging domain\nadaptation scenarios and evaluate its effectiveness. Our approach achieves\nstate of the art results in a variety of benchmarks, including our winning\nentry in the VISDA-2017 visual domain adaptation challenge. In small image\nbenchmarks, our algorithm not only outperforms prior art, but can also achieve\naccuracy that is close to that of a classifier trained in a supervised fashion.",
+            "title": "Self-ensembling for visual domain adaptation"
+        }
+    },
+    "pair_347": {
+        "Text 1": {
+            "abs": "Although neural module networks have an architectural bias towards\ncompositionality, they require gold standard layouts to generalize\nsystematically in practice. When instead learning layouts and modules jointly,\ncompositionality does not arise automatically and an explicit pressure is\nnecessary for the emergence of layouts exhibiting the right structure. We\npropose to address this problem using iterated learning, a cognitive science\ntheory of the emergence of compositional languages in nature that has primarily\nbeen applied to simple referential games in machine learning. Considering the\nlayouts of module networks as samples from an emergent language, we use\niterated learning to encourage the development of structure within this\nlanguage. We show that the resulting layouts support systematic generalization\nin neural agents solving the more complex task of visual question-answering.\nOur regularized iterated learning method can outperform baselines without\niterated learning on SHAPES-SyGeT (SHAPES Systematic Generalization Test), a\nnew split of the SHAPES dataset we introduce to evaluate systematic\ngeneralization, and on CLOSURE, an extension of CLEVR also designed to test\nsystematic generalization. We demonstrate superior performance in recovering\nground-truth compositional program structure with limited supervision on both\nSHAPES-SyGeT and CLEVR.",
+            "title": "Iterated learning for emergent systematicity in VQA"
+        },
+        "Text 2": {
+            "abs": "This abstract discusses the limitations of neural module networks (NMNs) in understanding and generating systematic patterns in Visual Question Answering (VQA) tasks. Although NMNs show a bias towards compositionality in their architectural design, they heavily rely on gold standard layouts, which restricts their flexibility and generalizability. To address this challenge, the concept of iterated learning is proposed as a potential solution to enable emergent systematicity in VQA. By iteratively training and transferring knowledge across generations of NMNs, it is anticipated that they will be able to learn and adapt to systematic patterns in VQA tasks without explicitly relying on gold standard layouts.",
+            "title": "Iterated learning for emergent systematicity in VQA"
+        },
+        "Preferred": "Human",
+        "chosentext": {
+            "abs": "Although neural module networks have an architectural bias towards\ncompositionality, they require gold standard layouts to generalize\nsystematically in practice. When instead learning layouts and modules jointly,\ncompositionality does not arise automatically and an explicit pressure is\nnecessary for the emergence of layouts exhibiting the right structure. We\npropose to address this problem using iterated learning, a cognitive science\ntheory of the emergence of compositional languages in nature that has primarily\nbeen applied to simple referential games in machine learning. Considering the\nlayouts of module networks as samples from an emergent language, we use\niterated learning to encourage the development of structure within this\nlanguage. We show that the resulting layouts support systematic generalization\nin neural agents solving the more complex task of visual question-answering.\nOur regularized iterated learning method can outperform baselines without\niterated learning on SHAPES-SyGeT (SHAPES Systematic Generalization Test), a\nnew split of the SHAPES dataset we introduce to evaluate systematic\ngeneralization, and on CLOSURE, an extension of CLEVR also designed to test\nsystematic generalization. We demonstrate superior performance in recovering\nground-truth compositional program structure with limited supervision on both\nSHAPES-SyGeT and CLEVR.",
+            "title": "Iterated learning for emergent systematicity in VQA"
+        }
+    },
+    "pair_282": {
+        "Text 1": {
+            "abs": "We consider training machine learning models that are fair in the sense that\ntheir performance is invariant under certain sensitive perturbations to the\ninputs. For example, the performance of a resume screening system should be\ninvariant under changes to the gender and/or ethnicity of the applicant. We\nformalize this notion of algorithmic fairness as a variant of individual\nfairness and develop a distributionally robust optimization approach to enforce\nit during training. We also demonstrate the effectiveness of the approach on\ntwo ML tasks that are susceptible to gender and racial biases.",
+            "title": "Training individually fair ML models with Sensitive Subspace Robustness"
+        },
+        "Text 2": {
+            "abs": "In machine learning, it is crucial to ensure fairness to avoid biased decision-making. This paper proposes a novel approach called Sensitive Subspace Robustness, which focuses on training individual fair ML models. By considering the performance of these models in a fair manner, we aim to mitigate biases and promote equitable outcomes. This study explores the implications and benefits of this approach, highlighting its potential to address fairness concerns in machine learning.",
+            "title": "Training individually fair ML models with Sensitive Subspace Robustness"
+        },
+        "Preferred": "Human",
+        "chosentext": {
+            "abs": "We consider training machine learning models that are fair in the sense that\ntheir performance is invariant under certain sensitive perturbations to the\ninputs. For example, the performance of a resume screening system should be\ninvariant under changes to the gender and/or ethnicity of the applicant. We\nformalize this notion of algorithmic fairness as a variant of individual\nfairness and develop a distributionally robust optimization approach to enforce\nit during training. We also demonstrate the effectiveness of the approach on\ntwo ML tasks that are susceptible to gender and racial biases.",
+            "title": "Training individually fair ML models with Sensitive Subspace Robustness"
+        }
+    },
+    "pair_172": {
+        "Text 1": {
+            "abs": "Neural network pruning techniques can reduce the parameter counts of trained\nnetworks by over 90%, decreasing storage requirements and improving\ncomputational performance of inference without compromising accuracy. However,\ncontemporary experience is that the sparse architectures produced by pruning\nare difficult to train from the start, which would similarly improve training\nperformance.\n  We find that a standard pruning technique naturally uncovers subnetworks\nwhose initializations made them capable of training effectively. Based on these\nresults, we articulate the \"lottery ticket hypothesis:\" dense,\nrandomly-initialized, feed-forward networks contain subnetworks (\"winning\ntickets\") that - when trained in isolation - reach test accuracy comparable to\nthe original network in a similar number of iterations. The winning tickets we\nfind have won the initialization lottery: their connections have initial\nweights that make training particularly effective.\n  We present an algorithm to identify winning tickets and a series of\nexperiments that support the lottery ticket hypothesis and the importance of\nthese fortuitous initializations. We consistently find winning tickets that are\nless than 10-20% of the size of several fully-connected and convolutional\nfeed-forward architectures for MNIST and CIFAR10. Above this size, the winning\ntickets that we find learn faster than the original network and reach higher\ntest accuracy.",
+            "title": "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks"
+        },
+        "Text 2": {
+            "abs": "Neural network pruning techniques have the potential to significantly reduce the parameter count of trained networks by more than 90%. This paper explores the Lottery Ticket Hypothesis, which focuses on finding sparse, trainable neural networks. By identifying and training these \"winning tickets\" in the initial network, we demonstrate that it is possible to achieve high performance while significantly reducing the computational burden. Our findings contribute to the growing body of research on network optimization and offer promising insights for efficient neural network design.",
+            "title": "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks"
+        },
+        "Preferred": "Human",
+        "chosentext": {
+            "abs": "Neural network pruning techniques can reduce the parameter counts of trained\nnetworks by over 90%, decreasing storage requirements and improving\ncomputational performance of inference without compromising accuracy. However,\ncontemporary experience is that the sparse architectures produced by pruning\nare difficult to train from the start, which would similarly improve training\nperformance.\n  We find that a standard pruning technique naturally uncovers subnetworks\nwhose initializations made them capable of training effectively. Based on these\nresults, we articulate the \"lottery ticket hypothesis:\" dense,\nrandomly-initialized, feed-forward networks contain subnetworks (\"winning\ntickets\") that - when trained in isolation - reach test accuracy comparable to\nthe original network in a similar number of iterations. The winning tickets we\nfind have won the initialization lottery: their connections have initial\nweights that make training particularly effective.\n  We present an algorithm to identify winning tickets and a series of\nexperiments that support the lottery ticket hypothesis and the importance of\nthese fortuitous initializations. We consistently find winning tickets that are\nless than 10-20% of the size of several fully-connected and convolutional\nfeed-forward architectures for MNIST and CIFAR10. Above this size, the winning\ntickets that we find learn faster than the original network and reach higher\ntest accuracy.",
+            "title": "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks"
+        }
+    },
+    "pair_122": {
+        "Text 1": {
+            "abs": "Most machine learning classifiers, including deep neural networks, are susceptible to adversarial examples which are inputs deliberately designed to deceive the classifier. These adversarial examples can have subtle perturbations that are imperceptible to humans but can significantly affect the classifier's output, leading to incorrect predictions. This paper proposes a theoretical framework for enhancing the robustness of classifiers against adversarial examples, aiming to develop methods that can improve their resilience and accuracy in the presence of such inputs.",
+            "title": "A Theoretical Framework for Robustness of (Deep) Classifiers against Adversarial Examples"
+        },
+        "Text 2": {
+            "abs": "Most machine learning classifiers, including deep neural networks, are\nvulnerable to adversarial examples. Such inputs are typically generated by\nadding small but purposeful modifications that lead to incorrect outputs while\nimperceptible to human eyes. The goal of this paper is not to introduce a\nsingle method, but to make theoretical steps towards fully understanding\nadversarial examples. By using concepts from topology, our theoretical analysis\nbrings forth the key reasons why an adversarial example can fool a classifier\n($f_1$) and adds its oracle ($f_2$, like human eyes) in such analysis. By\ninvestigating the topological relationship between two (pseudo)metric spaces\ncorresponding to predictor $f_1$ and oracle $f_2$, we develop necessary and\nsufficient conditions that can determine if $f_1$ is always robust\n(strong-robust) against adversarial examples according to $f_2$. Interestingly\nour theorems indicate that just one unnecessary feature can make $f_1$ not\nstrong-robust, and the right feature representation learning is the key to\ngetting a classifier that is both accurate and strong-robust.",
+            "title": "A Theoretical Framework for Robustness of (Deep) Classifiers against Adversarial Examples"
+        },
+        "Preferred": "Human",
+        "chosentext": {
+            "abs": "Most machine learning classifiers, including deep neural networks, are\nvulnerable to adversarial examples. Such inputs are typically generated by\nadding small but purposeful modifications that lead to incorrect outputs while\nimperceptible to human eyes. The goal of this paper is not to introduce a\nsingle method, but to make theoretical steps towards fully understanding\nadversarial examples. By using concepts from topology, our theoretical analysis\nbrings forth the key reasons why an adversarial example can fool a classifier\n($f_1$) and adds its oracle ($f_2$, like human eyes) in such analysis. By\ninvestigating the topological relationship between two (pseudo)metric spaces\ncorresponding to predictor $f_1$ and oracle $f_2$, we develop necessary and\nsufficient conditions that can determine if $f_1$ is always robust\n(strong-robust) against adversarial examples according to $f_2$. Interestingly\nour theorems indicate that just one unnecessary feature can make $f_1$ not\nstrong-robust, and the right feature representation learning is the key to\ngetting a classifier that is both accurate and strong-robust.",
+            "title": "A Theoretical Framework for Robustness of (Deep) Classifiers against Adversarial Examples"
+        }
+    },
+    "pair_227": {
+        "Text 1": {
+            "abs": "Spectral embedding is a popular technique for the representation of graph\ndata. Several regularization techniques have been proposed to improve the\nquality of the embedding with respect to downstream tasks like clustering. In\nthis paper, we explain on a simple block model the impact of the complete graph\nregularization, whereby a constant is added to all entries of the adjacency\nmatrix. Specifically, we show that the regularization forces the spectral\nembedding to focus on the largest blocks, making the representation less\nsensitive to noise or outliers. We illustrate these results on both on both\nsynthetic and real data, showing how regularization improves standard\nclustering scores.",
+            "title": "Spectral embedding of regularized block models"
+        },
+        "Text 2": {
+            "abs": "Spectral embedding is a widely used technique for representing graph data. In this study, we focus on regularized block models and explore various regularization techniques. By incorporating regularization, we aim to improve the accuracy and stability of the spectral embedding process. Our findings shed light on the effectiveness of different regularization methods in capturing latent structures within the graph data.",
+            "title": "Spectral embedding of regularized block models"
+        },
+        "Preferred": "AI",
+        "chosentext": {
+            "abs": "Spectral embedding is a widely used technique for representing graph data. In this study, we focus on regularized block models and explore various regularization techniques. By incorporating regularization, we aim to improve the accuracy and stability of the spectral embedding process. Our findings shed light on the effectiveness of different regularization methods in capturing latent structures within the graph data.",
+            "title": "Spectral embedding of regularized block models"
+        }
+    },
+    "pair_154": {
+        "Text 1": {
+            "abs": "This paper presents a novel PAC-Bayesian approach to establish spectrally-normalized margin bounds for feedforward neural networks. The generalization bound proposed in this study is formulated based on the product of certain terms, outlining an efficient strategy for assessing the performance and reliability of neural networks in terms of their spectral properties. This work contributes to the broader understanding and advancement of theoretical foundations for neural network generalization.",
+            "title": "A PAC-Bayesian Approach to Spectrally-Normalized Margin Bounds for Neural Networks"
+        },
+        "Text 2": {
+            "abs": "We present a generalization bound for feedforward neural networks in terms of\nthe product of the spectral norm of the layers and the Frobenius norm of the\nweights. The generalization bound is derived using a PAC-Bayes analysis.",
+            "title": "A PAC-Bayesian Approach to Spectrally-Normalized Margin Bounds for Neural Networks"
+        },
+        "Preferred": "AI",
+        "chosentext": {
+            "abs": "This paper presents a novel PAC-Bayesian approach to establish spectrally-normalized margin bounds for feedforward neural networks. The generalization bound proposed in this study is formulated based on the product of certain terms, outlining an efficient strategy for assessing the performance and reliability of neural networks in terms of their spectral properties. This work contributes to the broader understanding and advancement of theoretical foundations for neural network generalization.",
+            "title": "A PAC-Bayesian Approach to Spectrally-Normalized Margin Bounds for Neural Networks"
+        }
+    },
+    "pair_53": {
+        "Text 1": {
+            "abs": "This abstract discusses the challenge of improper scaling between layers in training deep neural networks. It highlights the difficulty caused by this issue and emphasizes the importance of scale normalization techniques in mitigating these problems.",
+            "title": "Scale Normalization"
+        },
+        "Text 2": {
+            "abs": "One of the difficulties of training deep neural networks is caused by\nimproper scaling between layers. Scaling issues introduce exploding / gradient\nproblems, and have typically been addressed by careful scale-preserving\ninitialization. We investigate the value of preserving scale, or isometry,\nbeyond the initial weights. We propose two methods of maintaing isometry, one\nexact and one stochastic. Preliminary experiments show that for both\ndeterminant and scale-normalization effectively speeds up learning. Results\nsuggest that isometry is important in the beginning of learning, and\nmaintaining it leads to faster learning.",
+            "title": "Scale Normalization"
+        },
+        "Preferred": "Human",
+        "chosentext": {
+            "abs": "One of the difficulties of training deep neural networks is caused by\nimproper scaling between layers. Scaling issues introduce exploding / gradient\nproblems, and have typically been addressed by careful scale-preserving\ninitialization. We investigate the value of preserving scale, or isometry,\nbeyond the initial weights. We propose two methods of maintaing isometry, one\nexact and one stochastic. Preliminary experiments show that for both\ndeterminant and scale-normalization effectively speeds up learning. Results\nsuggest that isometry is important in the beginning of learning, and\nmaintaining it leads to faster learning.",
+            "title": "Scale Normalization"
+        }
+    },
+    "pair_132": {
+        "Text 1": {
+            "abs": "In this study, we present a novel approach to approximate Tishby et al.'s information bottleneck (IB) framework. Our method is based on a deep variational approach, which allows for more accurate and efficient analysis of high-dimensional data. By incorporating deep neural networks in the IB framework, we are able to learn meaningful representations that capture both relevant features and discard irrelevant information. We demonstrate the effectiveness of our approach through experiments on various datasets, showcasing its improved performance over traditional IB methods. Our findings highlight the potential of deep variational information bottlenecks for various applications in machine learning and data analysis.",
+            "title": "Deep Variational Information Bottleneck"
+        },
+        "Text 2": {
+            "abs": "We present a variational approximation to the information bottleneck of\nTishby et al. (1999). This variational approach allows us to parameterize the\ninformation bottleneck model using a neural network and leverage the\nreparameterization trick for efficient training. We call this method \"Deep\nVariational Information Bottleneck\", or Deep VIB. We show that models trained\nwith the VIB objective outperform those that are trained with other forms of\nregularization, in terms of generalization performance and robustness to\nadversarial attack.",
+            "title": "Deep Variational Information Bottleneck"
+        },
+        "Preferred": "Human",
+        "chosentext": {
+            "abs": "We present a variational approximation to the information bottleneck of\nTishby et al. (1999). This variational approach allows us to parameterize the\ninformation bottleneck model using a neural network and leverage the\nreparameterization trick for efficient training. We call this method \"Deep\nVariational Information Bottleneck\", or Deep VIB. We show that models trained\nwith the VIB objective outperform those that are trained with other forms of\nregularization, in terms of generalization performance and robustness to\nadversarial attack.",
+            "title": "Deep Variational Information Bottleneck"
+        }
+    },
+    "pair_239": {
+        "Text 1": {
+            "abs": "This abstract discusses the Lottery Ticket Hypothesis, which proposes that neural network pruning techniques can significantly reduce the parameter count of trained networks by over 90%. Pruning involves removing unnecessary connections or neurons from the network, resulting in a sparser and more efficient model. This hypothesis sheds light on the potential for finding trainable neural networks with fewer parameters, thus enabling faster training and improved performance.",
+            "title": "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks"
+        },
+        "Text 2": {
+            "abs": "Neural network pruning techniques can reduce the parameter counts of trained\nnetworks by over 90%, decreasing storage requirements and improving\ncomputational performance of inference without compromising accuracy. However,\ncontemporary experience is that the sparse architectures produced by pruning\nare difficult to train from the start, which would similarly improve training\nperformance.\n  We find that a standard pruning technique naturally uncovers subnetworks\nwhose initializations made them capable of training effectively. Based on these\nresults, we articulate the \"lottery ticket hypothesis:\" dense,\nrandomly-initialized, feed-forward networks contain subnetworks (\"winning\ntickets\") that - when trained in isolation - reach test accuracy comparable to\nthe original network in a similar number of iterations. The winning tickets we\nfind have won the initialization lottery: their connections have initial\nweights that make training particularly effective.\n  We present an algorithm to identify winning tickets and a series of\nexperiments that support the lottery ticket hypothesis and the importance of\nthese fortuitous initializations. We consistently find winning tickets that are\nless than 10-20% of the size of several fully-connected and convolutional\nfeed-forward architectures for MNIST and CIFAR10. Above this size, the winning\ntickets that we find learn faster than the original network and reach higher\ntest accuracy.",
+            "title": "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks"
+        },
+        "Preferred": "Human",
+        "chosentext": {
+            "abs": "Neural network pruning techniques can reduce the parameter counts of trained\nnetworks by over 90%, decreasing storage requirements and improving\ncomputational performance of inference without compromising accuracy. However,\ncontemporary experience is that the sparse architectures produced by pruning\nare difficult to train from the start, which would similarly improve training\nperformance.\n  We find that a standard pruning technique naturally uncovers subnetworks\nwhose initializations made them capable of training effectively. Based on these\nresults, we articulate the \"lottery ticket hypothesis:\" dense,\nrandomly-initialized, feed-forward networks contain subnetworks (\"winning\ntickets\") that - when trained in isolation - reach test accuracy comparable to\nthe original network in a similar number of iterations. The winning tickets we\nfind have won the initialization lottery: their connections have initial\nweights that make training particularly effective.\n  We present an algorithm to identify winning tickets and a series of\nexperiments that support the lottery ticket hypothesis and the importance of\nthese fortuitous initializations. We consistently find winning tickets that are\nless than 10-20% of the size of several fully-connected and convolutional\nfeed-forward architectures for MNIST and CIFAR10. Above this size, the winning\ntickets that we find learn faster than the original network and reach higher\ntest accuracy.",
+            "title": "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks"
+        }
+    },
+    "pair_97": {
+        "Text 1": {
+            "abs": "Unsupervised learning of probabilistic models poses a significant challenge in the field of machine learning. One such approach to tackle this challenge is density estimation using Real NVP (Non-Volume Preserving) methods. Real NVP provides a framework to estimate the probability density function of an input dataset by transforming it using invertible neural networks. This abstract explores the utilization and advantages of Real NVP in density estimation, highlighting its potential applications in various domains such as anomaly detection, generative modeling, and data synthesis.",
+            "title": "Density estimation using Real NVP"
+        },
+        "Text 2": {
+            "abs": "Unsupervised learning of probabilistic models is a central yet challenging\nproblem in machine learning. Specifically, designing models with tractable\nlearning, sampling, inference and evaluation is crucial in solving this task.\nWe extend the space of such models using real-valued non-volume preserving\n(real NVP) transformations, a set of powerful invertible and learnable\ntransformations, resulting in an unsupervised learning algorithm with exact\nlog-likelihood computation, exact sampling, exact inference of latent\nvariables, and an interpretable latent space. We demonstrate its ability to\nmodel natural images on four datasets through sampling, log-likelihood\nevaluation and latent variable manipulations.",
+            "title": "Density estimation using Real NVP"
+        },
+        "Preferred": "Human",
+        "chosentext": {
+            "abs": "Unsupervised learning of probabilistic models is a central yet challenging\nproblem in machine learning. Specifically, designing models with tractable\nlearning, sampling, inference and evaluation is crucial in solving this task.\nWe extend the space of such models using real-valued non-volume preserving\n(real NVP) transformations, a set of powerful invertible and learnable\ntransformations, resulting in an unsupervised learning algorithm with exact\nlog-likelihood computation, exact sampling, exact inference of latent\nvariables, and an interpretable latent space. We demonstrate its ability to\nmodel natural images on four datasets through sampling, log-likelihood\nevaluation and latent variable manipulations.",
+            "title": "Density estimation using Real NVP"
+        }
+    }
+}

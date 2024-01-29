@@ -1,0 +1,1402 @@
+[
+    {
+        "abs": "\n\nIn this report, we describe a Theano-based AlexNet (Krizhevsky et al., 2012) implementation and its performance on multiple GPUs. We find that our implementation is able to achieve a speedup of up to 4.5x on a single GPU and up to 16x on multiple GPUs, compared to a CPU-based implementation.",
+        "title": "Theano-based Large-Scale Visual Recognition with Multiple GPUs"
+    },
+    {
+        "abs": "\n\nWe show that deep narrow Boltzmann machines are universal approximators of probability distributions on the.",
+        "title": "Deep Narrow Boltzmann Machines are Universal Approximators"
+    },
+    {
+        "abs": "\n\nWe propose to enhance recurrent neural networks with latent variables in order to improve learning. Our approach is based on leveraging advances in variational inference. We show that our method can improve the learning of stochastic recurrent networks.",
+        "title": "Learning Stochastic Recurrent Networks"
+    },
+    {
+        "abs": "\n\nWe describe a general framework for online adaptation of optimization hyperparameters by `hotswapping' their values. This allows for a more efficient search of the hyperparameter space and for a better adaptation to the changing optimization landscape.",
+        "title": "Hot Swapping for Online Adaptation of Optimization Hyperparameters"
+    },
+    {
+        "abs": "\n\nMany modern multiclass and multilabel problems are characterized by increasingly large output spaces. For these, traditional methods of label embedding struggle to scale. In this paper, we propose a new method of label embedding that is both fast and scalable to extremely large output spaces. Our method is based on a novel use of the Johnson-Lindenstrauss lemma, and we show that it outperforms traditional methods in both speed and accuracy.",
+        "title": "Fast Label Embeddings for Extremely Large Output Spaces"
+    },
+    {
+        "abs": "\n\nDynamic Adaptive Network Intelligence (DANI) is a learning approach that is able to accurately represent both the explicit and implicit relationships within data. This is critical to many real-world applications, such as predicting consumer behavior or identifying financial risks. DANI has shown to be particularly effective in these domains due to its ability to handle complex, non-linear relationships.",
+        "title": "Dynamic Adaptive Network Intelligence"
+    },
+    {
+        "abs": "\n\nThis paper presents a method for learning linearly separable features for speech recognition using convolutional neural networks. The proposed method is based on the idea of using a convolutional neural network to learn a transformation of the input features that results in a set of linearly separable features. The proposed method is evaluated on a speech recognition task and is shown to outperform a traditional MFCC-based speech recognition system.",
+        "title": "Learning linearly separable features for speech recognition using convolutional neural networks"
+    },
+    {
+        "abs": "\n\nThe Kaldi speech recognition toolkit uses a neural-network training framework that employs natural gradient and parameter averaging. This framework is shown to be effective in training deep neural networks (DNNs) for speech recognition.",
+        "title": "Parallel training of DNNs with Natural Gradient and Parameter Averaging"
+    },
+    {
+        "abs": "\n\nWe develop a new method for visualizing and refining the invariances of learned representations. Specifically, we use geodesics to define a notion of equivalence between two learned representations, and show how this can be used to improve the visualizations and analysis of learned representations.",
+        "title": "Geodesics of learned representations"
+    },
+    {
+        "abs": "\n\nDeep learning has been shown to be successful in a variety of tasks, from image classification to machine translation. A key reason for its success is its ability to learn high-level representations from data. In this paper, we explore the connection between deep learning and group theory, and show how group theory can be used to understand the representations learned by deep neural networks. We also show how higher-order representations can emerge from the composition of lower-order representations, and how this can be used to improve the performance of deep neural networks.",
+        "title": "A Group Theoretic Perspective on Unsupervised Deep Learning"
+    },
+    {
+        "abs": "\n\nThe stacked what-where auto-encoders (SWWAE) is a neural network architecture that integrates discriminative and generative models. The SWWAE is trained to reconstruct input data, and the what-where auto-encoder is used to learn a latent representation of the data. The latent representation is then used to generate new data.",
+        "title": "Stacked What-Where Auto-encoders"
+    },
+    {
+        "abs": "\n\nWe investigate the problem of inducing word embeddings that are tailored for a particular bilexical prediction task. We compare several methods for inducing task-specific word embeddings, including fine-tuning existing word embeddings and training word embeddings from scratch. Our results show that fine-tuning existing word embeddings can lead to significant improvements in bilexical prediction accuracy, while training word embeddings from scratch does not.",
+        "title": "Tailoring Word Embeddings for Bilexical Predictions: An Experimental Comparison"
+    },
+    {
+        "abs": "\n\nA generative model is developed for deep (multi-layered) convolutional dictionary learning. A novel probabilistic pooling is used to encourage the model to learn deep features that are invariant to small changes in the input. The model is trained using a new method that combines stochastic gradient descent with a variational EM algorithm. The resulting model outperforms state-of-the-art methods on several benchmark datasets.",
+        "title": "A Generative Model for Deep Convolutional Learning"
+    },
+    {
+        "abs": "\n\nWe introduce a model that generates images from captions with attention. Motivated by the recent progress in generative models, our model is able to generate images that are realistic and diverse.",
+        "title": "Generating Images from Captions with Attention"
+    },
+    {
+        "abs": "\n\nThis paper presents a new approach to training convolutional neural networks (CNNs) using a Bernoulli approximate variational inference method. The proposed method is shown to outperform existing methods on large datasets, while being more efficient and scalable.",
+        "title": "Bayesian Convolutional Neural Networks with Bernoulli Approximate Variational Inference"
+    },
+    {
+        "abs": "\n\nWe propose a new method for creating computationally efficient convolutional neural networks (CNNs) by using low-rank filters. Low-rank filters are able to approximate a filter with a smaller number of parameters, which results in a smaller and faster CNN. We show that our method can achieve up to a 5x speedup with no loss in accuracy on the ImageNet dataset.",
+        "title": "Training CNNs with Low-Rank Filters for Efficient Image Classification"
+    },
+    {
+        "abs": "\n\nThis paper presents a simple and efficient method to generate word sense representations. The method is based on distributed representations of words, which have been shown to boost the performance of many Natural Language Processing tasks. The proposed method is able to generate high-quality word sense representations with little training data and without the need for sense annotations.",
+        "title": "A Simple and Efficient Method To Generate Word Sense Representations"
+    },
+    {
+        "abs": "\n\nWe propose Diverse Embedding Neural Network (DENN), a novel architecture for language models (LMs). DENN is a neural network that uses multiple embedding layers to represent words in a text. The use of multiple embedding layers allows the model to capture different aspects of the meaning of a word, which leads to improved performance on natural language tasks.",
+        "title": "Diverse Embedding Neural Network Language Models"
+    },
+    {
+        "abs": "\n\nA standard approach to collaborative filtering (CF) relies on the prediction of user ratings on items. However, this approach is not well-suited for cold-start recommendation, where new users or items are added to the system. Representation learning is a promising approach for cold-start recommendation, as it can learn the latent representations of users and items from data. In this paper, we propose a representation learning approach for cold-start recommendation. Our approach is based on the idea of learning user and item representations from the ratings data. We use a deep neural network to learn the representations of users and items, and then use the learned representations to predict the ratings of new users and items. Our approach is evaluated on a public dataset, and the results show that our approach outperforms the state-of-the-art methods.",
+        "title": "Representation Learning for cold-start recommendation"
+    },
+    {
+        "abs": "\n\nThis paper proposes a deep learning framework for modeling complex high-dimensional densities called Non-linear Independent Component. The proposed framework can learn non-linear dependencies among variables and can be used to estimate complex densities. The paper provides a detailed description of the proposed framework and demonstrates its efficacy on several synthetic and real-world datasets.",
+        "title": "NICE: Non-linear Independent Components Estimation"
+    },
+    {
+        "abs": "\n\nDeep Linear Discriminant Analysis (DeepLDA) is a machine learning algorithm that learns linearly separable latent representations in an end-to-end fashion. It is based on the idea of deep learning, which is a branch of machine learning that uses deep neural networks to learn complex patterns in data. DeepLDA is able to learn latent representations that are more accurate than those learned by traditional methods, such as Linear Discriminant Analysis (LDA).",
+        "title": "Deep Linear Discriminant Analysis"
+    },
+    {
+        "abs": "\n\nThis paper proposes a simple method for weight initialization in deep neural networks called Layer-Sequential Unit-Variance (LSUV) initialization. The method is based on the observation that the distribution of activations in a deep network tends to be nearly uniform, and thus the variance of the activations should be equal to 1. The authors show that by initializing the weights of a deep network such that the variance of the activations is 1 at each layer, the network can be trained more effectively. The paper includes experiments on several standard datasets that demonstrate the effectiveness of the proposed method.",
+        "title": "All you need is a good init"
+    },
+    {
+        "abs": "\n\nWe introduce a parametric nonlinear transformation that is well-suited for Gaussianizing data from natural images. This transformation is based on a generalized normalization transformation, which is a generalization of the popular normalization transformation. We apply this transformation to data from natural images and show that it results in a significant improvement in the Gaussianity of the data.",
+        "title": "Density Modeling of Images using a Generalized Normalization Transformation"
+    },
+    {
+        "abs": "\n\nWe present flattened convolutional neural networks that are designed for fast feedforward execution. The redundancy in the convolutional layers is removed by flattening the layers, which results in a faster execution time.",
+        "title": "Flattened Convolutional Neural Networks for Feedforward Acceleration"
+    },
+    {
+        "abs": "\n\nIn this paper, we introduce a new deep learning framework, termed Purine. In Purine, a bi-graph is constructed to model the dependencies between input and output variables. The bi-graph is then used to learn a deep representation of the data. The Purine framework is able to handle both supervised and unsupervised learning tasks. We evaluate the Purine framework on several benchmark datasets and show that it outperforms existing deep learning frameworks.",
+        "title": "Purine: A bi-graph based deep learning framework"
+    },
+    {
+        "abs": "\n\nIn this paper, we propose a model that combines the strengths of RNNs and SGVB. The model is a variational recurrent auto-encoder (VRAE), which is a generalization of the standard RNN auto-encoder. The VRAE can be trained using stochastic gradient variational Bayes (SGVB), which is a scalable and efficient method for training latent variable models. We show that the VRAE can be used to learn latent representations of time-series data that are robust to noise and missing data. We also show that the VRAE can be used to generate new time-series data.",
+        "title": "Variational Recurrent Auto-Encoders"
+    },
+    {
+        "abs": "\n\nThe current work in lexical distributed representations maps each word to a point vector in low-dimensional space. This paper proposes a new method for representing words using Gaussian distributions. The proposed method is shown to outperform existing methods on a variety of tasks, including word similarity and analogy tasks.",
+        "title": "Word Representations via Gaussian Embedding"
+    },
+    {
+        "abs": "\n\nMultipliers are the most space and power-hungry arithmetic operators of the digital implementation of deep neural networks (DNNs). In this paper, we propose a novel training method that uses low precision multipliers to train DNNs. We show that our method can train DNNs with up to 4 times less space and power consumption than using full precision multipliers.",
+        "title": "Training deep neural networks with low precision multiplications"
+    },
+    {
+        "abs": "\n\nMultiple instance learning (MIL) can reduce the need for costly annotation in tasks such as image classification and object detection. In this paper, we propose a fully convolutional MIL approach that can be used to learn from multiple instance data with a limited number of annotations. Our approach is based on a convolutional neural network (CNN) that is trained to predict the class label of a given image region. The CNN is then used to generate class predictions for all image regions, which are then combined to produce a final class prediction for the image. We evaluate our approach on two publicly available datasets, and show that it outperforms state-of-the-art MIL methods.",
+        "title": "Fully Convolutional Multi-Class Multiple Instance Learning"
+    },
+    {
+        "abs": "\n\nRecently, nested dropout was proposed as a method for ordering representation units in autoencoders by maximizing the mutual information between the input and the output of the network. In this paper, we apply nested dropout to convolutional neural networks and show that it can be used to learn compact models that are more robust to overfitting. We also show that nested dropout can be used to improve the performance of convolutional neural networks on a variety of tasks, including image classification, object detection, and semantic segmentation.",
+        "title": "Learning Compact Convolutional Neural Networks with Nested Dropout"
+    },
+    {
+        "abs": "\n\nStochastic gradient algorithms have been the main focus of large-scale learning problems and they led to the development of robust adaptive secant methods. The proposed method is based on the secant equation and uses a trust-region approach to adaptively update the secant direction. The proposed method is compared with the state-of-the-art methods on a synthetic dataset and a real-world dataset. The results show that the proposed method outperforms the state-of-the-art methods on both datasets.",
+        "title": "ADASECANT: Robust Adaptive Secant Method for Stochastic Gradient"
+    },
+    {
+        "abs": "\n\nWhen a three-dimensional object moves relative to an observer, a change occurs on the observer's retina. This change is called the retinal displacement. It is the difference between the position of the object on the retina at two different times. The size of the retinal displacement is directly proportional to the velocity of the object.",
+        "title": "Transformation Properties of Learned Visual Representations"
+    },
+    {
+        "abs": "\n\nClustering is an important tool for efficient approximate maximum inner product search. Given a set of points, it can be used to find the closest point to a query point, in terms of inner product. This is a useful task for many applications, such as finding similar items in a dataset.",
+        "title": "Clustering is Efficient for Approximate Maximum Inner Product Search"
+    },
+    {
+        "abs": "\n\nThe variational autoencoder (VAE) is a recently proposed generative model that pairs a traditional autoencoder with a variational inference algorithm. The result is a model that can be trained to generate new data that is similar to the data it was trained on. In this paper, we extend the VAE to the importance weighted autoencoder (IWAE). The IWAE is a generative model that can be trained using importance sampling. We show that the IWAE can be used to generate high-quality images that are significantly better than those generated by the VAE.",
+        "title": "Importance Weighted Autoencoders"
+    },
+    {
+        "abs": "\n\nThis work investigates how using reduced precision data in Convolutional Neural Networks (CNNs) affects network performance. The authors find that reduced precision data can lead to improved network performance, especially when the networks are constrained by limited memory.",
+        "title": "Reduced-Precision Strategies for Bounded Memory in Deep Neural Nets"
+    },
+    {
+        "abs": "\n\nThe efficiency of graph-based semi-supervised algorithms depends on the graph of instances on which they are applied. In this paper, we propose a metric learning approach for graph-based label propagation. The proposed approach learns a metric on the instances such that the graph is better aligned with the class labels. We apply the proposed approach to the problem of image classification and show that it outperforms the state-of-the-art methods.",
+        "title": "Metric learning approach for graph-based label propagation"
+    },
+    {
+        "abs": "\n\nThe paper explores the task of order-embedding images and language, with a focus on hypernymy, textual entailment, and image captioning. It is shown that these tasks can be seen as special cases of a single task, and that a unified approach to solving them can be developed.",
+        "title": "Order-Embeddings of Images and Language"
+    },
+    {
+        "abs": "\n\nWe propose a new notion of smoothness for statistical models, called local distributional smoothness (LDS). This smoothness is based on the idea of training a model with a virtual adversary, in order to make the model more robust to local perturbations. We show that this approach can improve the generalization performance of a model on a variety of tasks.",
+        "title": "Distributional Smoothing with Virtual Adversarial Training"
+    },
+    {
+        "abs": "\n\nThe availability of large labeled datasets has allowed Convolutional Network models to achieve impressive recognition. However, these models are often trained on data with noise, which can degrade performance. In this paper, we propose a method for training Convolutional Networks with noisy labels that can improve performance. Our method is based on a robust loss function that is less sensitive to label noise, and we show that it can outperform standard methods on a variety of datasets.",
+        "title": "Training Convolutional Networks with Noisy Labels"
+    },
+    {
+        "abs": "\n\nWe provide novel guaranteed approaches for training feedforward neural networks with sparse connectivity. We leverage recent advances in provable methods for training neural networks to design and analyze our algorithms. Our methods are scalable and can be applied to large-scale problems.",
+        "title": "Provable Methods for Training Neural Networks with Sparse Connectivity"
+    },
+    {
+        "abs": "\n\nDiscourse relations bind smaller linguistic elements into coherent texts. However, automatically identifying discourse relations is a challenging task, especially in the case of long and complex texts. In this paper, we propose a method for augmenting distributional semantics models with entity information in order to improve the identification of discourse relations. We evaluate our method on the Penn Discourse Treebank, and show that it outperforms previous methods.",
+        "title": "Entity-Augmented Distributional Semantics for Discourse Relations"
+    },
+    {
+        "abs": "\n\nIn this work, we propose a new method to integrate two recent lines of work: (1) predicting relations between entities in text, and (2) factorizing those relations to learn semantic representations of the entities. Our method jointly predicts and factorizes relations, using a neural network architecture that is trained end-to-end. We evaluate our method on a standard benchmark dataset, and show that it outperforms state-of-the-art methods for both relation prediction and semantic representation learning.",
+        "title": "Inducing Semantic Representation from Text by Jointly Predicting and Factorizing Relations"
+    },
+    {
+        "abs": "\n\nThe notion of metric plays a key role in machine learning problems such as classification, clustering, and retrieval. In this paper, we study the problem of learning from data that is corrupted by outliers. We propose a new similarity function that is robust to outliers, and show how to use it to learn a robust classifier. We also show how to use our similarity function to cluster data points that are corrupted by outliers.",
+        "title": "Algorithmic Robustness for Learning via $(\u03b5, \u03b3, \u03c4)$-Good Similarity Functions"
+    },
+    {
+        "abs": "\n\nThe multiplicative recurrent neural network (MRNN) is proposed as a general model for compositional meaning in natural language. The MRNN is a recurrent neural network (RNN) with a multiplicative interaction between its hidden units. This interaction allows the MRNN to capture the structure of compositionality, whereby the meaning of a complex expression is a function of the meanings of its parts. The MRNN is trained on a large corpus of English text, and is shown to outperform several state-of-the-art models on a variety of tasks involving compositional semantics, including word sense disambiguation, paraphrase detection, and natural language inference.",
+        "title": "Modeling Compositionality with Multiplicative Recurrent Neural Networks"
+    },
+    {
+        "abs": "\n\nFinding minima of a real valued non-convex function over a high dimensional space is a difficult task. In this paper, we explore various methods for doing this, including gradient descent, Newton's Method, and evolutionary algorithms. We compare the performance of these methods on a variety of test functions and conclude that gradient descent is the most effective method overall.",
+        "title": "Explorations on high dimensional landscapes"
+    },
+    {
+        "abs": "\n\nWe develop a new statistical model for photographic images, in which the local responses of a linear filter are assumed to follow a Gaussian distribution. The model is trained on a database of images, and the parameters of the Gaussian distributions are estimated for each image. We then test the model on a new image and compute the likelihood of the image under the model. The results show that the model is able to accurately predict the local statistics of natural images, and that the likelihood of an image is strongly correlated with its perceived quality.",
+        "title": "The local low-dimensionality of natural images"
+    },
+    {
+        "abs": "\n\nMost modern convolutional neural networks (CNNs) used for object recognition are built using the same, standard architecture. However, this standard architecture is not well suited for recognition tasks that require a high degree of accuracy, such as identifying objects in medical images. To address this problem, a new type of CNN called an all convolutional net (ACN) has been developed. ACNs are designed to be much simpler than standard CNNs, and they have been shown to outperform standard CNNs on a variety of recognition tasks.",
+        "title": "Striving for Simplicity: The All Convolutional Net"
+    },
+    {
+        "abs": "\n\nThis paper explores the use of different activation functions in deep neural networks in order to improve their performance. It is shown that by using different activation functions, deep neural networks can be made more accurate and efficient.",
+        "title": "Learning Activation Functions to Improve Deep Neural Networks"
+    },
+    {
+        "abs": "\n\nThis paper introduces a greedy parser based on neural networks, which leverages a new compositional, joint model of parsing and word composition. The model is trained end-to-end on a large-scale corpus of English sentences, and achieves state-of-the-art performance on both parsing and word composition tasks.",
+        "title": "Joint RNN-Based Greedy Parsing and Word Composition"
+    },
+    {
+        "abs": "\n\nA denoising autoencoder with modulated lateral connections is proposed as a method for learning invariant representations of natural images. The proposed method is shown to outperform existing methods in terms of accuracy and computational efficiency.",
+        "title": "Denoising autoencoder with modulated lateral connections learns invariant representations of natural images"
+    },
+    {
+        "abs": "\n\nWe develop a new method for visualizing and refining the invariances of learned representations. Specifically, we use geodesics to define a notion of equivalence between two learned representations, and show how this can be used to improve the visualizations and analysis of learned representations.",
+        "title": "Geodesics of learned representations"
+    },
+    {
+        "abs": "\n\nGenomics are rapidly transforming medical practice and basic biomedical research, providing insights into disease mechanisms, identifying new targets for therapeutics, and improving the accuracy of diagnosis and prognosis. In cancer, genomic data are being used to predict clinical outcomes, including response to treatment and survival.",
+        "title": "Learning Genomic Representations to Predict Clinical Outcomes in Cancer"
+    },
+    {
+        "abs": "\n\nA new approach is proposed for combining both additive and multiplicative neural units which uses a differentiable transition between the two. This approach is shown to improve the performance of a neural network on a variety of tasks.",
+        "title": "A Differentiable Transition Between Additive and Multiplicative Neurons"
+    },
+    {
+        "abs": "\n\nOne of the difficulties of training deep neural networks is caused by improper scaling between the input and output layers. This can lead to slow training and poor generalization. Scale normalization is a technique that can be used to improve the scaling between the input and output layers, resulting in faster training and better generalization.",
+        "title": "Scale Normalization"
+    },
+    {
+        "abs": "\n\nWe extend Stochastic Gradient Variational Bayes to perform posterior inference for the weights of Stick-Breaking. This allows us to more accurately model the data and improve the quality of the results.",
+        "title": "Stick-Breaking Variational Autoencoders"
+    },
+    {
+        "abs": "\n\nUnsupervised learning on imbalanced data is challenging because, when given imbalanced data, current models tend to overfit on the majority class. To address this issue, we propose a structure consolidation latent variable model that consolidates the structures of the data by learning a latent variable model that is invariant to class imbalance. We demonstrate the effectiveness of our approach on synthetic and real-world data sets.",
+        "title": "Unsupervised Learning with Imbalanced Data via Structure Consolidation Latent Variable Model"
+    },
+    {
+        "abs": "\n\nGenerative Adversarial Nets (GANs) are successful deep generative models. GANs are based on a two-player game, where a generator network creates samples from a noise distribution, and a discriminator network tries to distinguish between the generated samples and real data samples. The generator network is trained to fool the discriminator network, and the discriminator network is trained to correctly classify the generated samples. This training process leads to the generator network learning the data distribution, and GANs have been shown to be able to generate realistic samples from complex distributions. In this paper, we view GANs from the perspective of density ratio estimation, and show how this perspective can be used to improve the training of GANs.",
+        "title": "Generative Adversarial Nets from a Density Ratio Estimation Perspective"
+    },
+    {
+        "abs": "\n\nThis paper shows how one can directly apply natural language processing (NLP) methods to classification. NLP is a field of computer science and artificial intelligence concerned with the interactions between computers and human (natural) languages, and the goal of NLP is to enable computers to understand human language and respond in a way that is natural for humans. NLP is used in many different applications, including text classification. In this paper, we show how NLP methods can be used to classify text documents. We use a dataset of Amazon reviews, and we apply a variety of NLP methods, including word embeddings, to classify the reviews into positive and negative classes. We find that NLP methods can achieve high accuracy on this task.",
+        "title": "Learning to SMILE(S)"
+    },
+    {
+        "abs": "\n\nWe introduce a neural network architecture and learning algorithm to produce factorized symbolic representations. This approach can be used to learn visual concepts from data with a limited number of labels.",
+        "title": "Understanding Visual Concepts with Continuation Learning"
+    },
+    {
+        "abs": "\n\nWe look at the eigenvalues of the Hessian of a loss function before and after training with deep learning. We find that the eigenvalues after training are much closer to zero than before training, indicating that the loss function is much closer to being convex after training. This is due to the fact that deep learning training tends to drive the weights of the network towards values that minimize the loss function.",
+        "title": "Eigenvalues of the Hessian in Deep Learning: Singularity and Beyond"
+    },
+    {
+        "abs": "\n\nWe introduce a parametric nonlinear transformation that is well-suited for Gaussianizing data from natural images. This transformation is based on a generalized normalization transformation, which is a generalization of the popular normalization transformation. We apply this transformation to data from natural images and show that it results in a significant improvement in the Gaussianity of the data.",
+        "title": "Density Modeling of Images using a Generalized Normalization Transformation"
+    },
+    {
+        "abs": "\n\nVariational inference is a powerful tool for modeling unknown complex probability distributions. In this paper, we apply variational inference to the problem of on-line anomaly detection in high-dimensional time series. We show that our approach can effectively detect anomalies in high-dimensional time series data.",
+        "title": "Variational Inference for On-line Anomaly Detection in High-Dimensional Time Series"
+    },
+    {
+        "abs": "\n\nWe develop a general problem setting for training and testing the ability of agents to find and use information. Our setting is inspired by recent work on training agents to perform complex tasks in complex environments. We define a set of information-seeking tasks and a set of environment types, and show how these can be used to train and test agents. We also show how our setting can be used to train and test agents on a range of different tasks, including navigation, planning, and resource management.",
+        "title": "Towards Information-Seeking Agents"
+    },
+    {
+        "abs": "\n\nWe propose an extension to neural network language models to adapt their prediction to the context in which they are used. Our approach is to cache the most recent predictions of the model and use them as features in the prediction of the next word. We show that this approach can improve the performance of neural language models on a variety of tasks.",
+        "title": "Improving Neural Language Models with a Continuous Cache"
+    },
+    {
+        "abs": "\n\nWe introduce a model that generates images from captions with attention. Motivated by the recent progress in generative models, our model is able to generate images that are realistic and diverse.",
+        "title": "Generating Images from Captions with Attention"
+    },
+    {
+        "abs": "\n\nWe propose a framework for training multiple neural networks simultaneously. The parameters from all models are regularized by the trace norm, which encourages the models to share information and improve generalization. We demonstrate the effectiveness of our approach on several standard multi-task learning benchmarks.",
+        "title": "Trace Norm Regularised Deep Multi-Task Learning"
+    },
+    {
+        "abs": "\n\nThis paper presents an actor-critic deep reinforcement learning agent with experience replay that is stable, sample efficient, and outperforms state-of-the-art methods on a variety of tasks.",
+        "title": "Sample Efficient Actor-Critic with Experience Replay"
+    },
+    {
+        "abs": "\n\nWe present a novel framework for generating pop music. Our model is a hierarchical recurrent neural network that is trained on a large corpus of pop music. The network is able to generate new pop songs that are musically plausible and sound similar to the training data.",
+        "title": "Song From PI: A Musically Plausible Network for Pop Music Generation"
+    },
+    {
+        "abs": "\n\nMany machine learning classifiers are vulnerable to adversarial perturbations. An adversarial perturbation modifies an input in a way that is intended to fool the classifier into making a wrong prediction. Early methods for detecting adversarial images relied on human inspection, but this is not practical for large datasets. More recent methods use machine learning to automatically detect adversarial images. These methods are generally effective, but they can be fooled by more sophisticated adversarial perturbations.",
+        "title": "Early Methods for Detecting Adversarial Images"
+    },
+    {
+        "abs": "\n\nWe propose a new method for creating computationally efficient convolutional neural networks (CNNs) by using low-rank filters. Low-rank filters are able to approximate a filter with a smaller number of parameters, which results in a smaller and faster CNN. We show that our method can achieve up to a 5x speedup with no loss in accuracy on the ImageNet dataset.",
+        "title": "Training CNNs with Low-Rank Filters for Efficient Image Classification"
+    },
+    {
+        "abs": "\n\nThis paper proposes a simple method for weight initialization in deep neural networks called Layer-Sequential Unit-Variance (LSUV) initialization. The method is based on the observation that the distribution of activations in a deep network tends to be nearly uniform, and thus the variance of the activations should be equal to 1. The authors show that by initializing the weights of a deep network such that the variance of the activations is 1 at each layer, the network can be trained more effectively. The paper includes experiments on several standard datasets that demonstrate the effectiveness of the proposed method.",
+        "title": "All you need is a good init"
+    },
+    {
+        "abs": "\n\nThis paper builds off recent work from Kiperwasser & Goldberg (2016) using neural attention in dependency parsing. The paper proposes a deep biaffine attention model that uses a feed-forward neural network to jointly learn dependency relations between words in a sentence. The model achieves state-of-the-art results on the English Penn Treebank and the Chinese Penn Treebank.",
+        "title": "Deep Biaffine Attention for Neural Dependency Parsing"
+    },
+    {
+        "abs": "\n\nDynamic Adaptive Network Intelligence (DANI) is a learning approach that is able to accurately represent both the explicit and implicit relationships within data. This is critical to many real-world applications, such as predicting consumer behavior or identifying financial risks. DANI has shown to be particularly effective in these domains due to its ability to handle complex, non-linear relationships.",
+        "title": "Dynamic Adaptive Network Intelligence"
+    },
+    {
+        "abs": "\n\nDeepSphere is a graph-based spherical CNN that is equivariant to rotations. It is designed to learn features on the sphere that are invariant to rotations.",
+        "title": "DeepSphere: towards an equivariant graph-based spherical CNN"
+    },
+    {
+        "abs": "\n\nThe high computational complexity of Convolutional Neural Networks (CNNs) hinders their widespread usage, especially in mobile devices. This paper proposes a hardware-oriented approximation of CNNs that can reduce the computational complexity while preserving the accuracy of the network. The proposed approximation is based on the use of low-precision arithmetic and reduced-precision weights and activations. The results show that the proposed approximation can achieve up to 90% reduction in computational complexity with only a small loss in accuracy.",
+        "title": "Hardware-oriented Approximation of Convolutional Neural Networks"
+    },
+    {
+        "abs": "\n\nThe diversity of painting styles represents a rich visual vocabulary for the construction of an abstract image. In this paper, we propose a learned representation for artistic style that can be used to generate new images in the style of a given artist. Our approach is based on a deep convolutional neural network that is trained to reconstruct an input image in the style of a given artist. We show that our approach can generate new images that accurately capture the style of the given artist, while preserving the content of the input image.",
+        "title": "A Learned Representation For Artistic Style"
+    },
+    {
+        "abs": "\n\nSPNs are a class of expressive yet tractable hierarchical graphical models. LearnSPN is a tool for learning SPNs from data. It is based on a bottom-up approach, where each node in the SPN is learned independently. LearnSPN is able to handle both discrete and continuous data, and can be applied to a variety of real-world applications.",
+        "title": "A Minimalistic Approach to Sum-Product Network Learning for Real Applications"
+    },
+    {
+        "abs": "\n\nThis paper presents SqueezeNet, a new architecture for deep neural networks that achieves AlexNet-level accuracy with 50x fewer parameters and <0.5MB model size.\n\nThis paper presents SqueezeNet, a new architecture for deep neural networks that achieves AlexNet-level accuracy with 50x fewer parameters and <0.5MB model size. The SqueezeNet architecture is based on a new concept called \"fire modules,\" which are composed of a squeeze layer and an expand layer. The squeeze layer is a 1x1 convolutional layer that reduces the number of input channels, while the expand layer is a 1x1 and 3x3 convolutional layer that increases the number of output channels. The SqueezeNet architecture has several advantages over traditional convolutional neural networks: (1) it requires significantly less memory and computational resources, (2) it is easier to train, and (3) it can be deployed on mobile devices and embedded systems.",
+        "title": "SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and <0.5MB model size"
+    },
+    {
+        "abs": "\n\nIn this paper, we study the problem of question answering when reasoning over multiple facts. We propose a query-reduction network, which takes as input a question and a set of facts, and outputs a set of reduced facts that are relevant to the question. We show that our approach can be used to answer questions that require reasoning over multiple facts, and that it outperforms existing methods on a variety of question answering tasks.",
+        "title": "Query-Reduction Networks for Question Answering"
+    },
+    {
+        "abs": "\n\nWe propose a language-agnostic way of automatically generating sets of semantically similar clusters of entities. This will allow for the evaluation of distributed representations in a more efficient and effective manner.",
+        "title": "Automated Generation of Multilingual Clusters for the Evaluation of Distributed Representations"
+    },
+    {
+        "abs": "\n\nRecurrent neural networks are widely used for predicting temporal data. Their inherent deep feedforward structure, which allows for the propagation of information across many time steps, makes them well suited for this task. However, this same structure can also lead to problems when the network is required to learn from data that is not strictly sequential. In this paper, we propose a method for training recurrent neural networks that is based on the idea of surprise-driven feedback. This method is designed to address the issue of non-sequential data by providing the network with a mechanism for learning from unexpected events. We demonstrate the effectiveness of our approach on a number of synthetic and real-world datasets.",
+        "title": "Surprisal-Driven Feedback in Recurrent Networks"
+    },
+    {
+        "abs": "\n\nGenerative Adversarial Networks (GANs) are a powerful tool for generating realistic data. However, they can be difficult to train, and often produce results that are mode collapse, meaning that only a limited number of modes are represented in the generated data. Mode Regularized GANs (MRGANs) are a new type of GAN that is designed to address this issue. MRGANs use a novel objective function that encourages the generator to produce a diverse set of results, while still maintaining the high quality of the generated data. This paper presents an evaluation of MRGANs on a variety of image generation tasks, and shows that they outperform standard GANs in terms of both quality and diversity of the generated data.",
+        "title": "Mode Regularized Generative Adversarial Networks"
+    },
+    {
+        "abs": "\n\nEPOpt is a reinforcement learning algorithm that uses model ensembles to learn robust policies for neural networks. It is designed to address the challenges of sample complexity and safety when learning policies for real-world applications. EPOpt is based on the idea of online learning with expert advice, and uses a set of models to approximate the true underlying model. The algorithm is shown to be effective in a variety of settings, including a 3D navigation task and a robotic manipulation task.",
+        "title": "EPOpt: Learning Robust Neural Network Policies Using Model Ensembles"
+    },
+    {
+        "abs": "\n\nWe introduce Divnet, a flexible technique for learning networks with diverse neurons. Divnet models neuronal diversity by learning a set of diverse neurons that are maximally informative about the input data. This results in a more compact and interpretable network that is better able to generalize to new data.",
+        "title": "Diversity Networks: Neural Network Compression Using Determinantal Point Processes"
+    },
+    {
+        "abs": "\n\nThe efficiency of graph-based semi-supervised algorithms depends on the graph of instances on which they are applied. In this paper, we propose a metric learning approach for graph-based label propagation. Our approach is based on the idea that the graph can be learned from data, and that the learned graph can be used to improve the efficiency of label propagation. We show that our approach can be used to improve the accuracy of label propagation on a variety of datasets.",
+        "title": "Metric learning approach for graph-based label propagation"
+    },
+    {
+        "abs": "\n\nOne major challenge in training deep neural networks is preventing overfitting. Many techniques such as weight regularization, early stopping, and dropout have been proposed to address this issue. In this paper, we propose a new method for reducing overfitting by decorrelating the representations learned by the network. Our method is based on the observation that the representations learned by a deep network tend to be highly correlated. By decorrelating the representations, we can encourage the network to learn a more diverse set of features, which can lead to improved generalization. We demonstrate the effectiveness of our method on a variety of tasks, including image classification and machine translation.",
+        "title": "Reducing Overfitting in Deep Networks by Decorrelating Representations"
+    },
+    {
+        "abs": "\n\nDeep neural networks are commonly trained using stochastic non-convex optimization procedures. These procedures are driven by a small number of randomly selected training examples, known as a mini-batch. The size of the mini-batch is a critical parameter that can affect the training speed and the quality of the resulting model. In this paper, we propose a new method for selecting mini-batches that can speed up training without sacrificing accuracy. Our method is based on a simple online selection procedure that adaptively chooses the mini-batch size based on the current training state. We show that our method can significantly speed up training without sacrificing accuracy on a variety of deep learning tasks.",
+        "title": "Online Batch Selection for Faster Training of Neural Networks"
+    },
+    {
+        "abs": "\n\nWe present a scalable approach for semi-supervised learning on graph-structured data that is based on graph convolutional networks (GCNs). GCNs are a type of neural network that can operate on graphs, making them well-suited for learning from data that is represented as a graph. Our approach is based on a recent GCN model that we extended to the semi-supervised setting. We evaluate our approach on several benchmark datasets and show that it outperforms state-of-the-art semi-supervised learning methods.",
+        "title": "Semi-Supervised Classification with Graph Convolutional Networks"
+    },
+    {
+        "abs": "\n\nThe Energy-based Generative Adversarial Network (EBGAN) is a model that views the discriminator as an energy function. This function is used to generate samples from a given distribution. The model is trained by minimizing the energy of the generated samples.",
+        "title": "Energy-based Generative Adversarial Network"
+    },
+    {
+        "abs": "\n\nDeep learning is a branch of machine learning that is concerned with algorithms inspired by the structure and function of the brain. These algorithms are used to learn high-level abstractions from data. A deep convolutional neural network (DCNN) is a type of deep learning network that is composed of multiple layers of convolutional filters. DCNNs have been shown to be effective at learning complex patterns from data, and have been used for tasks such as image classification and object detection. In this paper, we survey recent research on DCNN design patterns. We discuss the motivations for using DCNNs, and review the different types of layers that can be used in a DCNN. We also survey recent advances in DCNN architecture design, and discuss the benefits and drawbacks of different DCNN architectures.",
+        "title": "Deep Convolutional Neural Network Design Patterns"
+    },
+    {
+        "abs": "\n\nThe paper presents a bidirectional attention flow model for machine comprehension. The model captures complex interactions between the context and the query, and is able to answer questions about the context. The model is evaluated on a standard machine comprehension dataset, and achieves state-of-the-art performance.",
+        "title": "Bidirectional Attention Flow for Machine Comprehension"
+    },
+    {
+        "abs": "\n\nThis paper presents a new algorithm for learning the parameters of a Helmholtz machine, a type of energy-based model. The algorithm is based on the joint stochastic approximation method, which has been shown to be effective for learning a variety of models. The new algorithm is tested on a range of data sets, and is shown to outperform existing methods.",
+        "title": "Joint Stochastic Approximation learning of Helmholtz Machines"
+    },
+    {
+        "abs": "\n\nOn-the-fly network pruning for object detection can help reduce the number of candidate objects to be considered by a deep neural network, thereby speeding up the object detection process. This paper presents a method for on-the-fly network pruning that can be used to improve the efficiency of object detection.",
+        "title": "On-the-fly Network Pruning for Object Detection"
+    },
+    {
+        "abs": "\n\nThis paper presents a method for improving the performance of machine learning solutions by modeling interactions between features. The method is based on the use of exponential machines, which are a class of machine learning algorithms that can model complex interactions between features. The paper demonstrates the effectiveness of the method on a variety of machine learning tasks, including classification, regression, and clustering.",
+        "title": "Exponential Machines"
+    },
+    {
+        "abs": "\n\nWe introduce Deep Variational Bayes Filters (DVBF), a new method for unsupervised learning and identification of state space models from raw data. DVBF is based on variational inference, which allows for efficient learning of complex probabilistic models from data. In addition, DVBF uses a deep neural network to parametrize the variational distribution, which allows for accurate estimation of the posterior distribution over the hidden states of the system. We demonstrate the efficacy of DVBF on several synthetic and real-world datasets.",
+        "title": "Deep Variational Bayes Filters: Unsupervised Learning of State Space Models from Raw Data"
+    },
+    {
+        "abs": "\n\nTraditional dialog systems used in goal-oriented applications require a lot of domain-specific handcrafting, which hinders their portability to new domains. This paper presents a neural dialog model that can be trained end-to-end, directly from dialog data, without any domain-specific handcrafting. The model is based on a recurrent neural network that encodes the dialog history, and uses a long short-term memory (LSTM) network to predict the next utterance in the dialog. The model is trained to maximize the likelihood of the correct next utterance, given the dialog history. We evaluate the model on two goal-oriented dialog datasets, and show that it outperforms a number of baselines, including a rule-based dialog system and a dialog system trained with reinforcement learning.",
+        "title": "Learning End-to-End Goal-Oriented Dialog"
+    },
+    {
+        "abs": "\n\nAdversarial training is a method of regularizing supervised learning algorithms by training with an adversary. Virtual adversarial training is a method of regularizing neural networks by training with a virtual adversary.",
+        "title": "Adversarial Training Methods for Semi-Supervised Text Classification"
+    },
+    {
+        "abs": "\n\nDensity estimation is a central problem in machine learning, and real NVP is a promising approach for solving it. In this paper, we present an unsupervised learning algorithm for real NVP that is based on a variational approach. Our algorithm is able to learn the parameters of the real NVP model without any supervision, and we show that it can be used to estimate the density of a data set.",
+        "title": "Density estimation using Real NVP"
+    },
+    {
+        "abs": "\n\nThis paper is focused on studying the view-manifold structure in the feature spaces implied by convolutional neural networks (CNNs). The authors aim to understand how CNNs achieve view invariance, i.e. the ability to recognize objects from different viewpoints. To do so, they analyze the feature spaces of CNNs trained on different datasets. Their results show that CNNs indeed learn to represent objects in a view-invariant manner.",
+        "title": "Digging Deep into the layers of CNNs: In Search of How CNNs Achieve View Invariance"
+    },
+    {
+        "abs": "\n\nBilinear models provide rich representations compared with linear models. They have been applied in various tasks such as image classification, object detection, and face recognition. In this paper, we propose a new bilinear pooling method based on the Hadamard product. The proposed method can be used to efficiently pool features from two low-rank matrices. We demonstrate the effectiveness of the proposed method on the task of image classification.",
+        "title": "Hadamard Product for Low-rank Bilinear Pooling"
+    },
+    {
+        "abs": "\n\nThe standard interpretation of importance-weighted autoencoders is that they maximize a tighter lower bound on the log-likelihood of the data. However, this paper reinterprets the objective of importance-weighted autoencoders, showing that they can be seen as minimizing a certain type of information loss. This new interpretation provides a more intuitive understanding of why these autoencoders work, and may lead to new ways of improving them.",
+        "title": "Reinterpreting Importance-Weighted Autoencoders"
+    },
+    {
+        "abs": "\n\nWe present a generalization bound for feedforward neural networks in terms of the product of the spectral norm of the weight matrix and the margin of the data. This bound is a PAC-Bayesian version of the well-known margin bound, and can be used to derive tight generalization bounds for a wide range of neural network architectures.",
+        "title": "A PAC-Bayesian Approach to Spectrally-Normalized Margin Bounds for Neural Networks"
+    },
+    {
+        "abs": "\n\nIn this paper, we propose to equip Generative Adversarial Networks with the ability to produce more accurate results by calibrating the energy-based model. We show that this leads to improved performance on various tasks, including image generation and classification.",
+        "title": "Calibrating Energy-based Generative Adversarial Networks"
+    },
+    {
+        "abs": "\n\nWe perform outlier detection using ensembles of neural networks obtained by variational Bayesian methods. We show that our method outperforms existing methods in terms of both accuracy and computational efficiency.",
+        "title": "Efficient variational Bayesian neural network ensembles for outlier detection"
+    },
+    {
+        "abs": "\n\nWe present two simple ways to reduce the number of parameters and accelerate the training of LSTM networks. The first is to use a low-rank factorization of the weight matrices. The second is to use a Kronecker product structure. We show that both of these methods can be used to significantly reduce the number of parameters without sacrificing performance.",
+        "title": "Factorization tricks for LSTM networks"
+    },
+    {
+        "abs": "\n\nWe present observations and discussion of previously unreported phenomena discovered while training residual networks. The phenomena include (1) the loss function topology can be significantly different with and without data augmentation; (2) the loss function topology can be significantly different with and without batch normalization; and (3) the loss function topology can be significantly different with different types of data augmentation.",
+        "title": "Exploring loss function topology with cyclical learning rates"
+    },
+    {
+        "abs": "\n\nMachine learning models are often used at test-time subject to constraints and trade-offs not present during training. This paper presents a method for using reinforcement learning to change the behavior of a machine learning model at test-time to better match the desired behavior. The method is demonstrated on a number of tasks, including image classification and machine translation.",
+        "title": "Changing Model Behavior at Test-Time Using Reinforcement Learning"
+    },
+    {
+        "abs": "\n\nAdversarial examples have been shown to exist for a variety of deep learning architectures. Deep learning models are known to be vulnerable to these types of attacks, which can cause the model to misclassify an input. In this paper, we investigate the effect of adversarial attacks on deep learning policies. We find that adversarial attacks can significantly reduce the accuracy of the policy, and in some cases cause the policy to fail entirely. We also find that the effect of an adversarial attack depends on the type of deep learning architecture used, and on the type of data used to train the model.",
+        "title": "Delving into adversarial attacks on deep policies"
+    },
+    {
+        "abs": "\n\nThis paper develops variational continual learning (VCL), a simple but general framework for continual learning. VCL is based on the idea of using a variational bound on the change in the training data distribution to control the change in the learned model. VCL can be used to control the trade-off between forgetting old tasks and learning new tasks, and can be applied to a variety of continual learning scenarios.",
+        "title": "Variational Continual Learning"
+    },
+    {
+        "abs": "\n\nThis paper presents a method for automatically determining the optimal size of a neural network for a given task, without the need for prior knowledge. The proposed method is based on a nonparametric approach, which does not make any assumptions about the data or the task. The method is evaluated on a variety of tasks, including classification, regression, and function approximation. The results show that the proposed method outperforms existing methods, and is able to automatically determine the optimal size of a neural network for a given task.",
+        "title": "Nonparametric Neural Networks"
+    },
+    {
+        "abs": "\n\nThe Natural Language Inference (NLI) task requires an agent to determine the logical relationship between a premise and a hypothesis. In this paper, we propose a method for NLI that uses an interaction space to represent the premise and hypothesis. Our method is based on the idea that the relationship between the premise and hypothesis can be represented as a sequence of interactions between the two. We train a recurrent neural network to learn a mapping from the interaction space to the label space, and we show that our method outperforms previous methods on the SNLI and MultiNLI datasets.",
+        "title": "Natural Language Inference over Interaction Space"
+    },
+    {
+        "abs": "\n\nThe ability to deploy neural networks in real-world, safety-critical systems is severely limited by the fact that they are vulnerable to adversarial examples. Adversarial examples are inputs to a neural network that have been deliberately modified to cause the network to make an incorrect prediction. In this paper, we present a method for constructing provably minimally-distorted adversarial examples. This method is based on a new theoretical result that we prove in this paper. This result allows us to generate adversarial examples that are guaranteed to be close to the original input, in terms of the L2 norm. This is important because it means that the adversarial examples generated by our method are less likely to be detected by humans. We evaluate our method on the MNIST and CIFAR-10 datasets, and show that it can generate adversarial examples that are significantly more difficult to detect than those generated by previous methods.",
+        "title": "Provably Minimally-Distorted Adversarial Examples"
+    },
+    {
+        "abs": "\n\nWe extend Stochastic Gradient Variational Bayes to perform posterior inference for the weights of Stick-Breaking. This allows us to more accurately model data with a high degree of variability.",
+        "title": "Stick-Breaking Variational Autoencoders"
+    },
+    {
+        "abs": "\n\nWe propose a framework for training multiple neural networks simultaneously. The parameters from all models are regularized by the trace norm, which encourages the models to share information and improve generalization. We demonstrate the effectiveness of our approach on several standard multi-task learning benchmarks.",
+        "title": "Trace Norm Regularised Deep Multi-Task Learning"
+    },
+    {
+        "abs": "\n\nThis paper presents an actor-critic deep reinforcement learning agent with experience replay that is stable, sample efficient, and outperforms state-of-the-art methods on a variety of tasks.",
+        "title": "Sample Efficient Actor-Critic with Experience Replay"
+    },
+    {
+        "abs": "\n\nMany machine learning classifiers are vulnerable to adversarial perturbations. An adversarial perturbation modifies an input in a way that is intended to fool the classifier into making a wrong prediction. Early methods for detecting adversarial images relied on human inspection, but this is not practical for large datasets. More recent methods use machine learning to automatically detect adversarial images. These methods are generally effective, but they can be fooled by more sophisticated adversarial perturbations.",
+        "title": "Early Methods for Detecting Adversarial Images"
+    },
+    {
+        "abs": "\n\nWe propose a principled method for kernel learning, which relies on a Fourier-analytic characterization of the kernels. The method is based on a kernel function that is learned from data, and is shown to be effective in a number of applications.",
+        "title": "Not-So-Random Features"
+    },
+    {
+        "abs": "\n\nThis paper explores the use of convolutional neural networks (ConvNets) for fast reading comprehension. ConvNets are a type of neural network that is well-suited for processing data in a grid-like fashion, making them well-suited for processing text data. The paper reports state-of-the-art results on a number of reading comprehension tasks, showing that ConvNets can be used to build effective reading comprehension models.",
+        "title": "Fast Reading Comprehension with ConvNets"
+    },
+    {
+        "abs": "\n\nThis report investigates the reproducibility of On the regularization of Wasserstein GANs, a paper which proposed a method for regularizing the training of Wasserstein GANs. Our report finds that the paper is generally reproducible, though there are some areas where the results are not exactly replicated.",
+        "title": "On reproduction of On the regularization of Wasserstein GANs"
+    },
+    {
+        "abs": "\n\nVariational autoencoders (VAEs) are a type of generative model that can be used to learn latent representations of data. In a hierarchical VAE, the latent variables are organized into a hierarchy, which can be used to trade information between the latents. This can be used to improve the quality of the learned latent representations.",
+        "title": "Trading Information between Latents in Hierarchical Variational Autoencoders"
+    },
+    {
+        "abs": "\n\nThis paper proposes a method for unsupervised inductive learning of node representations in a graph, based on ranking. The proposed method, Deep Gaussian Embedding of Graphs (DGE), is a generalization of the Deep Graph Embedding (DGE) method proposed in [1]. DGE is a neural network-based method that learns node representations by maximizing the likelihood of observing the graph structure. The DGE method is extended to the case of multiple graphs, by ranking the graphs according to their likelihood. The DGE method is then applied to the problem of link prediction in multiplex networks. The results show that the proposed method outperforms state-of-the-art methods for link prediction in multiplex networks.",
+        "title": "Deep Gaussian Embedding of Graphs: Unsupervised Inductive Learning via Ranking"
+    },
+    {
+        "abs": "\n\nThis paper explores the use of self-ensembling for visual domain adaptation problems. Our technique is based on the idea that by training a model on a combination of data from different domains, the model can learn to better adapt to new domains. We evaluate our approach on two standard domain adaptation benchmarks, and show that our method outperforms the state-of-the-art on both.",
+        "title": "Self-ensembling for visual domain adaptation"
+    },
+    {
+        "abs": "\n\nMost machine learning classifiers, including deep neural networks, are vulnerable to adversarial examples. Such inputs, which are generated by adding carefully crafted perturbations to legitimate examples, can cause the classifier to misclassify the example. In this paper, we develop a theoretical framework for understanding the robustness of classifiers against adversarial examples. We show that the robustness of a classifier can be upper-bounded by its capacity, which is a measure of the classifier's ability to fit a wide range of functions. We also show that the robustness of a classifier can be lower-bounded by its fragility, which is a measure of the classifier's sensitivity to small perturbations. Finally, we show that the robustness of a classifier can be improved by training it with adversarial examples.",
+        "title": "A Theoretical Framework for Robustness of (Deep) Classifiers against Adversarial Examples"
+    },
+    {
+        "abs": "\n\nWe develop a general problem setting for training and testing the ability of agents to find and use information. Our setting is inspired by recent work on training agents to perform complex tasks in complex environments. We define a set of information-seeking tasks and a set of environment types, and show how these can be used to train and test agents. We also show how our setting can be used to train and test agents on a range of different tasks, including navigation, planning, and resource management.",
+        "title": "Towards Information-Seeking Agents"
+    },
+    {
+        "abs": "\n\nWe propose an extension to neural network language models to adapt their prediction to the context in which they are used. Our approach is to cache the most recent predictions of the model and use them as features in the prediction of the next word. We show that this approach can improve the performance of neural language models on a variety of tasks.",
+        "title": "Improving Neural Language Models with a Continuous Cache"
+    },
+    {
+        "abs": "\n\nGenerative Adversarial Nets (GANs) are successful deep generative models. GANs are based on a two-player game, where a generator network creates samples from a noise distribution, and a discriminator network tries to distinguish between the generated samples and real data samples. The generator network is trained to fool the discriminator network, and the discriminator network is trained to correctly classify the generated samples. This paper presents a new perspective on GANs, based on density ratio estimation. The proposed method can be used to train GANs without the need for a discriminator network, and can be applied to a wider range of problems.",
+        "title": "Generative Adversarial Nets from a Density Ratio Estimation Perspective"
+    },
+    {
+        "abs": "\n\nWe present a novel framework for generating pop music. Our model is a hierarchical recurrent neural network that is trained on a large corpus of pop music. The network is able to generate new pop songs that are musically plausible and sound similar to the training data.",
+        "title": "Song From PI: A Musically Plausible Network for Pop Music Generation"
+    },
+    {
+        "abs": "\n\nWe look at the eigenvalues of the Hessian of a loss function before and after training with deep learning. We find that the eigenvalues after training are much closer to zero than before training, indicating that the loss function is much closer to being convex after training. This is due to the fact that deep learning training tends to drive the weights of the network towards values that minimize the loss function.",
+        "title": "Eigenvalues of the Hessian in Deep Learning: Singularity and Beyond"
+    },
+    {
+        "abs": "\n\nIn this paper, we propose a new feature extraction technique for program execution logs. First, we extract the control flow graph from the program execution logs. Then, we use a graph-based approach to learn a semantic embedding for each node in the graph. Finally, we use the learned embeddings to cluster the nodes in the graph, which results in a set of program behavior patterns.",
+        "title": "Semantic embeddings for program behavior patterns"
+    },
+    {
+        "abs": "\n\nWe compared the efficiency of the FlyHash model, an insect-inspired sparse neural network (Dasgupta et al., 2016), with a traditional dense neural network for the task of vision-based route following. We found that the FlyHash model was more efficient in terms of both computational resources and memory requirements.",
+        "title": "Vision-based route following by an embodied insect-inspired sparse neural network"
+    },
+    {
+        "abs": "\n\nIn peer review, reviewers are usually asked to provide scores for the papers. The scores, however, are often not well calibrated and may not be useful for ranking the papers. In this paper, we propose a method for integrating the scores into a quantized score, which can be used for ranking the papers. The method is based on the idea of using a weighted sum of the scores, where the weights are chosen so that the quantized score is well calibrated. We show that the proposed method can be used to improve the ranking of papers in a peer-reviewed conference.",
+        "title": "Integrating Rankings into Quantized Scores in Peer Review"
+    },
+    {
+        "abs": "\n\nMany recent studies have found evidence of status bias in the peer-review process of academic journals. This study sought to investigate whether author metadata is associated with acceptance rates at the International Conference on Learning Representations (ICLR). The study used a corpus of ICLR submissions between 2017 and 2022 and found that author metadata was associated with acceptance rates. The study also found that the association between author metadata and acceptance rates was moderated by the type of submission.",
+        "title": "Association between author metadata and acceptance: A feature-rich, matched observational study of a corpus of ICLR submissions between 2017-2022"
+    },
+    {
+        "abs": "\n\nThe information bottleneck method is a way of finding the most relevant information in a data set. It does this by finding a compression of the data that preserves the most information about the original data. The Deep Variational Information Bottleneck is a way of finding this compression using a deep neural network. This paper presents a method for training this network so that it can find the compression that preserves the most information about the data.",
+        "title": "Deep Variational Information Bottleneck"
+    },
+    {
+        "abs": "\n\nAttention networks have been shown to be an effective approach for embedding categorical inference within a neural network. In this paper, we propose a novel attention network, the structured attention network (SAN), which is designed to better capture the structure of the data. The SAN consists of a series of interconnected layers, each of which is responsible for a different task. The SAN is trained using a new algorithm, the structure-aware training algorithm (SATA), which is designed to take advantage of the structure of the SAN. The SATA is based on the idea of reinforcement learning, and is able to learn the optimal way to train the SAN. We evaluate the SAN on a number of tasks, including image classification, text classification, and machine translation. The results show that the SAN outperforms the state-of-the-art on all tasks.",
+        "title": "Structured Attention Networks"
+    },
+    {
+        "abs": "\n\nWe propose to use an ensemble of diverse specialists to improve robustness to adversarial examples. Specialists are defined as models that are trained to be robust to a specific type of adversarial example. Ensembling specialists can improve robustness to a wide range of adversarial examples.",
+        "title": "Robustness to Adversarial Examples through an Ensemble of Specialists"
+    },
+    {
+        "abs": "\n\nIn this paper, we present Neural Phrase-based Machine Translation (NPMT). Our method explicitly models the syntactic and semantic dependencies between source and target phrases, and uses a neural network to learn these dependencies. We evaluate our method on two standard machine translation tasks, and show that it outperforms the state-of-the-art phrase-based and neural machine translation systems.",
+        "title": "Towards Neural Phrase-based Machine Translation"
+    },
+    {
+        "abs": "\n\nWe present LR-GAN, an adversarial image generation model which takes scene structure and context into account. LR-GAN is a recursive generative adversarial network which uses a layered approach to generate images. The model is trained on a dataset of images and can generate new images based on the scene structure and context.",
+        "title": "LR-GAN: Layered Recursive Generative Adversarial Networks for Image Generation"
+    },
+    {
+        "abs": "\n\nIntrinsic motivation and automatic curricula can be used to learn about an environment and improve performance. This simple scheme allows an agent to automatically learn a curriculum that is tailored to its own strengths and weaknesses. The agent can then use this curriculum to improve its performance in the environment.",
+        "title": "Intrinsic Motivation and Automatic Curricula via Asymmetric Self-Play"
+    },
+    {
+        "abs": "\n\nMaximum entropy modeling is a flexible and popular framework for formulating statistical models given partial information. In this paper, we extend this framework to the case of flow networks, where the goal is to find the maximum entropy flow that satisfies certain constraints. We formulate the maximum entropy flow problem as a convex optimization problem, and show that it can be solved efficiently using standard techniques. We also show how to incorporate additional constraints into the optimization problem, and demonstrate the effectiveness of the maximum entropy approach on a variety of real-world data sets.",
+        "title": "Maximum Entropy Flow Networks"
+    },
+    {
+        "abs": "\n\nWith machine learning successfully applied to new daunting problems almost every day, general AI starts to become a reality. However, there are still many challenges to overcome before AI can be truly useful. In this paper, we evaluate the first steps towards a useful general AI, focusing on the ability to learn and communicate. We find that while current AI systems are good at learning, they still have difficulty communicating their knowledge. This limits their ability to collaborate with humans and solve problems together. We conclude that more work is needed to improve AI communication, but that the current state of AI is promising.",
+        "title": "CommAI: Evaluating the first steps towards a useful general AI"
+    },
+    {
+        "abs": "\n\nNeural networks that compute over graph structures are a natural fit for problems in artificial intelligence and machine learning. In this paper, we explore the use of dynamic computation graphs for deep learning. We describe a method for training neural networks using dynamic computation graphs, and demonstrate its effectiveness on a variety of tasks.",
+        "title": "Deep Learning with Dynamic Computation Graphs"
+    },
+    {
+        "abs": "\n\nAlthough deep learning models have proven effective at solving problems in natural language processing, the models are often opaque, making it difficult to understand how the models arrive at their predictions. In this paper, we propose a method for automatically extracting rules from long short-term memory networks, which are a type of recurrent neural network. Our method is based on a technique called symbolic perturbation, which involves perturbing the input to the network and observing the changes in the output. We apply our method to two tasks: part-of-speech tagging and named entity recognition. Our results show that our method can effectively extract rules from long short-term memory networks, and that the extracted rules are consistent with the predictions made by the network.",
+        "title": "Automatic Rule Extraction from Long Short Term Memory Networks"
+    },
+    {
+        "abs": "\n\nStochastic neural networks are a powerful tool for hierarchical reinforcement learning. In this paper, we show how they can be used to learn complex tasks with sparse rewards. We demonstrate that our method can learn to solve a variety of tasks, including those with long-term dependencies, without the need for extensive manual tuning.",
+        "title": "Stochastic Neural Networks for Hierarchical Reinforcement Learning"
+    },
+    {
+        "abs": "\n\nDeep generative models have achieved impressive success in recent years. Generative Adversarial Networks (GANs) and Variational Autoencoders (VAEs) are two popular classes of deep generative models. In this paper, we unify these two classes of models by showing that GANs can be viewed as a special case of VAEs. We also show that the recently proposed Wasserstein GANs (WGANs) can be viewed as a special case of the variational autoencoder with a Wasserstein objective.",
+        "title": "On Unifying Deep Generative Models"
+    },
+    {
+        "abs": "\n\nWe propose ODIN, a method for enhancing the reliability of out-of-distribution image detection in neural networks. ODIN is based on the observation that the output of a neural network is often very sensitive to small changes in the input. This makes it possible to detect out-of-distribution images by looking for inputs that produce large changes in the output. ODIN uses a modified version of the cross-entropy loss that encourages the output of the network to be insensitive to small changes in the input. We evaluate ODIN on several out-of-distribution detection benchmarks, and find that it outperforms the state of the art.",
+        "title": "Enhancing The Reliability of Out-of-distribution Image Detection in Neural Networks"
+    },
+    {
+        "abs": "\n\nA framework is presented for unsupervised learning of representations based on the infomax principle for large-scale neural population data. The framework is shown to be robust to noise and outliers, and to be able to learn representations in a fast and efficient manner.",
+        "title": "An Information-Theoretic Framework for Fast and Robust Unsupervised Learning via Neural Population Infomax"
+    },
+    {
+        "abs": "\n\nRNNs are a type of neural network that are well-suited for modeling sequential data. However, training RNNs can be difficult, due to the need to update the network state at each timestep. Skip RNN is a new approach that allows the network to skip some state updates, which can speed up training and improve performance.",
+        "title": "Skip RNN: Learning to Skip State Updates in Recurrent Neural Networks"
+    },
+    {
+        "abs": "\n\nSGDR is a restart technique for gradient-free optimization that deals with multimodal functions. It is a partial warm restart that allows the optimization to continue from the point where it left off, without having to start from scratch. This can be useful for dealing with functions that have multiple local minima, as it can help the optimization to escape from local minima and find the global minimum.",
+        "title": "SGDR: Stochastic Gradient Descent with Warm Restarts"
+    },
+    {
+        "abs": "\n\nPolicy gradient methods have been shown to be effective in solving challenging reinforcement learning problems. However, they can be improved by using action-dependent control variates. This paper presents a method for using action-dependent control variates to improve policy gradient methods. The method is based on Stein's identity, which states that the gradient of a function can be expressed as a sum of the gradient of the function with respect to the control variate and the gradient of the control variate with respect to the function. This paper provides a theoretical analysis of the method and shows that it can improve the performance of policy gradient methods.",
+        "title": "Action-depedent Control Variates for Policy Optimization via Stein's Identity"
+    },
+    {
+        "abs": "\n\nSkip connections are a type of neural network architecture that allows for the training of very deep networks. By bypassing layers of the network, skip connections eliminate the need for training data to be propagated through the entire network, which can lead to training singularities.",
+        "title": "Skip Connections Eliminate Singularities"
+    },
+    {
+        "abs": "\n\nWe have tried to reproduce the results of the paper \"Natural Language Inference over Interaction Space\" published at ICLR 2018. The paper presents a method for natural language inference that uses an interaction space to represent the meaning of a sentence. We were able to reproduce the results of the paper with a few minor modifications.",
+        "title": "Natural Language Inference over Interaction Space: ICLR 2018 Reproducibility Report"
+    },
+    {
+        "abs": "\n\nThe \"Learn to Pay Attention\" model of attention mechanism in convolutional neural networks has been successfully implemented. This model allows the network to focus on relevant information while ignoring irrelevant information. The results show that this model improves the performance of the network and reduces the amount of training data required.",
+        "title": "Reproduction Report on \"Learn to Pay Attention\""
+    },
+    {
+        "abs": "\n\nSufiSent is a system for computing universal sentence representations using suffix encodings. It is designed to be efficient and scalable, and to produce high-quality representations.",
+        "title": "SufiSent - Universal Sentence Representations Using Suffix Encodings"
+    },
+    {
+        "abs": "\n\nIn many neural models, new features as polynomial functions of existing ones are used to improve the model's performance. However, it is not clear how to choose the optimal degree of the polynomials. In this paper, we study the problem of choosing the optimal degree of polynomials for representation matching. We show that the optimal degree depends on the number of training examples and the dimensionality of the input space.",
+        "title": "On the scaling of polynomial features for representation matching"
+    },
+    {
+        "abs": "\n\nWe present a generalization bound for feedforward neural networks in terms of the product of the spectral norm of the weight matrix and the margin of the data. This bound is a PAC-Bayesian version of the well-known margin bound, and can be used to derive tight generalization bounds for a wide range of neural network architectures.",
+        "title": "A PAC-Bayesian Approach to Spectrally-Normalized Margin Bounds for Neural Networks"
+    },
+    {
+        "abs": "\n\nIn this work, we investigate the Batch Normalization technique and propose its probabilistic interpretation. We propose a method for estimating the uncertainty of a neural network by using stochastic Batch Normalization. Our method is based on the fact that Batch Normalization can be seen as a form of Bayesian inference. We show that our method can be used to estimate the uncertainty of a neural network and that it can be used to improve the performance of a neural network on a variety of tasks.",
+        "title": "Uncertainty Estimation via Stochastic Batch Normalization"
+    },
+    {
+        "abs": "\n\nI-RevNet is a deep invertible network that is believed to be successful due to its progressive structure. This network is able to invert images, making it an ideal tool for image processing and computer vision tasks.",
+        "title": "i-RevNet: Deep Invertible Networks"
+    },
+    {
+        "abs": "\n\nIn this paper, we adopt the Deep Copula Information Bottleneck (DCIB) to learn sparse latent representations. DCIB is a powerful tool for representation learning that can be used to learn latent representations that are both sparse and informative. We demonstrate the efficacy of our approach on a variety of data sets and show that our approach outperforms existing methods for learning sparse latent representations.",
+        "title": "Learning Sparse Latent Representations with the Deep Copula Information Bottleneck"
+    },
+    {
+        "abs": "\n\nWe introduce a variant of the MAC model (Hudson and Manning, ICLR 2018) with a transfer learning approach. Our model is trained on a large dataset and then fine-tuned on a smaller dataset. We show that our model outperforms the MAC model on the smaller dataset.",
+        "title": "On transfer learning using a MAC model variant"
+    },
+    {
+        "abs": "\n\nACT is a neural network architecture that is promising for its ability to adapt its computation time to the needs of the problem at hand. This paper compares the performance of ACT with that of a traditional recurrent neural network (RNN) with fixed computation time. The results show that ACT is able to outperform the RNN on a variety of tasks, including those that are difficult for the RNN.",
+        "title": "Comparing Fixed and Adaptive Computation Time for Recurrent Neural Networks"
+    },
+    {
+        "abs": "\n\nThis paper presents a GAN-based anomaly detection method that is able to model complex high-dimensional distributions of real-world data. The proposed method is based on the idea that the generator of a GAN can be used to generate normal data, while the discriminator can be used to identify anomalies. The method is evaluated on two real-world datasets, and the results show that it is able to achieve good performance.",
+        "title": "Efficient GAN-Based Anomaly Detection"
+    },
+    {
+        "abs": "\n\nThe Natural Language Inference (NLI) task requires an agent to determine the logical relationship between a premise and a hypothesis. In this paper, we propose a method for NLI that uses an interaction space to represent the premise and hypothesis. Our method is based on the idea that the relationship between the premise and hypothesis can be represented as a sequence of interactions between the two. We train a recurrent neural network to learn a mapping from the interaction space to the label space, and we show that our method outperforms previous methods on the SNLI and MultiNLI datasets.",
+        "title": "Natural Language Inference over Interaction Space"
+    },
+    {
+        "abs": "\n\nThe ability to deploy neural networks in real-world, safety-critical systems is severely limited by the fact that they are vulnerable to adversarial examples. Adversarial examples are inputs to a neural network that have been deliberately modified to cause the network to make an incorrect prediction. In this paper, we present a method for constructing provably minimally-distorted adversarial examples. This method is based on a new theoretical result that we prove in this paper. This result allows us to generate adversarial examples that are guaranteed to be close to the original input, in terms of the L2 norm. This is in contrast to previous methods, which can only generate adversarial examples that are close to the original input in terms of the L1 norm. We evaluate our method on the MNIST and CIFAR-10 datasets, and show that it can generate adversarial examples that are significantly closer to the original inputs than those generated by previous methods.",
+        "title": "Provably Minimally-Distorted Adversarial Examples"
+    },
+    {
+        "abs": "\n\nDNNs are able to learn complex patterns in data and make predictions based on those patterns. Hierarchical interpretations for neural network predictions can help to understand how the DNN has learned to make predictions, and can also help to improve the accuracy of predictions.",
+        "title": "Hierarchical interpretations for neural network predictions"
+    },
+    {
+        "abs": "\n\nIn this work, we address the problem of musical timbre transfer, where the goal is to transfer the timbre of one musical instrument to another. We propose a pipeline that uses a WaveNet to generate a spectrogram of the target instrument, a CycleGAN to transfer the timbre of the source instrument to the target instrument, and a CQT to reconstruct the audio. We evaluate our pipeline on a dataset of piano and flute recordings and show that it can successfully transfer the timbre of the source instrument to the target instrument.",
+        "title": "TimbreTron: A WaveNet(CycleGAN(CQT(Audio))) Pipeline for Musical Timbre Transfer"
+    },
+    {
+        "abs": "\n\nWe consider the task of word-level language modeling and study the possibility of combining hidden-states-based, recurrent neural networks with meta-learning. Our approach is motivated by the observation that many natural language tasks can be viewed as instances of a more general task of learning to map from a sequence of input symbols to a sequence of output symbols. We show that our approach can be used to learn a language model that is competitive with the state-of-the-art on a standard benchmark dataset.",
+        "title": "Meta-Learning a Dynamical Language Model"
+    },
+    {
+        "abs": "\n\nThis paper revisits the problem of manifold regularization with GANs. GANs are powerful generative models that are able to model the manifold of natural images. However, the authors show that the standard GAN objective is not well suited for manifold regularization. They propose a new objective function that is more effective at regularizing the manifold and show that it can be used to improve the performance of semi-supervised learning.",
+        "title": "Semi-Supervised Learning with GANs: Revisiting Manifold Regularization"
+    },
+    {
+        "abs": "\n\nWe identify a class of over-parameterized deep neural networks with standard activation functions and cross-entropy that have no bad local minima in their loss landscape. This class of networks is shown to be robust to over-fitting and can be trained to generalize well.",
+        "title": "On the loss landscape of a class of deep neural networks with no bad local valleys"
+    },
+    {
+        "abs": "\n\nVQA models have struggled with counting objects in natural images so far. In this paper, the authors propose a method for learning to count objects in natural images for visual question answering. The method is based on a convolutional neural network (CNN) that is trained to count objects in images. The CNN is then used to answer questions about the number of objects in an image. The authors evaluate the method on the Visual Question Answering dataset and find that it outperforms existing methods for counting objects in images.",
+        "title": "Learning to Count Objects in Natural Images for Visual Question Answering"
+    },
+    {
+        "abs": "\n\nOne of the challenges in the study of generative adversarial networks is the instability of the training process. This paper proposes a method to stabilize the training process by normalizing the spectral norm of the generator. The proposed method is evaluated on the MNIST and CIFAR-10 datasets. The results show that the proposed method can stabilize the training process and improve the quality of the generated images.",
+        "title": "Spectral Normalization for Generative Adversarial Networks"
+    },
+    {
+        "abs": "\n\nEmbedding graph nodes into a vector space can allow the use of machine learning to better understand the structure of the graph. In this paper, we investigate the use of node centralities as a means of characterizing different node embedding algorithms. We find that node centralities can be used to distinguish between different algorithms and that they can be used to predict the performance of algorithms on various tasks.",
+        "title": "Node Centralities and Classification Performance for Characterizing Node Embedding Algorithms"
+    },
+    {
+        "abs": "\n\nWe introduce a new dataset of logical entailments for the purpose of measuring models' ability to understand logical entailment. The dataset consists of pairs of sentences, where the first sentence entails the second. We use this dataset to train a neural network model, and find that the model can learn to accurately predict entailment.",
+        "title": "Can Neural Networks Understand Logical Entailment?"
+    },
+    {
+        "abs": "\n\nThe Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks\n\nNeural network pruning techniques can reduce the parameter count of trained networks by over 90%. However, these techniques typically require a large amount of computational resources and are often applied to networks that have already been trained. The lottery ticket hypothesis suggests that it is possible to find sparse, trainable neural networks before training begins. This would allow for the application of neural network pruning techniques with less computational overhead. In this paper, we investigate the lottery ticket hypothesis and show that it is possible to find sparse, trainable neural networks. We also show that the lottery ticket hypothesis can be used to improve the performance of neural network pruning techniques.",
+        "title": "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks"
+    },
+    {
+        "abs": "\n\nWe characterize the singular values of the linear transformation associated with a standard 2D multi-channel convolutional layer. We show that the largest singular value is determined by the number of channels, while the smaller singular values are determined by the kernel size. This result provides insight into the behavior of convolutional layers and may be useful for designing new architectures.",
+        "title": "The Singular Values of Convolutional Layers"
+    },
+    {
+        "abs": "\n\nThis paper provides a theoretical framework for understanding the properties of deep locally connected ReLU networks. The authors show that these networks are capable of learning a wide range of functions, including deep convolutional neural networks. Furthermore, the authors demonstrate that the networks can be trained using a variety of methods, including backpropagation.",
+        "title": "A theoretical framework for deep locally connected ReLU network"
+    },
+    {
+        "abs": "\n\nWe present Neural Program Search, an algorithm to generate programs from natural language descriptions. This algorithm is based on a neural network that is trained to map descriptions to programs. We show that this algorithm can generate programs that solve various programming tasks from description and examples.",
+        "title": "Neural Program Search: Solving Programming Tasks from Description and Examples"
+    },
+    {
+        "abs": "\n\nMost state-of-the-art neural machine translation systems are based on different architectural skeletons (e.g. recurrence, convolutional), but they all share the same fundamental principle: the attention mechanism. The attention mechanism allows the model to focus on the most relevant parts of the input when translating, and has been shown to be crucial for the success of neural machine translation. In this paper, we propose a new attention mechanism, called phrase-based attention, which is specifically designed to handle long input sequences. Our experiments on two large-scale machine translation datasets show that the proposed attention mechanism outperforms the standard attention mechanism by a significant margin.",
+        "title": "Phrase-Based Attentions"
+    },
+    {
+        "abs": "\n\nWe introduce the problem of learning distributed representations of edits. By combining a \"neural editor\" with a recurrent neural network, we are able to learn a distributed representation of an edit that can be applied to a text. This allows us to learn a representation of an edit that can be applied to a text, without having to explicitly represent the edit.",
+        "title": "Learning to Represent Edits"
+    },
+    {
+        "abs": "\n\nWe propose a principled method for kernel learning, which relies on a Fourier-analytic characterization of the kernels. The method is based on a kernel function that is learned from data, and is shown to be effective in a number of applications.",
+        "title": "Not-So-Random Features"
+    },
+    {
+        "abs": "\n\nThis paper develops variational continual learning (VCL), a simple but general framework for continual learning. VCL is based on the idea of using a variational bound on the change in the training data distribution to control the change in the learned model. VCL can be used to control the trade-off between forgetting old tasks and learning new tasks, and can be applied to a variety of continual learning scenarios.",
+        "title": "Variational Continual Learning"
+    },
+    {
+        "abs": "\n\nThis report investigates the reproducibility of On the regularization of Wasserstein GANs, a paper which proposed a method for regularizing the training of Wasserstein GANs. Our report finds that the paper is generally reproducible, though there are some areas where the results are not exactly replicated.",
+        "title": "On reproduction of On the regularization of Wasserstein GANs"
+    },
+    {
+        "abs": "\n\nIn this paper, we propose a new feature extraction technique for program execution logs. First, we extract semantic embeddings from the logs using a neural network. We then use these embeddings to train a classifier that can identify different behavior patterns in the programs.",
+        "title": "Semantic embeddings for program behavior patterns"
+    },
+    {
+        "abs": "\n\nWe propose a single neural probabilistic model based on variational autoencoder that can be conditioned. This model can be used to generate new data samples with specific properties, such as specific labels or tags.",
+        "title": "Variational Autoencoder with Arbitrary Conditioning"
+    },
+    {
+        "abs": "\n\nVariational autoencoders (VAEs) are a type of generative model that can be used to learn latent representations of data. In a hierarchical VAE, the latent variables are organized into a hierarchy, which can be used to trade information between the latents. This can be used to improve the quality of the learned latent representations.",
+        "title": "Trading Information between Latents in Hierarchical Variational Autoencoders"
+    },
+    {
+        "abs": "\n\nThis paper studies the robustness of deep neural networks with respect to adversarial examples. In particular, it investigates the limitation of local intrinsic dimensionality for characterizing the subspaces of adversarial examples. The paper shows that, despite the fact that local intrinsic dimensionality is a useful tool for characterizing the subspaces of adversarial examples, it is not sufficient for characterizing the entire space of adversarial examples.",
+        "title": "On the Limitation of Local Intrinsic Dimensionality for Characterizing the Subspaces of Adversarial Examples"
+    },
+    {
+        "abs": "\n\nA variational inequality perspective on generative adversarial networks is proposed. The objective is to find a Nash equilibrium in a min-max game, where the generator tries to fool the discriminator by generating samples from the data distribution, and the discriminator tries to classify the samples correctly. The variational inequality perspective provides a new way to understand and analyze the behavior of GANs.",
+        "title": "A Variational Inequality Perspective on Generative Adversarial Networks"
+    },
+    {
+        "abs": "\n\nGraph neural networks (GNNs) are a powerful tool for semi-supervised classification, but they are limited by their need for labeled data. Personalized PageRank (PPR) is a technique that can be used to propagate labels through a graph without the need for labeled data, making it a potential complement to GNNs. In this paper, we propose a method that combines GNNs and PPR to improve semi-supervised classification on graphs. Our method, which we call Predict then Propagate, first uses GNNs to predict labels for unlabeled nodes, and then uses PPR to propagate those labels through the graph. We evaluate our method on several real-world datasets, and find that it outperforms state-of-the-art methods for semi-supervised classification on graphs.",
+        "title": "Predict then Propagate: Graph Neural Networks meet Personalized PageRank"
+    },
+    {
+        "abs": "\n\nWe identify obfuscated gradients, a kind of gradient masking, as a phenomenon that leads to a false sense of security when training machine learning models. We show how to circumvent defenses to adversarial examples that are based on obfuscated gradients.",
+        "title": "Obfuscated Gradients Give a False Sense of Security: Circumventing Defenses to Adversarial Examples"
+    },
+    {
+        "abs": "\n\nThis paper proposes a method for unsupervised inductive learning of node representations in a graph, based on ranking. The proposed method, Deep Gaussian Embedding of Graphs (DGE), is a generalization of the Deep Graph Embedding (DGE) method proposed in [1]. DGE is a neural network-based method that learns node representations by maximizing the likelihood of observing the graph structure. The DGE method is extended to the case of multiple graphs, by ranking the graphs according to their likelihood. The DGE method is then applied to the problem of link prediction in multiplex networks. The results show that the proposed method outperforms state-of-the-art methods for link prediction in multiplex networks.",
+        "title": "Deep Gaussian Embedding of Graphs: Unsupervised Inductive Learning via Ranking"
+    },
+    {
+        "abs": "\n\nCNNs are a type of neural network that are used to learn patterns in data. They have been shown to be effective in many different tasks, including image recognition and classification. In this paper, we explore the use of CNNs for learning 3D data. We show that CNNs can be used to learn features from 3D data, and that they can be used to improve the performance of 3D object recognition.",
+        "title": "Spherical CNNs"
+    },
+    {
+        "abs": "\n\nThis paper shows how one can directly apply natural language processing (NLP) methods to classification. NLP is a field of computer science and artificial intelligence concerned with the interactions between computers and human (natural) languages, and the goal of this paper is to show how NLP methods can be used for classification. The paper discusses the use of various NLP methods, including tokenization, part-of-speech tagging, and parsing, and shows how these methods can be used to improve the accuracy of classification.",
+        "title": "Learning to SMILE(S)"
+    },
+    {
+        "abs": "\n\nThe inclusion of Computer Vision and Deep Learning technologies in Agriculture aims to increase the efficiency of Agricultural production by automating various tasks such as crop monitoring, yield estimation, and pest detection. In this paper, we propose a Deep Learning based object detection system for Apple Defect Detection. The system is trained on a dataset of over 200,000 images of apples with various defects. The system is able to achieve a high accuracy of over 95% in detecting various types of defects in apples. This system can be used for automated inspection of apples post-harvest, which can help in reducing the amount of wastage and increasing the efficiency of the Agricultural production process.",
+        "title": "Apple Defect Detection Using Deep Learning Based Object Detection For Better Post Harvest Handling"
+    },
+    {
+        "abs": "\n\nWe present two simple ways to reduce the number of parameters and accelerate the training of LSTM networks. The first is to use a low-rank factorization of the weight matrices. The second is to use a Kronecker product structure. We show that both of these methods can be used to significantly reduce the number of parameters without sacrificing performance.",
+        "title": "Factorization tricks for LSTM networks"
+    },
+    {
+        "abs": "\n\nThis paper explores the use of convolutional neural networks (ConvNets) for fast reading comprehension. ConvNets are a type of neural network that is well-suited for processing data in a grid-like fashion, making them well-suited for processing text data. The paper reports state-of-the-art results on a number of reading comprehension tasks, showing that ConvNets can be used to build effective reading comprehension models.",
+        "title": "Fast Reading Comprehension with ConvNets"
+    },
+    {
+        "abs": "\n\nIn this work, we analyze the reinstatement mechanism introduced by Ritter et al. (2018) to improve sample efficiency in episodic meta-RL. We find that the mechanism is effective in reducing the number of episodes needed to learn a new task, but that it is also associated with a significant increase in the number of abstract and episodic neurons.",
+        "title": "The Emergence of Abstract and Episodic Neurons in Episodic Meta-RL"
+    },
+    {
+        "abs": "\n\nThe rate-distortion-perception function (RDPF) is a useful tool for characterizing the trade-off between rate and distortion in perceptual systems. In this paper, we prove a coding theorem for the RDPF, which states that the RDPF is achievable for any given rate-distortion-perception trade-off. This result provides a theoretical foundation for the use of the RDPF in characterizing the performance of perceptual systems.",
+        "title": "A coding theorem for the rate-distortion-perception function"
+    },
+    {
+        "abs": "\n\nIn this paper, we present Neural Phrase-based Machine Translation (NPMT). Our method explicitly models the syntactic and semantic dependencies between source and target phrases, and uses a neural network to learn these dependencies. We evaluate our method on two standard machine translation tasks, and show that it outperforms the state-of-the-art phrase-based and neural machine translation systems.",
+        "title": "Towards Neural Phrase-based Machine Translation"
+    },
+    {
+        "abs": "\n\nIt is now well-known that small adversarial perturbations can induce classification errors in deep neural networks. In this paper, we propose a method for combating such attacks using sparse representations. Our method is based on the observation that adversarial examples tend to lie on low-dimensional manifolds. By representing these examples using a sparse set of basis vectors, we can effectively reduce the dimensionality of the problem, making it more difficult for an attacker to find a successful perturbation. We evaluate our method on a variety of standard image classification datasets and show that it can significantly improve the robustness of deep neural networks to adversarial attacks.",
+        "title": "Combating Adversarial Attacks Using Sparse Representations"
+    },
+    {
+        "abs": "\n\nWe propose a new sample-efficient methodology, called Supervised Policy Update (SPU), for deep reinforcement learning. SPU is an off-policy algorithm that can be used with any reinforcement learning agent. SPU uses a supervised learning approach to update the agent's policy. This allows SPU to learn from data more efficiently than traditional reinforcement learning methods.",
+        "title": "Supervised Policy Update for Deep Reinforcement Learning"
+    },
+    {
+        "abs": "\n\nWe present a parameterized synthetic dataset called Moving Symbols to support the objective study of video prediction models. The dataset consists of sequences of simple moving symbols, with the goal being to predict the future trajectory of the symbols. The dataset is designed to be challenging for current video prediction models, and to allow for a systematic evaluation of the representations learned by these models.",
+        "title": "A Dataset To Evaluate The Representations Learned By Video Prediction Models"
+    },
+    {
+        "abs": "\n\nThis work is a part of ICLR Reproducibility Challenge 2019, we try to reproduce the work of Padam: Closing The Generalization Gap Of Adaptive Gradient Methods in Training Deep Neural Networks. We find that the original work is not reproducible.",
+        "title": "ICLR Reproducibility Challenge Report (Padam : Closing The Generalization Gap Of Adaptive Gradient Methods in Training Deep Neural Networks)"
+    },
+    {
+        "abs": "\n\nWe present a large-scale empirical study of catastrophic forgetting (CF) in modern Deep Neural Networks (DNNs). Our study is based on a new benchmark dataset of 100,000 images from 10 different classes. We find that CF is a serious problem for DNNs: even with careful training, DNNs forget previously learned knowledge and performance degrades rapidly on old tasks. We also find that current methods for mitigating CF are ineffective. Finally, we propose a new method for mitigating CF, which we call \"knowledge distillation\". Our method is based on the idea of transferring knowledge from a \"teacher\" DNN to a \"student\" DNN. We show that our method can effectively mitigate CF and improve DNN performance on old tasks.",
+        "title": "A comprehensive, application-oriented study of catastrophic forgetting in DNNs"
+    },
+    {
+        "abs": "\n\nDeep learning models for graphs have advanced the state of the art on many tasks. However, these models are vulnerable to adversarial attacks, which can fool the models into making incorrect predictions. In this paper, we propose a meta-learning approach to adversarial attacks on graph neural networks. Our approach is based on learning a model that can generate adversarial examples for any given graph neural network. We evaluate our approach on a number of graph classification tasks and show that it can fool graph neural networks with high success rates.",
+        "title": "Adversarial Attacks on Graph Neural Networks via Meta Learning"
+    },
+    {
+        "abs": "\n\nMulti-domain learning (MDL) aims at obtaining a model with minimal average risk across multiple domains. In this paper, we propose a multi-domain adversarial learning approach to MDL, which minimizes the domain discrepancy by aligning the distributions of multiple domains in an adversarial manner. We theoretically and empirically show that the proposed approach can improve the generalization performance of the learned model.",
+        "title": "Multi-Domain Adversarial Learning"
+    },
+    {
+        "abs": "\n\nWe propose a neural network for unsupervised anomaly detection with a novel robust subspace recovery layer. The proposed layer is designed to recover the underlying subspace of the data in the presence of outliers. We demonstrate the efficacy of the proposed layer on two benchmark datasets. Our results show that the proposed layer outperforms the state-of-the-art methods for unsupervised anomaly detection.",
+        "title": "Robust Subspace Recovery Layer for Unsupervised Anomaly Detection"
+    },
+    {
+        "abs": "\n\nDNNs are able to learn complex patterns in data and make predictions based on those patterns. Hierarchical interpretations for neural network predictions can help to understand how the DNN has learned to make predictions, and can also help to improve the accuracy of predictions.",
+        "title": "Hierarchical interpretations for neural network predictions"
+    },
+    {
+        "abs": "\n\nIn this work, we address the problem of musical timbre transfer, where the goal is to transfer the timbre of one musical instrument to another. We propose a pipeline that uses a WaveNet to generate a spectrogram of the target instrument, a CycleGAN to transfer the timbre of the source instrument to the target instrument, and a CQT to reconstruct the audio. We evaluate our pipeline on a dataset of piano and flute recordings and show that it can successfully transfer the timbre of the source instrument to the target instrument.",
+        "title": "TimbreTron: A WaveNet(CycleGAN(CQT(Audio))) Pipeline for Musical Timbre Transfer"
+    },
+    {
+        "abs": "\n\nWe propose a novel node embedding of directed graphs to statistical manifolds, which is based on the idea of mapping nodes to points on a low-dimensional manifold while preserving the graph's structure. This embedding can be used to visualize the graph's structure and to perform statistical analysis on the graph.",
+        "title": "Low-dimensional statistical manifold embedding of directed graphs"
+    },
+    {
+        "abs": "\n\nThe ability of animals to learn and remember new information throughout their lives is largely due to the plasticity of their synapses, which allows them to change in response to experience. Backpropamine is a technique for training self-modifying neural networks that uses differentiable neuromodulated plasticity to enable them to learn and remember new information over the course of their lifetime.",
+        "title": "Backpropamine: training self-modifying neural networks with differentiable neuromodulated plasticity"
+    },
+    {
+        "abs": "\n\nMixed-curvature variational autoencoders (MC-VAEs) are a type of VAE that can learn data with mixed curvature, i.e. data that is not purely Euclidean. MC-VAEs are able to learn data with mixed curvature by using a mixture of Euclidean and non-Euclidean components in the latent space. This allows for more accurate representation of data with mixed curvature, which can lead to better performance on downstream tasks.",
+        "title": "Mixed-curvature Variational Autoencoders"
+    },
+    {
+        "abs": "\n\nWe explore various methods for computing sentence representations from pre-trained word embeddings without any training. We compare these methods on a sentence classification task and find that a simple average of word embeddings performs surprisingly well.",
+        "title": "No Training Required: Exploring Random Encoders for Sentence Classification"
+    },
+    {
+        "abs": "\n\nGenerative Adversarial Networks (GANs) are one of the most popular tools for learning complex high-dimensional distributions. However, GANs are often criticized for their lack of stability and generalizability. In this paper, we propose two methods for improving the stability and generalizability of GANs. First, we show that a simple modification to the GAN objective can lead to more stable training and better generalization. Second, we propose a method for training GANs with limited data that can improve both stability and generalization. Our experiments show that our methods can significantly improve the performance of GANs on a variety of tasks.",
+        "title": "Improving Generalization and Stability of Generative Adversarial Networks"
+    },
+    {
+        "abs": "\n\nIn this paper, we propose to perform model ensembling in a multiclass or multilabel setting using the Wasserstein barycenter. We show that this approach can improve the accuracy of the ensemble by accounting for the diversity of the models in the ensemble.",
+        "title": "Wasserstein Barycenter Model Ensembling"
+    },
+    {
+        "abs": "\n\nWe present a method that learns to integrate temporal information, from a learned dynamics model, to predict multi-agent interactions from partial observations.",
+        "title": "Stochastic Prediction of Multi-Agent Interactions from Partial Observations"
+    },
+    {
+        "abs": "\n\nNeural networks are over-parametrized, meaning that each rectified linear hidden unit can be modified. This paper explores the idea of equi-normalization, which is a method of normalizing neural networks so that they are more efficient and effective. This paper discusses the benefits of equi-normalization and how it can be used to improve neural networks.",
+        "title": "Equi-normalization of Neural Networks"
+    },
+    {
+        "abs": "\n\nDeepSphere is a graph-based spherical CNN that is equivariant to rotations. It is designed to learn features on the sphere that are invariant to rotations.",
+        "title": "DeepSphere: towards an equivariant graph-based spherical CNN"
+    },
+    {
+        "abs": "\n\nWe present graph wavelet neural network (GWNN), a novel graph convolutional neural network (CNN), leveraging graph wavelet transform to extract multiscale features for node classification. GWNN can be trained end-to-end and is scalable to large graphs. We evaluate GWNN on several node classification tasks and demonstrate its effectiveness.",
+        "title": "Graph Wavelet Neural Network"
+    },
+    {
+        "abs": "\n\nWe propose a single neural probabilistic model based on variational autoencoder that can be conditioned. This model can be used to generate new data samples with specific properties, such as specific labels or tags.",
+        "title": "Variational Autoencoder with Arbitrary Conditioning"
+    },
+    {
+        "abs": "\n\nThe paper presents the Perceptor Gradients algorithm, a novel approach to learning symbolic representations based on gradient descent. The algorithm is designed to learn from data with a limited amount of supervision, and is shown to be effective in a variety of tasks including object recognition and language understanding.",
+        "title": "Learning Programmatically Structured Representations with Perceptor Gradients"
+    },
+    {
+        "abs": "\n\nWe study the robustness to symmetric label noise of GNN training procedures. By combining the GNN framework with a robust loss function, we are able to train GNNs that are robust to label noise. Our method outperforms existing methods for training GNNs with noisy labels.",
+        "title": "Learning Graph Neural Networks with Noisy Labels"
+    },
+    {
+        "abs": "\n\nThere has been recent interest in using graph neural networks (GNNs) to infer types in JavaScript programs. This paper presents a GNN-based approach to type inference and evaluates its performance on a large dataset. The results show that the GNN-based approach outperforms existing methods, and that it is able to accurately infer types in a variety of JavaScript programs.",
+        "title": "Inferring Javascript types using Graph Neural Networks"
+    },
+    {
+        "abs": "\n\nIn this paper, we consider self-supervised representation learning to improve sample efficiency in reinforcement learning. We propose a method for learning dynamics-aware embeddings, which can be used to improve the sample efficiency of reinforcement learning algorithms. We evaluate our method on a number of benchmark tasks and show that it can significantly improve the sample efficiency of reinforcement learning algorithms.",
+        "title": "Dynamics-aware Embeddings"
+    },
+    {
+        "abs": "\n\nIn this paper, we study the problem of learning permutation invariant representations that can capture \"flexible\" notions of similarity between data points. We propose a new method for learning such representations, which is based on the use of multisets. Our method is able to learn representations that are invariant to both permutations and changes in the order of the elements in the data points. We evaluate our method on several benchmark datasets, and show that it outperforms existing methods for learning permutation invariant representations.",
+        "title": "Representation Learning with Multisets"
+    },
+    {
+        "abs": "\n\nOneway to interpret trained deep neural networks (DNNs) is by inspecting characteristics that neurons in the network have learned. This paper presents a method for generating and automatically selecting explanations for DNNs that is based on generative adversarial networks (GANs). The method is able to generate a large number of explanations, from which the best explanation is selected automatically. The selected explanation is then used to generate an interpretation of the DNN. The method is evaluated on a number of benchmark datasets, and the results show that it is able to generate accurate and interpretable explanations of DNNs.",
+        "title": "GAN-based Generation and Automatic Selection of Explanations for Neural Networks"
+    },
+    {
+        "abs": "\n\nWe characterize the singular values of the linear transformation associated with a standard 2D multi-channel convolutional layer. We show that the largest singular value is determined by the number of channels, while the smaller singular values are determined by the kernel size. This result provides insight into the behavior of convolutional layers and may be useful for designing new architectures.",
+        "title": "The Singular Values of Convolutional Layers"
+    },
+    {
+        "abs": "\n\nWe introduce the problem of learning distributed representations of edits. By combining a \"neural editor\" with a recurrent neural network, we are able to learn a distributed representation of an edit that can be applied to a text. This allows us to learn a representation of an edit that can be applied to a text, without having to explicitly represent the edit.",
+        "title": "Learning to Represent Edits"
+    },
+    {
+        "abs": "\n\nWe propose Symplectic Recurrent Neural Networks (SRNNs) as learning algorithms that capture the dynamics of Hamiltonian systems. SRNNs are recurrent neural networks that preserve the symplectic structure of the underlying dynamical system. This structure is important for many physical systems, including those that describe the motion of particles. We show that SRNNs can learn the dynamics of Hamiltonian systems from data, and we demonstrate the efficacy of our approach on several benchmark problems.",
+        "title": "Symplectic Recurrent Neural Networks"
+    },
+    {
+        "abs": "\n\nSpectral embedding is a popular technique for the representation of graph data. Several regularization techniques have been proposed to improve the performance of this technique, but it is often difficult to choose the best method for a given dataset. In this paper, we compare the performance of several regularization methods on a variety of synthetic and real-world datasets. We find that the proposed methods generally improve the performance of spectral embedding, but the best method depends on the properties of the dataset.",
+        "title": "Spectral embedding of regularized block models"
+    },
+    {
+        "abs": "\n\nIn this work, we study locality and compositionality in the context of learning representations for zero-shot learning. We show that a simple model that encodes these properties can be used to learn effective representations for zero-shot learning tasks.",
+        "title": "Locality and compositionality in zero-shot learning"
+    },
+    {
+        "abs": "\n\nWe consider training machine learning models that are fair in the sense that their performance is not significantly degraded when applied to sensitive subgroups of the population. We propose a method for training such models that is robust to small perturbations in the sensitive subspace. Our method is based on a novel algorithm for solving a convex optimization problem that is closely related to the fairness objective. We demonstrate the effectiveness of our method on several real-world datasets.",
+        "title": "Training individually fair ML models with Sensitive Subspace Robustness"
+    },
+    {
+        "abs": "\n\nGraph neural networks (GNNs) are a powerful tool for semi-supervised classification, but they are limited by their need for labeled data. Personalized PageRank (PPR) is a technique that can be used to propagate labels through a graph without the need for labeled data, making it a potential complement to GNNs. In this paper, we propose a method that combines GNNs and PPR to improve semi-supervised classification on graphs. Our method, which we call Predict then Propagate, first uses GNNs to predict labels for unlabeled nodes, and then uses PPR to propagate those labels through the graph. We evaluate our method on several real-world datasets, and find that it outperforms state-of-the-art methods for semi-supervised classification on graphs.",
+        "title": "Predict then Propagate: Graph Neural Networks meet Personalized PageRank"
+    },
+    {
+        "abs": "\n\nDeepRL has been shown to be promising in optimizing policies, however, recent work has shown that regularization is important in achieving good performance. This work investigates the effect of regularization on policy optimization in DeepRL. Results show that regularization can improve the performance of DeepRL in optimizing policies.",
+        "title": "Regularization Matters in Policy Optimization"
+    },
+    {
+        "abs": "\n\nWe identify a class of over-parameterized deep neural networks with standard activation functions and cross-entropy that have no bad local minima in their loss landscape. This class of networks is shown to be robust to over-fitting and can be trained to generalize well.",
+        "title": "On the loss landscape of a class of deep neural networks with no bad local valleys"
+    },
+    {
+        "abs": "\n\nThis paper provides a theoretical framework for understanding the properties of deep locally connected ReLU networks. The authors show that these networks are capable of learning a wide range of functions, including deep convolutional neural networks. Furthermore, the authors demonstrate that the networks can be trained using a variety of methods, including backpropagation.",
+        "title": "A theoretical framework for deep locally connected ReLU network"
+    },
+    {
+        "abs": "\n\nThis paper presents a GAN-based anomaly detection method that is able to model complex high-dimensional distributions of real-world data. The proposed method is based on the idea that the generator of a GAN can be used to generate normal data, while the discriminator can be used to identify anomalies. The method is evaluated on two real-world datasets, and the results show that it is able to achieve high accuracy while being computationally efficient.",
+        "title": "Efficient GAN-Based Anomaly Detection"
+    },
+    {
+        "abs": "\n\nMost state-of-the-art neural machine translation systems are based on different architectural skeletons (e.g. recurrence, convolutional), but they all share the same fundamental principle: the attention mechanism. The attention mechanism allows the model to focus on the most relevant parts of the input when translating, and has been shown to be crucial for the success of neural machine translation. In this paper, we propose a new attention mechanism, called phrase-based attention, which is specifically designed to handle long input sequences. Our experiments on two large-scale machine translation datasets show that the proposed attention mechanism outperforms the standard attention mechanism by a significant margin.",
+        "title": "Phrase-Based Attentions"
+    },
+    {
+        "abs": "\n\nWe propose an algorithm combining calibrated prediction and generalization bounds from learning theory to construct PAC confidence sets for deep neural networks. Our algorithm is based on a recent result showing that calibrated prediction is equivalent to PAC-Bayesian generalization bounds. We show that our algorithm can be used to construct PAC confidence sets for deep neural networks with any number of hidden layers and any activation function.",
+        "title": "PAC Confidence Sets for Deep Neural Networks via Calibrated Prediction"
+    },
+    {
+        "abs": "\n\nThe rate-distortion-perception function (RDPF) is a useful tool for characterizing the trade-off between rate and distortion in perceptual systems. In this paper, we prove a coding theorem for the RDPF, which states that the RDPF is achievable for any given rate-distortion-perception trade-off. This result provides a theoretical foundation for the use of the RDPF in characterizing the performance of perceptual systems.",
+        "title": "A coding theorem for the rate-distortion-perception function"
+    },
+    {
+        "abs": "\n\nWe address the problem of graph classification based only on structural information. Inspired by natural language processing, we propose a method for graph classification using recurrent neural networks. Our method is based on the idea of representing a graph as a sequence of nodes, and learning a classification model from this sequence. We show that our method outperforms existing methods on a variety of graph classification tasks.",
+        "title": "Variational Recurrent Neural Networks for Graph Classification"
+    },
+    {
+        "abs": "\n\nThe Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks\n\nNeural network pruning techniques can reduce the parameter count of trained networks by over 90%. However, these techniques typically require a large amount of computational resources and are often applied to networks that have already been trained. The lottery ticket hypothesis suggests that it is possible to find sparse, trainable neural networks before training begins. This would allow for the application of neural network pruning techniques with less computational overhead. In this paper, we investigate the lottery ticket hypothesis and show that it is possible to find sparse, trainable neural networks. We also show that the lottery ticket hypothesis can be used to improve the performance of neural network pruning techniques.",
+        "title": "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks"
+    },
+    {
+        "abs": "\n\nA variational inequality perspective on generative adversarial networks is proposed. The objective is to find a Nash equilibrium in a min-max game, where the generator tries to fool the discriminator by generating samples from the data distribution, and the discriminator tries to classify the samples correctly. The variational inequality perspective provides a new way to understand and analyze the behavior of GANs.",
+        "title": "A Variational Inequality Perspective on Generative Adversarial Networks"
+    },
+    {
+        "abs": "\n\nIn this paper, we introduce Symplectic ODE-Net (SymODEN), a deep learning framework which can infer Hamiltonian dynamics from data. SymODEN is trained using a loss function that encourages the predicted dynamics to be consistent with the underlying physics. We demonstrate the effectiveness of SymODEN on several challenging problems, including inferring the dynamics of a pendulum and a double pendulum.",
+        "title": "Symplectic ODE-Net: Learning Hamiltonian Dynamics with Control"
+    },
+    {
+        "abs": "\n\nGraphZoom is a multi-level spectral approach for accurate and scalable graph embedding. It is based on the idea of approximating a graph by a sequence of coarser graphs, and then embedding the coarser graphs into a lower-dimensional space. The embedding of the original graph is then obtained by lifting the embedding of the coarser graphs. This approach is scalable and accurate, and has been successfully applied to a variety of different applications.",
+        "title": "GraphZoom: A multi-level spectral approach for accurate and scalable graph embedding"
+    },
+    {
+        "abs": "\n\nIn distributed optimization, stragglers are a common issue that can lead to suboptimal performance. In this paper, we propose Anytime MiniBatch, a method that is designed to exploit stragglers in online distributed optimization. Our method is based on the idea of using mini-batches to approximate the full gradient, and is able to adaptively adjust the mini-batch size based on the number of stragglers. We show that our method can achieve a near-optimal solution with high probability, and outperforms existing methods in terms of both solution quality and runtime.",
+        "title": "Anytime MiniBatch: Exploiting Stragglers in Online Distributed Optimization"
+    },
+    {
+        "abs": "\n\nIn this paper, the authors investigate the benefits of state representation learning in goal-based robotics. They decouple feature extraction from policy learning, and show that this leads to improved performance in terms of both speed and accuracy.",
+        "title": "Decoupling feature extraction from policy learning: assessing benefits of state representation learning in goal based robotics"
+    },
+    {
+        "abs": "\n\nA central challenge in reinforcement learning is discovering effective policies for tasks where rewards are sparse and delayed. In this paper, we propose InfoBot, a transfer and exploration algorithm that uses the information bottleneck principle to efficiently explore the state space and transfer knowledge between tasks. InfoBot is able to quickly find near-optimal policies for new tasks by leveraging knowledge from previously solved tasks. We evaluate InfoBot on a set of challenging reinforcement learning tasks and show that it outperforms state-of-the-art transfer and exploration algorithms.",
+        "title": "InfoBot: Transfer and Exploration via the Information Bottleneck"
+    },
+    {
+        "abs": "\n\nMultilingual neural machine translation (NMT) has attracted much attention in recent years due to its ability to translate multiple languages with a single model. However, NMT models often suffer from a lack of data and domain knowledge, which can lead to poor translation quality.\n\nTo address these issues, we propose a knowledge distillation approach for multilingual NMT. Our approach uses a small amount of data and domain knowledge to improve the translation quality of a multilingual NMT model. We evaluate our approach on a English-to-German translation task and show that it outperforms a strong baseline NMT model.",
+        "title": "Multilingual Neural Machine Translation with Knowledge Distillation"
+    },
+    {
+        "abs": "\n\nWe introduce PyTorch Geometric, a library for deep learning on irregularly structured input data such as graphs. PyTorch Geometric makes it easy to build graph neural networks (GNNs) and to perform efficient graph-based learning tasks.",
+        "title": "Fast Graph Representation Learning with PyTorch Geometric"
+    },
+    {
+        "abs": "\n\nThis paper presents a method for diagnosing and enhancing VAE models. The method is based on a combination of model inspection and model modification. The paper provides a detailed description of the proposed method and its application to a number of VAE models. The paper also discusses the potential benefits of the proposed method.",
+        "title": "Diagnosing and Enhancing VAE Models"
+    },
+    {
+        "abs": "\n\nAdversarial training is a training scheme designed to counter adversarial attacks by augmenting the training data with adversarial examples. This paper proposes a method to improve the interpretability of gradient-based methods for adversarial robustness by providing a way to visualize the decision boundary of the classifier. The method is based on a new technique called gradient-based classifier visualization, which is able to visualize the decision boundary of a classifier without needing to compute the gradient of the classifier with respect to the input. The proposed method is evaluated on a variety of datasets and architectures, and the results show that it can improve the interpretability of gradient-based methods for adversarial robustness.",
+        "title": "Bridging Adversarial Robustness and Gradient Interpretability"
+    },
+    {
+        "abs": "\n\nThis is the proceeding of the Computer Vision for Agriculture (CV4A) Workshop that was held at the ICLR conference in 2020. The workshop brought together researchers from the field of computer vision and agricultural to discuss the latest advances in the field. The topics covered in the workshop included object detection and tracking in agricultural scenes, semantic segmentation of agricultural images, and deep learning for agricultural applications.",
+        "title": "Proceedings of the ICLR Workshop on Computer Vision for Agriculture (CV4A) 2020"
+    },
+    {
+        "abs": "\n\nThe 1st AfricaNLP Workshop was held on 26th April 2020 alongside the ICLR 2020 Virtual Conference. The workshop brought together researchers from across Africa to discuss the latest advances in Natural Language Processing. The proceedings of the workshop include papers on a variety of topics, including machine translation, text classification, and named entity recognition.",
+        "title": "1st AfricaNLP Workshop Proceedings, 2020"
+    },
+    {
+        "abs": "\n\nIn this work, we show preliminary results of deep multi-task learning in the area of histo-pathology for widely generalizable model. We have developed a deep learning model that can be trained on multiple tasks simultaneously and achieves good performance on a variety of tasks. Our model is able to learn from a large amount of data and is robust to overfitting. We have also shown that our model can be generalized to other tasks and domains.",
+        "title": "Multi-Task Learning in Histo-pathology for Widely Generalizable Model"
+    },
+    {
+        "abs": "\n\nThe principle of compositionality enables natural language to represent complex concepts via a structured combination of simpler elements. In this paper, we investigate whether this principle can emerge in a neural network model of iterated learning, where agents must communicate concepts to one another through a limited communication channel. We find that, in our model, agents develop a compositional language in order to more efficiently communicate concepts. This compositional language is composed of a small set of basic elements which are combined to form more complex concepts. Our results suggest that the principle of compositionality is a powerful tool for efficient communication, and may be an important factor in the development of natural language.",
+        "title": "Compositional Languages Emerge in a Neural Iterated Learning Model"
+    },
+    {
+        "abs": "\n\nIn many natural language processing tasks, text generation is a ubiquitous task. This paper proposes a residual energy-based model for text generation. The proposed model is based on the idea that the energy of the text generation process can be represented as a residual function. The proposed model is trained using a maximum likelihood estimation method. The experimental results show that the proposed model outperforms the state-of-the-art text generation models on several benchmark datasets.",
+        "title": "Residual Energy-Based Models for Text Generation"
+    },
+    {
+        "abs": "\n\nWe propose an energy-based model (EBM) of protein conformations that operates at atomic scale. The model is based on the assumption that proteins are composed of a small number of discrete states that are separated by energy barriers. The model is able to reproduce the observed distribution of protein conformations and can be used to predict the conformations of proteins with unknown structures.",
+        "title": "Energy-based models for atomic-resolution protein conformations"
+    },
+    {
+        "abs": "\n\nWe prove that the reproducing kernel Hilbert spaces (RKHS) of a deep neural tangent kernel and a Laplace kernel are the same. This result is important because it means that the two kernels can be used interchangeably in many machine learning algorithms.",
+        "title": "Deep Neural Tangent Kernel and Laplace Kernel Have the Same RKHS"
+    },
+    {
+        "abs": "\n\nWe propose a novel node embedding of directed graphs to statistical manifolds, which is based on the idea of mapping nodes to points on a low-dimensional manifold while preserving the graph's structure. This embedding can be used to visualize the graph's structure and to perform statistical analysis on the graph.",
+        "title": "Low-dimensional statistical manifold embedding of directed graphs"
+    },
+    {
+        "abs": "\n\nMixed-curvature variational autoencoders (MC-VAEs) are a type of VAE that can learn data with mixed curvature, i.e. data that is not purely Euclidean. MC-VAEs are able to learn data with mixed curvature by using a mixture of Euclidean and non-Euclidean components in the latent space. This allows for more accurate representation of data with mixed curvature, which can lead to better performance on downstream tasks.",
+        "title": "Mixed-curvature Variational Autoencoders"
+    },
+    {
+        "abs": "\n\nWe study the training of Convolutional Neural Networks (CNNs) with ReLU activations and introduce exact convex regularizers of two- and three-layer networks. We prove that these regularizers can be optimized in polynomial time and provide explicit convergence rates. Our results suggest that CNNs with ReLU activations can be trained using convex optimization methods.",
+        "title": "Implicit Convex Regularizers of CNN Architectures: Convex Optimization of Two- and Three-Layer Networks in Polynomial Time"
+    },
+    {
+        "abs": "\n\nWe propose a new metric space of ReLU activation codes equipped with a truncated Hamming distance. This space can be used to rate the quality of neural networks besides accuracy.",
+        "title": "ReLU Code Space: A Basis for Rating Network Quality Besides Accuracy"
+    },
+    {
+        "abs": "\n\nThis paper introduces the first dataset of satellite images labeled with forage quality by on-the-ground measurements in northern Kenya. The images were collected during the dry season when forage is typically scarce. The objective was to develop a model to predict forage conditions from satellite imagery, which could be used to inform livestock management decisions. The model was able to accurately predict forage conditions, and the results suggest that satellite-based predictions could be a useful tool for livestock management in northern Kenya.",
+        "title": "Satellite-based Prediction of Forage Conditions for Livestock in Northern Kenya"
+    },
+    {
+        "abs": "\n\nWe propose a neural network for unsupervised anomaly detection with a novel robust subspace recovery layer. The proposed layer is designed to recover the underlying subspace of the data in the presence of outliers. We demonstrate the efficacy of the proposed layer on two benchmark datasets. Our results show that the proposed layer outperforms the state-of-the-art methods for unsupervised anomaly detection.",
+        "title": "Robust Subspace Recovery Layer for Unsupervised Anomaly Detection"
+    },
+    {
+        "abs": "\n\nThe ability of animals to learn and remember new information throughout their lives is largely due to the plasticity of their synapses, which allows them to change in response to experience. Backpropamine is a technique for training self-modifying neural networks that uses differentiable neuromodulated plasticity to enable them to learn and remember new information over the course of their lifetime.",
+        "title": "Backpropamine: training self-modifying neural networks with differentiable neuromodulated plasticity"
+    },
+    {
+        "abs": "\n\nThe inclusion of Computer Vision and Deep Learning technologies in Agriculture aims to increase the efficiency of Agricultural production by automating various tasks such as crop monitoring, yield estimation, and pest detection. In this paper, we propose a Deep Learning based object detection system for Apple Defect Detection. The system is trained on a dataset of over 200,000 images of apples with various defects. The system is able to achieve a high accuracy of over 95% in detecting various types of defects in apples. This system can be used for automated inspection of apples post-harvest, which can help in reducing the amount of wastage and increasing the efficiency of the Agricultural production process.",
+        "title": "Apple Defect Detection Using Deep Learning Based Object Detection For Better Post Harvest Handling"
+    },
+    {
+        "abs": "\n\nNeural machine translation is a rapidly developing field of machine translation that uses artificial neural networks to provide more accurate translations than traditional statistical and rule-based methods. Recent advances in neural machine translation have led to state-of-the-art results for many European-based languages, but there has been relatively little work on African languages. This paper presents a new neural machine translation system for South African languages, which achieves significant improvements over the existing state-of-the-art.",
+        "title": "Neural Machine Translation for South Africa's Official Languages"
+    },
+    {
+        "abs": "\n\nWe propose an algorithm combining calibrated prediction and generalization bounds from learning theory to construct PAC confidence sets for deep neural networks. Our algorithm is based on a recent result showing that calibrated prediction is equivalent to PAC-Bayesian generalization bounds. We show that our algorithm can be used to construct PAC confidence sets for deep neural networks with any number of hidden layers and any activation function.",
+        "title": "PAC Confidence Sets for Deep Neural Networks via Calibrated Prediction"
+    },
+    {
+        "abs": "\n\nPre-trained language models (LMs) have been shown to be successful and popular in natural language processing tasks. In this paper, we investigate whether pre-trained LMs are aware of phrases and whether they can be used for grammar induction. We propose simple but strong baselines for grammar induction that are based on pre-trained LMs. Our results show that pre-trained LMs are aware of phrases and can be used for grammar induction.",
+        "title": "Are Pre-trained Language Models Aware of Phrases? Simple but Strong Baselines for Grammar Induction"
+    },
+    {
+        "abs": "\n\nMagnitude-based pruning is a simple method for pruning neural networks. Despite its simplicity, it is effective in reducing the number of parameters in a neural network. In this paper, we propose a far-sighted alternative to magnitude-based pruning. Our method is based on the observation that the magnitude of the weights of a neural network is not always a good indicator of the importance of the weights. We propose a method that looks ahead at the future performance of the neural network when deciding which weights to prune. Our method is more effective than magnitude-based pruning in reducing the number of parameters in a neural network while maintaining the performance of the neural network.",
+        "title": "Lookahead: A Far-Sighted Alternative of Magnitude-based Pruning"
+    },
+    {
+        "abs": "\n\nAs the share of renewable energy sources in the present electric energy mix rises, their intermittency necessitates the development of new methods to ensure a reliable and affordable power supply. In this paper, we propose a reinforcement learning algorithm to optimize the dispatch of renewable energy sources in order to minimize the cost of electricity. We demonstrate the effectiveness of our algorithm on a test system consisting of wind and solar power plants, and show that it is able to find near-optimal solutions with a limited amount of data.",
+        "title": "Advancing Renewable Electricity Consumption With Reinforcement Learning"
+    },
+    {
+        "abs": "\n\nWe report experiments in building a domain-specific Tigrinya-to-English neural machine translation system. We use transfer learning to adapt a pre-trained model to the domain of humanitarian response. Our system achieves a translation accuracy of over 80%.",
+        "title": "Tigrinya Neural Machine Translation with Transfer Learning for Humanitarian Response"
+    },
+    {
+        "abs": "\n\nNigerian Pidgin is a language spoken by many people in Nigeria. This paper explores supervised and unsupervised neural machine translation baselines for this language.",
+        "title": "Towards Supervised and Unsupervised Neural Machine Translation Baselines for Nigerian Pidgin"
+    },
+    {
+        "abs": "\n\nThis paper presents a method for estimating grape yield on the vine from multiple images. The method is based on a convolutional neural network that is trained on a dataset of images and corresponding grape yield estimates. The trained network is then used to estimate grape yield from new images. The results show that the proposed method can accurately estimate grape yield from images, and that the estimates are robust to different types of images.",
+        "title": "Estimating Grape Yield on the Vine from Multiple Images"
+    },
+    {
+        "abs": "\n\nAutomatic change detection and disaster damage assessment are currently procedures requiring a huge amount of manual labor. This paper proposes a new method for automating these processes using multi-temporal fusion of satellite imagery. The proposed method is able to detect changes in land cover and estimate disaster damage with high accuracy.",
+        "title": "Building Disaster Damage Assessment in Satellite Imagery with Multi-Temporal Fusion"
+    },
+    {
+        "abs": "\n\nRecurrent neural networks (RNNs) are non-linear dynamic systems. Previous work believes that RNNs may suffer from chaotic behavior. However, a recent study has shown that RNNs are not as chaotic as previously thought.",
+        "title": "How Chaotic Are Recurrent Neural Networks?"
+    },
+    {
+        "abs": "\n\nBERT is a state-of-the-art method for extractive/abstractive text summarization. In this paper, we fine-tune a pretrained BERT model for Arabic text summarization. We evaluate our model on the Arabic Multi-News dataset and find that it outperforms the previous state-of-the-art method by a significant margin.",
+        "title": "BERT Fine-tuning For Arabic Text Summarization"
+    },
+    {
+        "abs": "\n\nThis paper presents a method for using competency questions to select optimal clustering structures for residential energy consumption patterns. The method is based on the use of a set of competency questions that are designed to identify the most important factors that influence the selection of a particular clustering structure. The paper demonstrates the use of the method on a data set of residential energy consumption patterns. The results show that the method is able to identify the optimal clustering structure for the data set.",
+        "title": "Using competency questions to select optimal clustering structures for residential energy consumption patterns"
+    },
+    {
+        "abs": "\n\nReinforcement Learning with Random Delays presents a novel approach to handling action and observation delays that commonly occur in many reinforcement learning applications. The approach is based on the idea of using random delays to reduce the impact of these delays on the learning process. The authors show how this approach can be used to improve the performance of reinforcement learning algorithms in a variety of settings.",
+        "title": "Reinforcement Learning with Random Delays"
+    },
+    {
+        "abs": "\n\nDifferential privacy is a technique for protecting data privacy. It has been used in a variety of settings, including machine learning. However, differential privacy has not yet reached its \"AlexNet moment\" on machine learning, where it achieves the same level of accuracy as non-private methods. This paper demonstrates that differential privacy needs better features (or much more data) in order to achieve the same level of accuracy as non-private methods.",
+        "title": "Differentially Private Learning Needs Better Features (or Much More Data)"
+    },
+    {
+        "abs": "\n\nIn this paper, we introduce Symplectic ODE-Net (SymODEN), a deep learning framework which can infer Hamiltonian dynamics from data. SymODEN is trained using a loss function that encourages the predicted dynamics to be consistent with the underlying physics. We demonstrate the effectiveness of SymODEN on several challenging problems, including inferring the dynamics of a pendulum and a double pendulum.",
+        "title": "Symplectic ODE-Net: Learning Hamiltonian Dynamics with Control"
+    },
+    {
+        "abs": "\n\nWe propose Symplectic Recurrent Neural Networks (SRNNs) as learning algorithms that capture the dynamics of Hamiltonian systems. SRNNs are recurrent neural networks that preserve the symplectic structure of the underlying dynamical system. This structure is important for many physical systems, including those that describe the motion of particles. We show that SRNNs can learn the dynamics of Hamiltonian systems from data, and we demonstrate the efficacy of our approach on several benchmark problems.",
+        "title": "Symplectic Recurrent Neural Networks"
+    },
+    {
+        "abs": "\n\nAnomaly detection, finding patterns that substantially deviate from those seen previously, is one of the most important tasks in data mining. In this paper, we propose a new approach to anomaly detection, based on classification. Our approach can be applied to any type of data, and does not require any prior knowledge about the data. We evaluate our approach on a variety of data sets, and show that it outperforms state-of-the-art anomaly detection methods.",
+        "title": "Classification-Based Anomaly Detection for General Data"
+    },
+    {
+        "abs": "\n\nWe consider training machine learning models that are fair in the sense that their performance is not significantly degraded when applied to sensitive subgroups of the population. We propose a method for training such models that is robust to small perturbations in the sensitive subspace. Our method is based on a novel algorithm for solving a convex optimization problem that is closely related to the fairness objective. We demonstrate the effectiveness of our method on several real-world datasets.",
+        "title": "Training individually fair ML models with Sensitive Subspace Robustness"
+    },
+    {
+        "abs": "\n\nIn this paper, we consider self-supervised representation learning to improve sample efficiency in reinforcement learning. We propose a method for learning dynamics-aware embeddings, which can be used to improve the sample efficiency of reinforcement learning algorithms. We evaluate our method on a number of benchmark tasks and show that it can significantly improve the sample efficiency of reinforcement learning algorithms.",
+        "title": "Dynamics-aware Embeddings"
+    },
+    {
+        "abs": "\n\nIn this paper, we cast fair machine learning as invariant machine learning. We first formulate individual fairness as a constraint on a sensitive feature, and show that this constraint can be enforced by training a model to be invariant to changes in the sensitive feature. We then demonstrate that our approach can be used to enforce individual fairness in a variety of settings, including classification and regression.",
+        "title": "SenSeI: Sensitive Set Invariance for Enforcing Individual Fairness"
+    },
+    {
+        "abs": "\n\nDespite significant advances, continual learning models still suffer from catastrophic forgetting when exposed to incrementally arriving data. In this paper, we propose a graph-based approach for continual learning that overcomes this limitation. Our approach is based on the idea of using a graph to represent the relationship between data points, and then using this graph to guide the learning process. By doing so, we are able to prevent the forgetting of previously learned knowledge, while still allowing for the learning of new knowledge.",
+        "title": "Graph-Based Continual Learning"
+    },
+    {
+        "abs": "\n\nWe provide a general self-attention formulation to impose group equivariance to arbitrary symmetry groups. This allows for the construction of equivariant layers for various types of data, including images. We demonstrate the efficacy of our approach on several image classification tasks.",
+        "title": "Group Equivariant Stand-Alone Self-Attention For Vision"
+    },
+    {
+        "abs": "\n\nWe propose a method for few-shot learning on graphs by using super-classes based on graph spectral measures. Our method is based on the idea that the graph Laplacian can be used to define a similarity measure between two graphs. We use this measure to define a super-class for each graph, and then use a few-shot learning algorithm to learn a classifier for each super-class. We show that our method can be used to achieve state-of-the-art results on several few-shot learning benchmarks.",
+        "title": "Few-Shot Learning on Graphs via Super-Classes based on Graph Spectral Measures"
+    },
+    {
+        "abs": "\n\nIn this work, we investigate the positional encoding methods used in language pre-training (e.g., BERT). We find that the current methods are suboptimal and propose a new method that outperforms the existing methods.",
+        "title": "Rethinking Positional Encoding in Language Pre-training"
+    },
+    {
+        "abs": "\n\nGraphZoom is a multi-level spectral approach for accurate and scalable graph embedding. It is based on the idea of approximating a graph by a sequence of coarser graphs, and then embedding the coarser graphs into a lower-dimensional space. The embedding of the original graph is then obtained by lifting the embedding of the coarser graphs. This approach is scalable and accurate, and has been successfully applied to a variety of different applications.",
+        "title": "GraphZoom: A multi-level spectral approach for accurate and scalable graph embedding"
+    },
+    {
+        "abs": "\n\nDDPNOpt is a new approach to training deep neural networks (DNNs) that interprets the training process as an optimal control problem with nonlinear dynamics. This approach allows for more efficient and effective training of DNNs, and can be applied to a variety of different neural network architectures.",
+        "title": "DDPNOpt: Differential Dynamic Programming Neural Optimizer"
+    },
+    {
+        "abs": "\n\nIn this paper, we investigate the effects of releasing arXiv preprints of papers that are currently under double-blind review. We find that, in general, releasing an arXiv preprint does not significantly increase the chances of de-anonymizing the author. However, we also find that there are some cases where releasing an arXiv preprint can significantly increase the chances of de-anonymizing the author.",
+        "title": "De-anonymization of authors through arXiv submissions during double-blind review"
+    },
+    {
+        "abs": "\n\nReinforcement learning has achieved impressive performance in a variety of online settings in which an agent interacts with an environment to learn a task. However, reinforcement learning remains challenging in offline settings, where an agent must learn from a fixed dataset without interaction. In this paper, we propose OPAL, a method for offline primitive discovery that accelerates offline reinforcement learning. OPAL automatically discovers a set of reusable primitives from an offline dataset, which can be used to accelerate learning on new tasks. We evaluate OPAL on a variety of offline reinforcement learning tasks and show that it can significantly accelerate learning.",
+        "title": "OPAL: Offline Primitive Discovery for Accelerating Offline Reinforcement Learning"
+    },
+    {
+        "abs": "\n\nA new diffusion theory for deep learning dynamics is proposed which explains how stochastic gradient descent (SGD) exponentially favors flat minima. The theory is based on the observation that SGD can be viewed as a random walk in the space of all possible minima. The probability of finding a minimum with a given value of the loss function is proportional to the volume of the region around that minimum. The volume of a region is largest when the region is flat, and decreases as the region becomes more curved. Therefore, SGD is more likely to find a flat minimum than a curved minimum. This explains why SGD often converges to a flat minimum, even when there are many other minima with lower loss.",
+        "title": "A Diffusion Theory For Deep Learning Dynamics: Stochastic Gradient Descent Exponentially Favors Flat Minima"
+    },
+    {
+        "abs": "\n\nSpectral embedding is a popular technique for the representation of graph data. Several regularization techniques have been proposed to improve the performance of this technique, but it is often difficult to choose the best method for a given dataset. In this paper, we compare the performance of several regularization methods on a variety of synthetic and real-world datasets. We find that the proposed methods generally improve the performance of spectral embedding, but the best method depends on the properties of the dataset.",
+        "title": "Spectral embedding of regularized block models"
+    },
+    {
+        "abs": "\n\nIn this work, we study locality and compositionality in the context of learning representations for zero-shot learning. We show that a simple model that encodes these properties can be used to learn effective representations for zero-shot learning tasks.",
+        "title": "Locality and compositionality in zero-shot learning"
+    },
+    {
+        "abs": "\n\nIn this paper, we study the problem of learning permutation invariant representations that can capture \"flexible\" notions of similarity between data points. We propose a new method for learning such representations, which is based on the use of multisets. Our method is able to learn representations that are invariant to both permutations and changes in the order of the elements in the data points. We evaluate our method on several benchmark datasets, and show that it outperforms existing methods for learning permutation invariant representations.",
+        "title": "Representation Learning with Multisets"
+    },
+    {
+        "abs": "\n\nDeep reinforcement learning (DeepRL) has been shown to be promising in optimizing policies. However, a key challenge in DeepRL is the lack of generalization ability, which often leads to overfitting. In this paper, we investigate the effect of regularization on policy optimization in DeepRL. We show that regularization can improve the generalization ability of DeepRL and thus lead to better performance.",
+        "title": "Regularization Matters in Policy Optimization"
+    },
+    {
+        "abs": "\n\nThe receptive field size is one of the most important factors for one-dimensional convolutional neural networks (1D-CNNs). In this paper, we propose a simple and effective kernel size configuration for 1D-CNNs, which we call Omni-Scale 1D-CNNs. Omni-Scale 1D-CNNs use a set of kernels with different sizes, which are chosen such that they cover the entire input space. This allows the network to learn features at multiple scales, which is important for time series classification. We evaluate our method on three publicly available time series classification datasets, and show that it outperforms state-of-the-art methods.",
+        "title": "Omni-Scale CNNs: a simple and effective kernel size configuration for time series classification"
+    },
+    {
+        "abs": "\n\nIn distributed optimization, stragglers are a common issue that can lead to suboptimal performance. In this paper, we propose Anytime MiniBatch, a method that is designed to exploit stragglers in online distributed optimization. Our method is based on the idea of using mini-batches to approximate the full gradient, and is able to adaptively adjust the mini-batch size based on the number of stragglers. We show that our method can achieve a near-optimal solution with high probability, and outperforms existing methods in terms of both solution quality and runtime.",
+        "title": "Anytime MiniBatch: Exploiting Stragglers in Online Distributed Optimization"
+    },
+    {
+        "abs": "\n\nThe First Workshop on Weakly Supervised Learning (WeaSuL) was held in conjunction with ICLR 2021. The goal of the workshop was to bring together researchers working on weakly supervised learning, a growing area of machine learning that aims to learn from data that is not perfectly labeled. The workshop featured talks from leading researchers in the field, as well as poster presentations and a panel discussion.",
+        "title": "Proceedings of the First Workshop on Weakly Supervised Learning (WeaSuL)"
+    },
+    {
+        "abs": "\n\nGenerative modeling has been used frequently in synthetic data generation. Fairness and privacy are two important considerations in data generation. In this paper, we propose a fast, fair, and private data generation method based on generative modeling. Our method can generate synthetic data that is fair with respect to a given sensitive attribute and private with respect to the sensitive attribute. We evaluate our method on two real-world datasets and show that our method outperforms the state-of-the-art methods in terms of fairness and privacy.",
+        "title": "FFPDG: Fast, Fair and Private Data Generation"
+    },
+    {
+        "abs": "\n\nLearning from a limited number of samples is challenging since the learned model can easily overfit to the training data. To address this issue, we propose a new method for few-shot learning that calibrates the model's predictions to the true distribution of the data. Our method is based on a simple idea: instead of directly learning a model from the data, we first learn a model from a synthetic data set generated by a known distribution, and then use this model to generate predictions for the real data. By calibrating the model's predictions to the true distribution, we are able to reduce overfitting and improve generalization. We evaluate our method on a variety of few-shot learning tasks and show that it outperforms the state-of-the-art.",
+        "title": "Free Lunch for Few-shot Learning: Distribution Calibration"
+    },
+    {
+        "abs": "\n\nHNs and RBMs are two important models at the interface of machine learning and artificial intelligence. In this paper, we study the mapping between these two models. We show that HNs can be mapped to RBMs in a one-to-one manner. This mapping provides a way to understand the relationship between these two models and to develop new algorithms for training HNs and RBMs.",
+        "title": "On the mapping between Hopfield networks and Restricted Boltzmann Machines"
+    },
+    {
+        "abs": "\n\nGraph neural networks (GNNs) are a powerful inductive bias for modelling algorithmic reasoning procedures and, in particular, for learning from relational data. In this paper, we investigate the use of GNNs for message passing in persistent settings, where data is represented as a graph that evolves over time. We show how GNNs can be used to learn message passing algorithms that are robust to changes in the graph structure, and we demonstrate the effectiveness of our approach on a range of tasks, including link prediction, node classification, and graph classification.",
+        "title": "Persistent Message Passing"
+    },
+    {
+        "abs": "\n\nThe paper examines the global convergence of an equilibrium model with implicit layers. The model is based on the assumption that the layers are implicitly defined through an equilibrium point. The main result is that the model converges to the global optimum with probability one.",
+        "title": "On the Theory of Implicit Deep Learning: Global Convergence with Implicit Layers"
+    },
+    {
+        "abs": "\n\nThe ability to learn continually without forgetting the past tasks is a desired attribute for artificial intelligence (AI). However, current AI models struggle with this due to a phenomenon known as catastrophic forgetting. In this paper, we propose a new AI model called gradient projection memory (GPM) that is designed to overcome catastrophic forgetting. GPM works by storing past tasks in a memory and projecting them onto a new task to be learned. This projection allows GPM to learn the new task while retaining knowledge of the past tasks. We evaluate GPM on a variety of continual learning tasks and show that it outperforms current state-of-the-art methods.",
+        "title": "Gradient Projection Memory for Continual Learning"
+    },
+    {
+        "abs": "\n\nIn high-dimensional state spaces, the usefulness of Reinforcement Learning (RL) is limited by the problem of exploration. Reward shaping is a technique that can be used to encourage exploration in RL by providing additional rewards for states that are visited for the first time. In this paper, we propose a new approach to reward shaping called Plan-Based Relaxed Reward Shaping (PB-RRS). PB-RRS is a generalization of existing reward shaping methods that allows for the use of planning algorithms to compute the shaping rewards. We show that PB-RRS is effective at encouraging exploration in a variety of high-dimensional state spaces and that it can be used to solve goal-directed tasks that are difficult to solve with existing RL methods.",
+        "title": "Plan-Based Relaxed Reward Shaping for Goal-Directed Tasks"
+    },
+    {
+        "abs": "\n\nThis paper explores how to improve exploration in policy gradient search for symbolic optimization tasks. The authors propose a new method that uses a neural network to guide the search process. This method is shown to outperform existing methods in terms of both solution quality and search efficiency.",
+        "title": "Improving exploration in policy gradient search: Application to symbolic optimization"
+    },
+    {
+        "abs": "\n\nWe study the training of Convolutional Neural Networks (CNNs) with ReLU activations and introduce exact convex regularizers of CNN architectures. We prove that the two- and three-layer networks can be optimized in polynomial time using our regularizers.",
+        "title": "Implicit Convex Regularizers of CNN Architectures: Convex Optimization of Two- and Three-Layer Networks in Polynomial Time"
+    },
+    {
+        "abs": "\n\nWe consider the problem of finding the best memoryless stochastic policy for an infinite-horizon partially observable Markov decision process (POMDP). We show that the problem can be reformulated as a geometric optimization problem, which can be solved using standard methods. We also show how to extend our results to the case of POMDPs with finite horizon.",
+        "title": "The Geometry of Memoryless Stochastic Policy Optimization in Infinite-Horizon POMDPs"
+    },
+    {
+        "abs": "\n\nStochastic encoders have been used in rate-distortion theory and neural compression because they can be more efficient than deterministic encoders. In this paper, we analyze the advantages of stochastic encoders over deterministic encoders. We show that stochastic encoders can achieve a lower rate-distortion bound than deterministic encoders. We also show that stochastic encoders can be more robust to errors than deterministic encoders.",
+        "title": "On the advantages of stochastic encoders"
+    },
+    {
+        "abs": "\n\nWe consider the problem of learned transform compression, where we learn both the transform and the entropy encoding. We show that this can be done efficiently by jointly optimizing the transform and the entropy coding. We demonstrate the effectiveness of our approach on a range of images.",
+        "title": "Learned transform compression with optimized entropy encoding"
+    },
+    {
+        "abs": "\n\nThe dynamics of physical systems is often constrained to lower dimensional sub-spaces due to the presence of symmetry. Symmetry control neural networks can be used to improve the accuracy of simulations by accounting for the presence of symmetry in the system.",
+        "title": "Improving Simulations with Symmetry Control Neural Networks"
+    },
+    {
+        "abs": "\n\nIn this work, we study the behavior of standard models for community detection under spectral projection. We show that, for a wide range of standard models, the community structure is preserved under low-rank projections of the Laplacian matrix. This result suggests that community detection methods are robust to noise and other forms of perturbation.",
+        "title": "Low-Rank Projections of GCNs Laplacian"
+    },
+    {
+        "abs": "\n\nDifferential privacy is a framework for protecting the privacy of individuals in data sets. The goal of this paper is to develop a new framework for synthesizing data using deep generative models that preserves the privacy of individuals while still allowing for accurate data synthesis. The proposed framework uses private embeddings and adversarial reconstruction learning to generate synthetic data that is indistinguishable from the original data. The results of this paper show that the proposed framework is effective at preserving the privacy of individuals while still allowing for accurate data synthesis.",
+        "title": "PEARL: Data Synthesis via Private Embeddings and Adversarial Reconstruction Learning"
+    },
+    {
+        "abs": "\n\nSelf-supervised visual representation learning aims to learn useful representations without relying on human annotations. Joint contrastive self-supervised learning (JCSL) is a recently proposed self-supervised learning method that learns representations by contrasting views of the same instance. In this paper, we theoretically and empirically analyze the behavior of JCSL in the regime of high-dimensional data. We show that JCSL can be viewed as a method for learning a low-dimensional subspace that is robust to small perturbations in the data. This robustness is due to the fact that JCSL is equivalent to minimizing a certain contrastive loss function. We also show that JCSL can be viewed as a method for learning a generative model of the data. This interpretation provides a way to understand the behavior of JCSL in the regime of high-dimensional data.",
+        "title": "Understanding Dimensional Collapse in Contrastive Self-supervised Learning"
+    },
+    {
+        "abs": "\n\nWe provide a general self-attention formulation to impose group equivariance to arbitrary symmetry groups. This allows for the construction of equivariant layers for various types of data, including images. We demonstrate the efficacy of our approach on several image classification tasks.",
+        "title": "Group Equivariant Stand-Alone Self-Attention For Vision"
+    },
+    {
+        "abs": "\n\nWe propose the task of disambiguating symbolic expressions in informal STEM documents. Given a text document with mathematical or scientific content, the task is to identify and disambiguate the symbolic expressions within the text. This task is important for understanding the meaning of the text and for applications such as information retrieval and machine translation. We describe a dataset of symbolic expressions in informal STEM documents and a neural network model for disambiguating these expressions. Our model achieves state-of-the-art performance on the dataset, and we show that it can be used to improve the translation of mathematical expressions from English to French.",
+        "title": "Disambiguating Symbolic Expressions in Informal Documents"
+    },
+    {
+        "abs": "\n\nThis paper proposes a method for training classifiers under fairness constraints such as group fairness. The method regularizes the disparities of predictions between groups by interpolating between the predictions of the classifier and the fairness constraint. The interpolation is controlled by a fairness parameter, which can be tuned to trade off between accuracy and fairness. The method is evaluated on a synthetic dataset and a real-world dataset. The results show that the method can achieve a good trade-off between accuracy and fairness.",
+        "title": "Fair Mixup: Fairness via Interpolation"
+    },
+    {
+        "abs": "\n\nAutoregressive models are a type of statistical model that are commonly used for image compression. While these models typically produce good results, the quality of the images they produce is often lacking. This paper presents a new method for improving the quality of autoregressive models by using distribution smoothing. This method is shown to produce better results than existing methods, and can be used to improve the quality of images produced by autoregressive models.",
+        "title": "Improved Autoregressive Modeling with Distribution Smoothing"
+    },
+    {
+        "abs": "\n\nWe propose a simple method by which to choose sample weights for problems with highly unbalanced classes. This method is based on the idea of finding the best possible balance between the two classes by minimizing the sum of the weights of the samples. We show that this method can be used to find the optimal weights for a variety of problems, including those with very unbalanced classes.",
+        "title": "Continuous Weight Balancing"
+    },
+    {
+        "abs": "\n\nIn this work, we analyze the reinstatement mechanism introduced by Ritter et al. (2018) to improve sample efficiency in episodic meta-RL. We find that the mechanism is effective in reducing the number of episodes needed to learn a new task, but that it is also associated with a significant increase in the number of abstract and episodic neurons.",
+        "title": "The Emergence of Abstract and Episodic Neurons in Episodic Meta-RL"
+    },
+    {
+        "abs": "\n\nDeep neural networks are known to be vulnerable to small, adversarially crafted, perturbations. The current state-of-the-art in robustness against these types of attacks is sparse coding, which is a frontend for neural networks that encodes input vectors as a sparse linear combination of basis vectors. This paper presents a new sparse coding frontend that is more robust to adversarial perturbations than the previous state-of-the-art. The new frontend is based on a novel algorithm for learning a robust, sparse, overcomplete dictionary from data. We evaluate the new frontend on the MNIST and CIFAR-10 datasets, and show that it outperforms the previous state-of-the-art in terms of both robustness and accuracy.",
+        "title": "Sparse Coding Frontend for Robust Neural Networks"
+    },
+    {
+        "abs": "\n\nThe rate-distortion-perception function (RDPF) is a useful tool for characterizing the trade-off between rate and distortion in perceptual systems. In this paper, we prove a coding theorem for the RDPF, which states that the RDPF is achievable if and only if the rate is less than the perceptual distortion. This result provides a fundamental limit on the trade-off between rate and distortion in perceptual systems and has implications for the design of efficient coding schemes.",
+        "title": "A coding theorem for the rate-distortion-perception function"
+    },
+    {
+        "abs": "\n\nMost graph neural network architectures work by message-passing node vector embeddings over the adjacency matrix. However, these models can fail to detect simple topological structures, such as the Bermuda Triangles. In this paper, we propose a new graph neural network architecture that is able to detect these structures. Our model is based on the Weisfeiler-Lehman graph isomorphism test, and we show that it outperforms existing graph neural network architectures on a variety of tasks.",
+        "title": "Bermuda Triangles: GNNs Fail to Detect Simple Topological Structures"
+    },
+    {
+        "abs": "\n\nThe paper presents a method for training machine learning models while preserving privacy and data integrity using trusted hardware. The proposed method uses homomorphic encryption to encrypt the training data, and then uses a trusted hardware device to perform the training. The results show that the proposed method can preserve privacy and data integrity while providing good performance.",
+        "title": "Privacy and Integrity Preserving Training Using Trusted Hardware"
+    },
+    {
+        "abs": "\n\nWe generalize the Hamiltonian Monte Carlo algorithm with a stack of neural network layers and show that the resulting algorithm can be used to sample from a variety of distributions. We also show that the algorithm can be used to efficiently compute expectations with respect to these distributions.",
+        "title": "Deep Learning Hamiltonian Monte Carlo"
+    },
+    {
+        "abs": "\n\nConcept bottleneck models are a type of machine learning algorithm that aim to learn from raw inputs to concepts, and then from concepts to targets. However, it is unclear if these models actually learn as intended. In this paper, the authors investigate whether concept bottleneck models do in fact learn as intended. They find that while concept bottleneck models are able to learn from raw inputs to concepts, they are not able to learn from concepts to targets as intended. As a result, the authors conclude that concept bottleneck models do not learn as intended.",
+        "title": "Do Concept Bottleneck Models Learn as Intended?"
+    },
+    {
+        "abs": "\n\nIn this paper, we propose a new data poisoning attack and apply it to deep reinforcement learning agents. We show that our attack is effective in poisoning the agent's policy, causing it to behave suboptimally.",
+        "title": "Poisoning Deep Reinforcement Learning Agents with In-Distribution Triggers"
+    },
+    {
+        "abs": "\n\nIn this paper, we present a novel neuroevolutionary method to identify the architecture and hyperparameters of a convolutional autoencoder (CAE). We use a multi-objective evolutionary algorithm (MOEA) to jointly optimize the CAE's architecture and hyperparameters with respect to two objectives: (1) the reconstruction error of the CAE, and (2) the number of parameters in the CAE. We compare our method with two state-of-the-art methods for neuroevolution of CAEs, and show that our method outperforms both methods in terms of the reconstruction error and the number of parameters.",
+        "title": "MONCAE: Multi-Objective Neuroevolution of Convolutional Autoencoders"
+    },
+    {
+        "abs": "\n\nThis paper proposes a novel approach to learning robust controllers via probabilistic model-based policy search. The approach estimates the true environment through a world model in order to approximate the expected return of a given policy. The policy is then optimized with respect to the estimated return, resulting in a robust controller. The approach is evaluated on a number of benchmark tasks, and results show that the proposed approach outperforms existing methods.",
+        "title": "Learning Robust Controllers Via Probabilistic Model-Based Policy Search"
+    },
+    {
+        "abs": "\n\nThe input and/or output of some neural nets are weight matrices of other neural nets. This paper explores the idea of training and generating neural networks in compressed weight space. The authors propose a method for training and generating neural networks in compressed weight space that is based on a novel autoencoder architecture. The proposed method is evaluated on a variety of tasks, including image classification, speech recognition, and machine translation. The results show that the proposed method outperforms existing methods for training and generating neural networks in compressed weight space.",
+        "title": "Training and Generating Neural Networks in Compressed Weight Space"
+    },
+    {
+        "abs": "\n\nThis paper presents the computational challenge on differential geometry and topology that happened within the ICLR 2021 conference. The challenge was to design an algorithm that could take a given input mesh and produce a corresponding output mesh with the same topology but with a different geometry. The results of the challenge are presented, showing the different algorithms that were used and how they performed.",
+        "title": "ICLR 2021 Challenge for Computational Geometry & Topology: Design and Results"
+    },
+    {
+        "abs": "\n\nThe title is Efficient Training Under Limited Resources. The abstract should briefly mention the factors affecting the performance of a training algorithm, including the budget and size of the dataset.",
+        "title": "Efficient Training Under Limited Resources"
+    },
+    {
+        "abs": "\n\nIn this paper, we cast fair machine learning as invariant machine learning. We first formulate individual fairness as a constraint on a sensitive feature, and show that this constraint can be enforced by training a model to be invariant to changes in the sensitive feature. We then demonstrate that our approach can be used to enforce individual fairness in a variety of settings, including classification and regression.",
+        "title": "SenSeI: Sensitive Set Invariance for Enforcing Individual Fairness"
+    },
+    {
+        "abs": "\n\nDespite significant advances, continual learning models still suffer from catastrophic forgetting when exposed to incrementally arriving data. In this paper, we propose a graph-based approach for continual learning that overcomes this limitation. Our approach is based on the idea of using a graph to represent the relationship between data points, and then using this graph to guide the learning process. By doing so, we are able to prevent the forgetting of previously learned knowledge, while still allowing for the learning of new knowledge.",
+        "title": "Graph-Based Continual Learning"
+    },
+    {
+        "abs": "\n\nWe prove that the reproducing kernel Hilbert spaces (RKHS) of a deep neural tangent kernel and a Laplace kernel are the same. This result is important because it means that the two kernels can be used interchangeably in many machine learning algorithms.",
+        "title": "Deep Neural Tangent Kernel and Laplace Kernel Have the Same RKHS"
+    },
+    {
+        "abs": "\n\nReinforcement Learning with Random Delays presents a novel approach to handling action and observation delays that commonly occur in many reinforcement learning applications. The approach is based on a new algorithm that uses random delays to improve the learning process. The algorithm is shown to be effective in a variety of settings, including remote control and robotic control.",
+        "title": "Reinforcement Learning with Random Delays"
+    },
+    {
+        "abs": "\n\nDifferential privacy is a technique for protecting data privacy. It has been used in a variety of settings, including machine learning. However, differential privacy has not yet reached its \"AlexNet moment\" on machine learning. This paper demonstrates that differential private machine learning needs better features (or much more data).",
+        "title": "Differentially Private Learning Needs Better Features (or Much More Data)"
+    },
+    {
+        "abs": "\n\nWe develop an algorithm to train individually fair learning-to-rank (LTR) models. The proposed approach ensures that the models satisfy a fairness criterion called individual fairness. This criterion requires that similar individuals should be ranked similarly. We evaluate the proposed algorithm on a synthetic dataset and a real-world dataset from the e-commerce domain. Our results show that the proposed algorithm can effectively learn individually fair LTR models.",
+        "title": "Individually Fair Ranking"
+    },
+    {
+        "abs": "\n\nWe consider the task of enforcing individual fairness in gradient boosting. Gradient boosting is a machine learning technique that can be used to create predictive models. In this paper, we propose a method for enforcing individual fairness in gradient boosting. Our method is based on the concept of fairness through awareness, which is a method of ensuring fairness in machine learning that has been proposed by researchers at MIT. We evaluate our method on a synthetic dataset and a real-world dataset. Our results show that our method is effective at enforcing individual fairness in gradient boosting.",
+        "title": "Individually Fair Gradient Boosting"
+    },
+    {
+        "abs": "\n\nThe amount of data, manpower and capital required to understand, evaluate and agree on a cross-device federated learning approach towards elementary prognosis of diseases during a pandemic is significant. However, the potential benefits of such an approach are also significant. This paper discusses the potential benefits and challenges of using a cross-device federated learning approach towards elementary prognosis of diseases during a pandemic.",
+        "title": "FedPandemic: A Cross-Device Federated Learning Approach Towards Elementary Prognosis of Diseases During a Pandemic"
+    },
+    {
+        "abs": "\n\nOntologies are used in many knowledge-based AI applications to represent concepts, their attributes, and relationships. However, current methods for ontology population are limited in their ability to handle the complex structure of ontologies. In this paper, we propose a new method for ontology population that is based on relational graph convolutional networks (RGCNs). Our method is able to handle the complex structure of ontologies by explicitly modeling the relationships between concepts. We evaluate our method on a real-world ontology population task and show that it outperforms state-of-the-art methods.",
+        "title": "Document Structure aware Relational Graph Convolutional Networks for Ontology Population"
+    },
+    {
+        "abs": "\n\nImitation learning algorithms learn a policy from demonstrations of expert behavior. We show that, for a class of imitation learning algorithms, the resulting policy is guaranteed to be close to the expert's policy, in a sense made precise by a recent notion of policy similarity.",
+        "title": "Imitation Learning by Reinforcement Learning"
+    },
+    {
+        "abs": "\n\nBlack-box optimization formulations for biological sequence design have drawn recent attention due to their promising performance on a variety of tasks. In this paper, we unify these formulations under a single framework and show how they can be applied to a wider range of problems. We also show how our framework can be used to improve the performance of existing methods.",
+        "title": "Unifying Likelihood-free Inference with Black-box Optimization and Beyond"
+    },
+    {
+        "abs": "\n\nDeepRL has been shown to be promising in optimizing policies, however, recent work has shown that regularization is important in achieving good performance. This work investigates the effect of regularization on policy optimization in DeepRL. Results show that regularization can improve the performance of DeepRL in optimizing policies.",
+        "title": "Regularization Matters in Policy Optimization"
+    },
+    {
+        "abs": "\n\nThis paper explores the use of iterated learning for emergent systematicity in VQA. Neural module networks have a bias towards compositionality, but require gold standard layouts. Iterated learning can help to overcome this limitation by providing a way for the network to learn the correct layout for a given task.",
+        "title": "Iterated learning for emergent systematicity in VQA"
+    },
+    {
+        "abs": "\n\nThe title is \"Undistillable: Making A Nasty Teacher That CANNOT teach students.\" This paper explores the use of knowledge distillation to transfer knowledge from pre-trained teacher models. It is shown that knowledge distillation can be used to make a nasty teacher that cannot teach students.",
+        "title": "Undistillable: Making A Nasty Teacher That CANNOT teach students"
+    },
+    {
+        "abs": "\n\nDifferentiable probabilistic models can be used to generate counterfactual latent explanations for uncertainty estimates. This work proposes a method for generating diverse sets of explanations for uncertainty estimates, using a latent variable model. The proposed method is evaluated on a synthetic dataset and a real-world dataset. The results show that the proposed method can generate diverse sets of explanations for uncertainty estimates, and that the generated explanations are consistent with the data.",
+        "title": "\u03b4-CLUE: Diverse Sets of Explanations for Uncertainty Estimates"
+    }
+]
