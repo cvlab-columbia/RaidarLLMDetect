@@ -1,4 +1,4 @@
-# RAIDAR (ICLR 2024)
+# RAIDAR: geneRative AI Detection viA Rewriting (ICLR 2024)
 
 <p align="center">
   <p align="center" margin-bottom="0px">
@@ -25,12 +25,15 @@ Original data is: `yelp_huma.json`.
 
 1. Generate Yelp GPT data: `main_fakeyelp_creator.py`, will obtain data `yelp_GPT_concise.json`.
 
-2. Our Detection algorithm: Step 1 rewrite `main_yelp_gpt_rewrite.py`, which will obtain `rewrite_yelp_human_inv.json` and `rewrite_yelp_GPT_inv.json`
+2. Our Detection algorithm: 
 
+Step 1: Run LLM rewrite. `main_yelp_gpt_rewrite.py`, which will obtain `rewrite_yelp_human_inv.json` and `rewrite_yelp_GPT_inv.json`. 
 If want to use llama, then run `main_yelp_llama_rewrite.py`
 
-3. Train a classifier/threshold on the edit distance features: `detect_yelp_inv.py`
+Step 2: Train a classifier/threshold on the edit distance features. `detect_yelp_inv.py`
 
+
+### Other Variants
 For equivariance, `main_yelp_gpt_equi_rewrite.py` for rewrite. Data saved in `dqui_data`
 
 For equivariance, Data saved in `uncertainty_data`
