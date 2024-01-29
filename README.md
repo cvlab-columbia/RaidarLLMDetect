@@ -36,7 +36,7 @@ Step 2: Train a classifier/threshold on the edit distance features. `detect_yelp
 
 
 ### Other Variants
-For equivariance, `main_yelp_gpt_equi_rewrite.py` for rewrite. Data saved in `dqui_data`
+For equivariance, `main_yelp_gpt_equi_rewrite.py` for rewrite. Data saved in `equi_data`
 
 For equivariance, Data saved in `uncertainty_data`
 
@@ -52,3 +52,6 @@ Dataset: `code_GPT-v2.json`, `code_human-v2.json`
 
 
 Dataset: `arxiv_GPT_concise.json`, `arXiv_human.json`
+
+
+Note, the OpenAI key in the project is expired, you need to put in your own.
