@@ -4,7 +4,7 @@
   <p align="center" margin-bottom="0px">
     <a href="http://www.cs.columbia.edu/~mcz/"><strong>Chengzhi Mao*</strong></a>
     ·
-    <a href="http://www.cs.columbia.edu/~vondrick/"><strong>Carl Vondrick</strong></a></p>
+    <a href="http://www.cs.columbia.edu/~vondrick/"><strong>Carl Vondrick</strong></a>
     ·
         <a href="http://www.wanghao.in"><strong>Hao Wang</strong></a>
         .
