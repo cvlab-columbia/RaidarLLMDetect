@@ -2,7 +2,7 @@
 import json
 import matplotlib.pyplot as plt
 import numpy as np
-import os
+import os, csv
 
 from fuzzywuzzy import fuzz
 
@@ -186,6 +186,19 @@ for prompt_name in prompt_list:
     # print(gpt)
     # import pdb; pdb.set_trace()
     plot_hist(gpt, human)
+
+    filename = 'output.csv'
+    max_length = max(len(gpt), len(human))
+    with open(filename, 'w', newline='') as file:
+        writer = csv.writer(file)
+        # Write the header
+        writer.writerow(['GPT', 'Human'])
+        # Write the data
+        for i in range(max_length):
+            item1 = gpt[i] if i < len(gpt) else None
+            item2 = human[i] if i < len(human) else None
+            writer.writerow([item1, item2])
+    
 
 
 
