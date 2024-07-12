@@ -195,8 +195,8 @@ for prompt_name in prompt_list:
         writer.writerow(['GPT', 'Human'])
         # Write the data
         for i in range(max_length):
-            item1 = gpt[i] if i < len(gpt) else None
-            item2 = human[i] if i < len(human) else None
+            item1 = gpt[i]['fzwz_features'][prompt_name][0] if i < len(gpt) else None
+            item2 = human[i]['fzwz_features'][prompt_name][0] if i < len(human) else None
             writer.writerow([item1, item2])
     
 
