@@ -63,6 +63,8 @@ prompt_list = ['Revise this with your best effort', 'Help me polish this', 'Rewr
                 'Make this fluent while doing minimal change', 'Refine this for me please', 'Concise this for me and keep all the information',
                 'Improve this in GPT way']
 
+prompt_list = ['Concise this for me and keep all the information']
+
 # prompt_list = ['Revise the code with your best effort', 'Help me polish this code', 'Rewrite the code with GPT style', 
 # 'Refine the code for me please', 'Concise the code without change the functionality'] # invariance
 
