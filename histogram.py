@@ -84,8 +84,6 @@ for prompt_name in prompt_list:
             raw = tokenize_and_normalize(each['input'])
             if len(raw)<cutoff_start or len(raw)>cutoff_end:
                 continue
-            else:
-                print(idxx, total_len)
 
             statistic_res = {}
             ratio_fzwz = {}
