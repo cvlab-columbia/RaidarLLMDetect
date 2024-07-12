@@ -8,7 +8,6 @@ from fuzzywuzzy import fuzz
 
 
 from sklearn.metrics import roc_curve, auc
-import xgboost as xgb
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 
